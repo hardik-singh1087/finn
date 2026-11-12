@@ -1,0 +1,48 @@
+{
+  "ticker": "TCS",
+  "screener": "TCS",
+  "fetchedAt": "2026-11-13T00:44:13.414651+05:30",
+  "docs": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+      "pages": 361,
+      "chunks": 1420,
+      "file": "raw/annual_report_FY2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Oct 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf",
+      "pages": 29,
+      "chunks": 78,
+      "file": "raw/concall_transcript_Oct2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27523cab-de62-4f78-939a-6d9853bbd060.pdf",
+      "pages": 25,
+      "chunks": 70,
+      "file": "raw/concall_transcript_Jul2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "source": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202025-26%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20Jul%2010,%202025.pdf",
+      "pages": 25,
+      "chunks": 70,
+      "file": "raw/concall_transcript_Jul2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07ae2d32-1050-4e80-96ff-eb2d98378d4e.pdf",
+      "pages": 35,
+      "chunks": 81,
+      "file": "raw/concall_transcript_Apr2026.pdf"
+    }
+  ],
+  "totalChunks": 1719
+}

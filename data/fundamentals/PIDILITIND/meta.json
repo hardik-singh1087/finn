@@ -1,0 +1,48 @@
+{
+  "ticker": "PIDILITIND",
+  "screener": "PIDILITIND",
+  "fetchedAt": "2026-11-13T00:42:31.229485+05:30",
+  "docs": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+      "pages": 336,
+      "chunks": 1313,
+      "file": "raw/annual_report_FY2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Nov 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ba30191-cee1-420b-a1c5-8e1864b29711.pdf",
+      "pages": 20,
+      "chunks": 72,
+      "file": "raw/concall_transcript_Nov2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d811437-b5ad-4bff-8b33-92b5b7032db3.pdf",
+      "pages": 22,
+      "chunks": 80,
+      "file": "raw/concall_transcript_Aug2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+      "pages": 20,
+      "chunks": 74,
+      "file": "raw/concall_transcript_May2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecbc316a-5f8d-4143-8061-df7980b55a66.pdf",
+      "pages": 21,
+      "chunks": 77,
+      "file": "raw/concall_transcript_Feb2026.pdf"
+    }
+  ],
+  "totalChunks": 1616
+}

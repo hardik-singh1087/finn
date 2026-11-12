@@ -50,3 +50,5 @@ data-pipeline/.venv/
 
 # pipeline scratch (raw downloads before parsing) — committed data/ stays tracked
 data/.cache/
+# raw source PDFs (annual reports/transcripts) — big; we commit the extracted chunks, not these
+data/fundamentals/*/raw/

@@ -13,6 +13,8 @@
 
 import { promises as fs } from "fs";
 import path from "path";
+import type { Announcement, PriceBar, PriceSummaryFile } from "@/types/finn";
+import { config } from "@/lib/config";
 
 export const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -25,11 +27,22 @@ async function readJson<T>(relPath: string, fallback: T): Promise<T> {
   }
 }
 
+const EMPTY_SUMMARY: PriceSummaryFile = { generatedAt: "", stocks: [] };
+
 export const store = {
   readJson,
-  prices: <T>(ticker: string) => readJson<T>(`prices/${ticker}.json`, [] as unknown as T),
-  announcements: <T>(ticker: string) =>
-    readJson<T>(`announcements/${ticker}.json`, [] as unknown as T),
+  prices: (ticker: string) => readJson<PriceBar[]>(`prices/${ticker}.json`, []),
+  priceSummary: () => readJson<PriceSummaryFile>(`prices/_summary.json`, EMPTY_SUMMARY),
+  announcements: (ticker: string) =>
+    readJson<Announcement[]>(`announcements/${ticker}.json`, []),
+
+  /** Every portfolio ticker's announcements, merged into one array (unsorted). */
+  allAnnouncements: async (): Promise<Announcement[]> => {
+    const lists = await Promise.all(
+      config.portfolio.map((c) => readJson<Announcement[]>(`announcements/${c.ticker}.json`, [])),
+    );
+    return lists.flat();
+  },
   research: <T>(ticker: string) =>
     readJson<T>(`research/${ticker}.json`, null as unknown as T),
   feed: <T>() => readJson<T>(`feed/latest.json`, [] as unknown as T),

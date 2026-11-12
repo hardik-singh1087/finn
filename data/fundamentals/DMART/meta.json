@@ -1,0 +1,48 @@
+{
+  "ticker": "DMART",
+  "screener": "DMART",
+  "fetchedAt": "2026-11-13T00:46:40.887007+05:30",
+  "docs": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+      "pages": 274,
+      "chunks": 1101,
+      "file": "raw/annual_report_FY2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+      "pages": 38,
+      "chunks": 145,
+      "file": "raw/concall_transcript_Aug2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2025",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+      "pages": 44,
+      "chunks": 171,
+      "file": "raw/concall_transcript_Aug2025.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2024",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+      "pages": 59,
+      "chunks": 171,
+      "file": "raw/concall_transcript_Aug2024.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2024",
+      "source": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf",
+      "pages": 59,
+      "chunks": 171,
+      "file": "raw/concall_transcript_Jul2024.pdf"
+    }
+  ],
+  "totalChunks": 1759
+}

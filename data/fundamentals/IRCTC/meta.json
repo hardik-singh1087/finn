@@ -1,0 +1,48 @@
+{
+  "ticker": "IRCTC",
+  "screener": "IRCTC",
+  "fetchedAt": "2026-11-13T00:43:28.903634+05:30",
+  "docs": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+      "pages": 379,
+      "chunks": 1576,
+      "file": "raw/annual_report_FY2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a3947a-975c-43aa-b153-218d6518615c.pdf",
+      "pages": 19,
+      "chunks": 70,
+      "file": "raw/concall_transcript_Aug2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b914f14-22d6-44be-b3bb-8d31b83e4499.pdf",
+      "pages": 14,
+      "chunks": 47,
+      "file": "raw/concall_transcript_May2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cfad47d-e4a8-47fe-a883-38462f3036c3.pdf",
+      "pages": 10,
+      "chunks": 35,
+      "file": "raw/concall_transcript_Feb2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Nov 2025",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ce0acc5-6b05-46de-9e10-a8c90fd96325.pdf",
+      "pages": 12,
+      "chunks": 38,
+      "file": "raw/concall_transcript_Nov2025.pdf"
+    }
+  ],
+  "totalChunks": 1766
+}

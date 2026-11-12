@@ -41,16 +41,41 @@ export interface PriceBar {
   volume: number;
 }
 
+/** Per-stock rollup written by fetch_prices.py — feeds the API and the unusual-move alerts. */
+export interface PriceSummary {
+  ticker: string;
+  name: string;
+  sector: string;
+  latestDate: string; // YYYY-MM-DD of the latest bar
+  latestClose: number;
+  prevClose: number | null;
+  changePct1d: number | null; // % vs previous close
+  latestVolume: number;
+  avgVolume20d: number;
+  volumeVsAvg: number | null; // latestVolume / avgVolume20d (>= ~2 is "unusual")
+  bars: number; // how many daily bars are stored
+  fetchedOn: string; // YYYY-MM-DD (IST) the data was last pulled — same-day cache key
+}
+
+export interface PriceSummaryFile {
+  generatedAt: string;
+  stocks: PriceSummary[];
+}
+
 /** A corporate filing, after classification. */
 export interface Announcement {
   id: string; // stable hash of (ticker + date + title)
   ticker: string;
+  company: string; // issuer name as filed
   date: string; // ISO timestamp of the filing
-  title: string;
+  title: string; // exchange subject line
+  exchangeSubject?: string; // raw NSE/BSE subject (kept as a classifier hint)
   type: AnnouncementType;
-  source?: string; // NSE/BSE url or file path to the raw filing
-  summary?: string; // one-line, cheap-model generated
+  summary?: string; // one-line, cheap-model (or rules) generated
   importance: number; // 0-100, drives feed sort
+  source?: string; // NSE/BSE url to the raw filing (usually a PDF)
+  rawText?: string; // the filing's own text, as provided by the exchange
+  exchange?: "NSE" | "BSE" | "seed";
 }
 
 /** One card in the Push feed / digest. */
@@ -80,6 +105,17 @@ export interface ManagementChangeBio {
   role: string;
   direction: "joining" | "resigning" | "retiring";
   background?: string; // short bio (push-side enrichment is allowed to use outside sources)
+}
+
+/** One searchable chunk of a company's own primary document (AR or concall transcript). */
+export interface ResearchChunk {
+  id: string;
+  ticker: string;
+  docType: "annual_report" | "concall_transcript";
+  period: string; // e.g. "FY2026" or "Aug 2026"
+  source: string; // url of the original PDF
+  page: number;
+  text: string;
 }
 
 /** A cached Pull/research output, grounded in primary sources only. */

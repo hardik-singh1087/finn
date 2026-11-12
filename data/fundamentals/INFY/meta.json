@@ -1,0 +1,48 @@
+{
+  "ticker": "INFY",
+  "screener": "INFY",
+  "fetchedAt": "2026-11-13T00:44:34.806349+05:30",
+  "docs": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+      "pages": 382,
+      "chunks": 1684,
+      "file": "raw/annual_report_FY2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Oct 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+      "pages": 48,
+      "chunks": 139,
+      "file": "raw/concall_transcript_Oct2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+      "pages": 48,
+      "chunks": 140,
+      "file": "raw/concall_transcript_Jul2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+      "pages": 46,
+      "chunks": 134,
+      "file": "raw/concall_transcript_Apr2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf",
+      "pages": 64,
+      "chunks": 219,
+      "file": "raw/concall_transcript_Feb2026.pdf"
+    }
+  ],
+  "totalChunks": 2316
+}

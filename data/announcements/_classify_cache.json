@@ -1,0 +1,3068 @@
+{
+  "fde79b86ab903640": {
+    "type": "results",
+    "summary": "Newspaper advertisement published for Q2 FY27 audited financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3f529fd4161f8427": {
+    "type": "results",
+    "summary": "Quarterly report submitted for Q2 and six months ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f8136415efec0b63": {
+    "type": "press_release",
+    "summary": "Press release issued regarding Q2 FY27 financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3a2788642083b5ce": {
+    "type": "results",
+    "summary": "Board approved financial results for the period ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a0927417ea5796ee": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "286ee2d3d8d2b79c": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9bbc24ad5ccad4f2": {
+    "type": "unclassified",
+    "summary": "Monitoring agency report submitted for the quarter ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a013698283d344a8": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f1622ac65708dc51": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bd898572bec8c862": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6ec490add2c811ab": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "009e7e4cdf509f84": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "27b73627ea1e6b2d": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e5e0718d79e0796a": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fc21b30ce07453dd": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory or legal orders passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ed308f2b9360d9a1": {
+    "type": "earnings_call",
+    "summary": "Transcript of analysts and institutional investor conference call published.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c8074eda63374070": {
+    "type": "postal_ballot",
+    "summary": "Notice of postal ballot sent to shareholders.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e89eecb39b04cb76": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming institutional investor and analyst meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "14beded75d5d9137": {
+    "type": "earnings_call",
+    "summary": "Bharti Airtel shared the earnings call recording link.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9ad693b70ca6a5d6": {
+    "type": "investor_meetings",
+    "summary": "Bharti Airtel scheduled upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9376b09c3893b40f": {
+    "type": "investor_meetings",
+    "summary": "Bharti Airtel scheduled an institutional investor meet.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "68c2bcbfb40bb1fe": {
+    "type": "investor_meetings",
+    "summary": "Bharti Airtel provided a schedule for investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2cdc89a6b87db6d1": {
+    "type": "unclassified",
+    "summary": "Bharti Airtel submitted a statement of deviation or variation under Reg. 32.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f88c7f9c1ca2d344": {
+    "type": "unclassified",
+    "summary": "Bharti Airtel published a statutory newspaper notice.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a08a628fd0fc9733": {
+    "type": "unclassified",
+    "summary": "Bharti Airtel submitted a general corporate update.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "edb783affcc60a47": {
+    "type": "fund_raise",
+    "summary": "Bharti Airtel issued a reminder notice for payment of partly paid-up shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b0efabc235b169ae": {
+    "type": "fund_raise",
+    "summary": "Second reminder notice for payment of first and final call on partly paid shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7c875d5bfe3dcc76": {
+    "type": "unclassified",
+    "summary": "Bharti Airtel submitted a copy of a newspaper publication.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a3fbc49571c8543b": {
+    "type": "unclassified",
+    "summary": "Bharti Airtel submitted the depository participant compliance certificate.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9c82c25e196d3913": {
+    "type": "press_release",
+    "summary": "Airtel offers free international roaming on all postpaid plans.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ebc52bc0f3e3a805": {
+    "type": "press_release",
+    "summary": "Airtel Business launched IQ Gateway business communications platform.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c2101186c5b7b1cf": {
+    "type": "unclassified",
+    "summary": "Bharti Airtel announced a trading window closure period.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3722017ef17d40ba": {
+    "type": "press_release",
+    "summary": "Airtel enhanced postpaid offerings by adding Apple services.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6a68afe756c5e3e6": {
+    "type": "results",
+    "summary": "Dixon Technologies published newspaper ads of its financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5dbb61c541ac2ee0": {
+    "type": "results",
+    "summary": "Dixon Technologies announced financial results for the period ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0bbe044d0ac531a9": {
+    "type": "M&A",
+    "summary": "Dixon Technologies entered into a joint venture agreement with Gemtek Technology.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1ab5ee176020e820": {
+    "type": "M&A",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Execution of Intellectu\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8d73bd7eb9fe546c": {
+    "type": "M&A",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Acquisition",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "40584b42d8ba4f1b": {
+    "type": "management_change",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d532add10911255b": {
+    "type": "fund_raise",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange regarding allotment of 37750 \u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7fc688b420c41f18": {
+    "type": "management_change",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "72ee94b54119b72a": {
+    "type": "credit_rating",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange ESG Rating by Crisil ESG Rati\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ed92030908de11cb": {
+    "type": "earnings_call",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Transcript",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fed388f68feea9dc": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or I\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1feeb978e46a0915": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Link of Recording",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "41ecf884ff964e50": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Investor Presentation",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e8122b4fbe40b56f": {
+    "type": "agm_egm",
+    "summary": "Dixon Technologies (India) Limited has submitted the Exchange a copy Srutinizers report of\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b406814e1c812c29": {
+    "type": "agm_egm",
+    "summary": "Proceeding of 33rd AGM of Dixon Technologies (India) Limited held on 28th September, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "570050e353171fc7": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "571d1265e5d991a3": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Ins\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "dc8c565e0e06077c": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Ins\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "19ace14560d842cd": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Ins\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "89f6723e7abf5ed4": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Ins\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "db9b09fc049ef43e": {
+    "type": "investor_meetings",
+    "summary": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Ins\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "984f8b5b92223ccb": {
+    "type": "investor_meetings",
+    "summary": "Outcome of analyst and institutional investor meetings held by Dixon Technologies.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f1bb7f0d9e2e88de": {
+    "type": "investor_meetings",
+    "summary": "Outcome of analyst and institutional investor meetings held by Dixon Technologies.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4be20e33f4d31cbf": {
+    "type": "investor_meetings",
+    "summary": "Outcome of analyst and institutional investor meetings held by Dixon Technologies.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "67bae39a90c5452a": {
+    "type": "investor_meetings",
+    "summary": "Outcome of analyst and institutional investor meetings held by Dixon Technologies.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6091f351d43b12c1": {
+    "type": "investor_meetings",
+    "summary": "Outcome of analyst and institutional investor meetings held by Dixon Technologies.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "43e0ef448314896f": {
+    "type": "unclassified",
+    "summary": "Change in corporate office address of the Registrar and Share Transfer Agent.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "54adb3ede5f8a417": {
+    "type": "unclassified",
+    "summary": "Dixon Technologies provided guarantees, indemnity, or surety for a third party.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2120833f47d33165": {
+    "type": "unclassified",
+    "summary": "Submitted depository participant compliance certificate for the quarter ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3f4ddbb4e0c1280a": {
+    "type": "unclassified",
+    "summary": "Trading window closure notice pursuant to insider trading regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d089f57c323c5a15": {
+    "type": "unclassified",
+    "summary": "ESG rating assigned to Dixon Technologies by an external agency.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b2f6bbb9a68e73d0": {
+    "type": "results",
+    "summary": "Dr. Reddy's Laboratories reported financial results for the period ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bfe6ad9ab0a98751": {
+    "type": "management_change",
+    "summary": "Changes in management at Dr. Reddy's Laboratories.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4290cab3fd59d7ad": {
+    "type": "litigation",
+    "summary": "Regulatory penalty imposed on a US subsidiary of Dr. Reddy's Laboratories.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1a55640ee0b90643": {
+    "type": "earnings_call",
+    "summary": "Transcript of earnings conference call submitted by Dr. Reddy's Laboratories.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "34c37cd36173b254": {
+    "type": "earnings_call",
+    "summary": "Intimation of earnings call scheduled for Dr. Reddy's Laboratories.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2473ab45a794cfa6": {
+    "type": "press_release",
+    "summary": "Clarification on news regarding US approval for generic HIV prevention shot.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ee0c5a07e26d6b41": {
+    "type": "press_release",
+    "summary": "Awaiting response for news verification on US approval for generic HIV drug.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "047ab797a34359b0": {
+    "type": "press_release",
+    "summary": "Clarification regarding voluntary license for Gilead's HIV prevention drug.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a94a111ca5b6b7e8": {
+    "type": "press_release",
+    "summary": "The Exchange has sought clarification from Dr. Reddy's Laboratories Limited with respect t\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c8048a73061b0237": {
+    "type": "investor_meetings",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about Schedule of meet",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cbfda0e8583970b7": {
+    "type": "investor_meetings",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about Link of Recording",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b43678104f8589e8": {
+    "type": "investor_meetings",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about Investor Presentation",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ea149f59c9ecac11": {
+    "type": "investor_meetings",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about Schedule of meet",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "61f417d0c6e8c30e": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about Copy of Newspaper Publica\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "732de10495923578": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange regarding a press release dated\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ed5af5ba51c973d4": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about allotment of Employee sto\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1dec806c23b39dfd": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about General Updates",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "02654a2848522391": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about Copy of Newspaper Publica\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a72340b8bd5e7ab5": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about General Updates",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2d71863755d79e90": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange regarding Outcome of Board Meet\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "837d69456475caba": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange regarding a press release dated\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "051d6afc7ac23a00": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about General Updates",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "334ca47a7b37bfe8": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about General Updates",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e3ff55ee4e4adecb": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange about Certificate under SEBI (D\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "67c6336c4f989477": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has informed the Exchange regarding the Trading Window cl\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c52d463f16e9d3e3": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's Laboratories Limited has today, i.e., September 18, 2026, entered into an excl\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9fa7005aced3e7f7": {
+    "type": "unclassified",
+    "summary": "Dr. Reddy's submits copy of newspaper publication to the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "29a0975fb6446f6f": {
+    "type": "results",
+    "summary": "HDFC Bank submitted financial results for the period ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "77d9a936a8caf9e5": {
+    "type": "management_change",
+    "summary": "RBI approved the re-appointment of V. Srinivasa Rangan as Whole-time Director.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d7d6be2a5c98e31b": {
+    "type": "management_change",
+    "summary": "HDFC Bank reported a change in management.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1bc391ea6dddf7f3": {
+    "type": "management_change",
+    "summary": "HDFC Bank reported a change in management.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6ffe3e4005b9a3db": {
+    "type": "management_change",
+    "summary": "HDFC Bank announced a change in Managing Director and Chief Executive Officer.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a8e4c884117b6acf": {
+    "type": "management_change",
+    "summary": "HDFC Bank reported changes in its board of directors.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fa0097f7f211b378": {
+    "type": "management_change",
+    "summary": "HDFC Bank reported a change in management.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9220c2569d2f70de": {
+    "type": "management_change",
+    "summary": "HDFC Bank reported a change in management.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2d8489d0c31c5bea": {
+    "type": "earnings_call",
+    "summary": "HDFC Bank submitted the earnings call transcript.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "274f3d492e2609df": {
+    "type": "postal_ballot",
+    "summary": "HDFC Bank submitted postal ballot voting results and scrutinizer's report.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3bc954084da93675": {
+    "type": "investor_meetings",
+    "summary": "HDFC Bank released the schedule for institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1d966a9d1edde443": {
+    "type": "postal_ballot",
+    "summary": "HDFC Bank issued a notice of postal ballot to shareholders.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "91f6291b8e084771": {
+    "type": "postal_ballot",
+    "summary": "HDFC Bank issued a notice of postal ballot to shareholders.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "55c1932309b67d1e": {
+    "type": "earnings_call",
+    "summary": "HDFC Bank shared the audio/video recording link of the earnings call.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "024810b19620bb22": {
+    "type": "earnings_call",
+    "summary": "HDFC Bank uploaded the investor presentation for results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "65201d96508edae5": {
+    "type": "investor_meetings",
+    "summary": "HDFC Bank released the schedule for upcoming investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b16c3c8a95498212": {
+    "type": "unclassified",
+    "summary": "HDFC Bank allotted 4,675,598 shares under ESOP.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ba9ca529eb5af1e0": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange regarding Grant of 1302379  Options.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d7df38515ce1d8e9": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange regarding Allotment of 9138522  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6defa8fe841aa47b": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "81d0d738a750efed": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and o\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9c7deeed416554c3": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange about Certificate under SEBI (Depositories and\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ba02cc251712f383": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange about General Updates",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1755ec87ad3f105c": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange regarding intimation under SEBI (Listing Oblig\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f6fd9ef3eae03cf6": {
+    "type": "unclassified",
+    "summary": "Newspaper publication regarding special window for transfer and dematerialization of physi\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "960380a26651643f": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange regarding Allotment of 1897180   Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "eb69c90a5fff605c": {
+    "type": "unclassified",
+    "summary": "HDFC Bank Limited has informed the Exchange regarding Allotment of 2521106  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8fe71cb4ac093222": {
+    "type": "results",
+    "summary": "Copy of Newspaper Publication regarding extract of Unaudited Standalone and Consolidated F\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1a9562efe15e17ba": {
+    "type": "dividend",
+    "summary": "Copy of Newspaper Publication regarding notice of declaration of interim dividend and paym\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ac4eb8666367e969": {
+    "type": "earnings_call",
+    "summary": "Hindustan Unilever Limited has informed the Exchange about Transcript",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "accb6ac4e98c354e": {
+    "type": "dividend",
+    "summary": "Hindustan Unilever Limited has informed the Exchange that Record date for the purpose of I\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "673e3e037a04416d": {
+    "type": "dividend",
+    "summary": "Board approves Interim Dividend of Rs. 19 per equity share for FY 2026-27",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e325a879552e80e0": {
+    "type": "postal_ballot",
+    "summary": "Schedule of Events - Postal Ballot",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6be8b29a23a71208": {
+    "type": "investor_meetings",
+    "summary": "Schedule of Analyst/Investor Meet - 16.11.2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8d605ac0f4ea7617": {
+    "type": "investor_meetings",
+    "summary": "Hindustan Unilever Limited has informed the Exchange about Investor Presentation",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d07200f110c02cb9": {
+    "type": "investor_meetings",
+    "summary": "Company scheduled a meeting with analysts and institutional investors.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9126c9b9e8efadb4": {
+    "type": "earnings_call",
+    "summary": "Hindustan Unilever provided the link to its earnings call recording.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "92eebc82afeb88bd": {
+    "type": "investor_meetings",
+    "summary": "Hindustan Unilever shared its latest investor presentation with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7e6a9251bb52a929": {
+    "type": "earnings_call",
+    "summary": "Intimation of earnings conference call for the quarter and half year.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2bcdd343d2cee7f4": {
+    "type": "unclassified",
+    "summary": "General regulatory update filed under SEBI listing regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0390029aadc969ec": {
+    "type": "results",
+    "summary": "Outcome of the board meeting approving corporate matters or results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f3eca8991838c954": {
+    "type": "unclassified",
+    "summary": "Copy of a newspaper publication submitted to the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "26836358551eb956": {
+    "type": "unclassified",
+    "summary": "Copy of a newspaper publication dated October 9, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6bf8a0e7b8109dd7": {
+    "type": "unclassified",
+    "summary": "Certificate under SEBI regulations regarding depositories and participants.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "df9d7f6778b52ae2": {
+    "type": "unclassified",
+    "summary": "Copy of a newspaper publication dated October 1, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0126de93f4149659": {
+    "type": "results",
+    "summary": "ICICI Bank reported standalone and consolidated financial results for the quarter.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a0646c3b62e33ef0": {
+    "type": "earnings_call",
+    "summary": "ICICI Bank held a media call regarding its financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a0695cee8dd49199": {
+    "type": "management_change",
+    "summary": "Board approved applying to RBI for extension of chairperson tenure.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d6f46b3572cab1e0": {
+    "type": "unclassified",
+    "summary": "Filing of amendment to Annual Securities Report with Kanto Regional Finance Bureau.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f0037b11a3fbb86e": {
+    "type": "unclassified",
+    "summary": "Filing of Annual Securities Report with Director of Kanto Regional Finance Bureau.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ebcefacc39b8bb31": {
+    "type": "credit_rating",
+    "summary": "ICICI Bank informed the exchange about a credit rating update.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e64cfd36e7868ccd": {
+    "type": "earnings_call",
+    "summary": "Transcript of media and analyst earnings conference calls published.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cc4af7a774149b11": {
+    "type": "earnings_call",
+    "summary": "Audio recording link for media and analyst earnings calls provided.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "14821060db6a801c": {
+    "type": "earnings_call",
+    "summary": "ICICI Bank Limited has informed the Exchange about Earnings call on financial results for \u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4af67333cb7589c6": {
+    "type": "investor_meetings",
+    "summary": "ICICI Bank Limited has informed the Exchange about Investor Presentation",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "168ba6d3e85b7038": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read wit\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "89736aea2dab7fd3": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read wit\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "810358776be93a57": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 36937 Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b27a27971d2894a8": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 62879  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cd037b464e2c94c6": {
+    "type": "unclassified",
+    "summary": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirement\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "28195bbf66977fc9": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 109039  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9b446037df39cbdf": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 1063398  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5fa25c216bf71204": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 24096  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0ed102538f9bb142": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 113464  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "87d60c276f9bb8d1": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 749099  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6e99d7659bfbd74a": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 80255  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8b2f8ecc29621bfb": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of S\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bcde657c85a463bd": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of S\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "55e166d099dc32cf": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 202836  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "de1a06bda5198fb2": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the S\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d8adf911a14db14d": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the S\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "da7070cbe784d2d9": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c77e354d9b4e0532": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding 'Disclosure under Regulation 30 of \u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "03cffa8f73a2cc0d": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 284605  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "009b25f8dee99704": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding the Trading Window closure pursuant\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f2ca9e7d5e7fda69": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 357938  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cedd7c5cf249e0b2": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange regarding Allotment of 66896  Shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0dc9b9b6e1783e18": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read wit\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4413bec7a6770be7": {
+    "type": "unclassified",
+    "summary": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read wit\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b816bbb87ced6893": {
+    "type": "results",
+    "summary": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half \u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cad5c181419c087e": {
+    "type": "results",
+    "summary": "Infosys Limited has informed the Exchange regarding 'Infosys to Announce Second Quarter Re\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9f001b5030fce3d4": {
+    "type": "fund_raise",
+    "summary": "Infosys Limited has informed the Exchange regarding allotment of 44116 securities pursuant\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f1a5463233f506c8": {
+    "type": "earnings_call",
+    "summary": "Infosys Limited has informed the Exchange regarding 'Earnings Call Transcript'.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "72f7acc82537d2ba": {
+    "type": "dividend",
+    "summary": "Infosys Limited has informed the Exchange that Record date for the purpose of Dividend  is\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d2132b4c9dae7cb1": {
+    "type": "press_release",
+    "summary": "Infosys Limited has informed the Exchange regarding 'Infosys and Truist Strengthen Strateg\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b136bccfc84c8519": {
+    "type": "press_release",
+    "summary": "Infosys Limited has informed the Exchange regarding 'Infosys and Columbia University Launc\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bf074da6fa4cdd4c": {
+    "type": "press_release",
+    "summary": "Infosys Limited has informed the Exchange regarding 'Infosys and ABN Amro Extend Strategic\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "09362bc2ab380d32": {
+    "type": "investor_meetings",
+    "summary": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "36d0f5ce2649bd09": {
+    "type": "investor_meetings",
+    "summary": "Infosys Limited has informed the Exchange regarding ' Investor Conference'.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cd9cdc45e1700452": {
+    "type": "press_release",
+    "summary": "Infosys Science Foundation announces winners of the Infosys Prize 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d5049b1749c91ffa": {
+    "type": "capex",
+    "summary": "Infosys announces the expansion of its Pocharam Development Center in Hyderabad.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d069fc4a787c5a81": {
+    "type": "unclassified",
+    "summary": "Infosys submitted a copy of a newspaper publication.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e61e14f738cd615c": {
+    "type": "press_release",
+    "summary": "Winners of the Qorus-Infosys Finacle Banking Innovation Awards 2026 announced.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "588200baab63b5fa": {
+    "type": "press_release",
+    "summary": "UNI Financial Cooperation adopts Infosys Finacle Universal Banker for branch modernization.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "99dfdb333b6fb754": {
+    "type": "press_release",
+    "summary": "Infosys successfully delivers global SAP S/4HANA transformation for Syngenta.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f73c4e24a4e80d28": {
+    "type": "unclassified",
+    "summary": "Infosys submitted a copy of a newspaper publication.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3c69001454517a49": {
+    "type": "results",
+    "summary": "Auditors report on financial statements for the quarter and half year ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a9e2e6182b8ae1fa": {
+    "type": "press_release",
+    "summary": "Infosys Foundation enables over 2.5 lakh job offers via Springboard program.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1bc8c89f2141014b": {
+    "type": "unclassified",
+    "summary": "Infosys submitted general corporate updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c3b6ed6028eadcfd": {
+    "type": "unclassified",
+    "summary": "Infosys submitted a copy of a newspaper publication.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a88ba7a4e5d5bb4b": {
+    "type": "unclassified",
+    "summary": "Infosys submitted regulatory depository compliance certificate.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2d2bad7dd096c44b": {
+    "type": "unclassified",
+    "summary": "Infosys submitted a copy of a newspaper publication.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4c271962054fff72": {
+    "type": "capex",
+    "summary": "Infosys announces expansion of its Indore Development Center.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "db72f194950146d6": {
+    "type": "results",
+    "summary": "ITC submitted financial results for the period ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "05e64254f21e8199": {
+    "type": "M&A",
+    "summary": "ITC informed the exchange regarding an amalgamation or merger.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f7e3be2bf0219000": {
+    "type": "M&A",
+    "summary": "ITC acquired shares of Sproutlife Foods Private Limited.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a27e0ded8ac107ac": {
+    "type": "investor_meetings",
+    "summary": "ITC submitted a schedule of institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c87c7817918d456d": {
+    "type": "press_release",
+    "summary": "ITC shared media statement and presentation with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "702646e8043b9eb9": {
+    "type": "results",
+    "summary": "ITC held a board meeting on November 02, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e325e34780d9d826": {
+    "type": "unclassified",
+    "summary": "ITC allotted 1,395,500 shares under ESOP.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cd63534fcff5e776": {
+    "type": "unclassified",
+    "summary": "ITC submitted depositories compliance certificate.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9152a267e348ac7c": {
+    "type": "unclassified",
+    "summary": "ITC informed about trading window closure.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9ed12cf1f68c22ad": {
+    "type": "unclassified",
+    "summary": "ITC submitted a copy of a newspaper publication.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cb65c21b79627de7": {
+    "type": "unclassified",
+    "summary": "ITC allotted 735,050 shares under ESOP.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "156852d34f538419": {
+    "type": "M&A",
+    "summary": "Scheme of amalgamation of Piombino Steel with JSW Steel is effective.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b5fb2d595fd672bd": {
+    "type": "results",
+    "summary": "JSW Steel submitted financial results for the period ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4a37336e212efca2": {
+    "type": "M&A",
+    "summary": "NCLT sanctioned amalgamation of Piombino Steel with JSW Steel.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "47a055e427ee9633": {
+    "type": "litigation",
+    "summary": "JSW Steel provided an update on pending litigations or disputes.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "dabba11aebfb92d8": {
+    "type": "earnings_call",
+    "summary": "JSW Steel provided transcript and recording link for earnings call.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "66aea0d652b55d1e": {
+    "type": "investor_meetings",
+    "summary": "JSW Steel shared an investor presentation.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "81e2808216b66e2b": {
+    "type": "investor_meetings",
+    "summary": "JSW Steel announced schedule for investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "08cea1228a79c4fd": {
+    "type": "investor_meetings",
+    "summary": "JSW Steel submitted presentation for investor meeting.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "30596d87cee5c17f": {
+    "type": "investor_meetings",
+    "summary": "JSW Steel announced schedule of upcoming investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5a9a0f5c759e88e8": {
+    "type": "press_release",
+    "summary": "JSW Steel reported crude steel production of 25.73 lakh tonnes in October 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ce41fc77ec41d010": {
+    "type": "M&A",
+    "summary": "JSW Steel incorporated a step-down wholly-owned subsidiary.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0e7f9e0748a0f667": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange about Copy of Newspaper Publication",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "07dd354e61abe519": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange about Copy of Newspaper Publication",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b373e91957d11453": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange regarding Outcome of Board Meeting held on Oct\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b2ec463fb3d2dfe6": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange about Certificate under SEBI (Depositories and\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1dec7163c8b4ac4b": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange regarding a press release dated October 08, 20\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8776d319fcb9c8fd": {
+    "type": "unclassified",
+    "summary": "Early redemption of US$500,000,000, 3.95% Notes due 2027",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6e48ed57093c7b09": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange about Copy of Newspaper Publication",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ba24fa2616329c80": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange about Copy of Newspaper Publication",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1a10f4a35195aaef": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange regarding the Trading Window closure pursuant \u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1269dc7c06800f00": {
+    "type": "unclassified",
+    "summary": "JSW Steel Limited has informed the Exchange about Intimation under Regulation 30 of the Se\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "84ee0c9c689c439a": {
+    "type": "results",
+    "summary": "Larsen & Toubro Limited has submitted to the Exchange, the consolidated and standalone un-\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2363cd62225af35b": {
+    "type": "M&A",
+    "summary": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Sub\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2f92f194441cc4a7": {
+    "type": "fund_raise",
+    "summary": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 21098 securities \u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1770d0001d0595eb": {
+    "type": "management_change",
+    "summary": "Larsen & Toubro Limited has informed the Exchange about change in Management",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "26056711a0ac8fc9": {
+    "type": "fund_raise",
+    "summary": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 28,903 shares pur\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "505e02af283cc4a5": {
+    "type": "credit_rating",
+    "summary": "Larsen & Toubro Limited has informed the Exchange about Credit Rating",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bdf819cdb4803601": {
+    "type": "earnings_call",
+    "summary": "Larsen & Toubro Limited has informed the Exchange about Transcript",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fea4d2a57052b97d": {
+    "type": "press_release",
+    "summary": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contra\u2026",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d3b1fbfc2052ec2b": {
+    "type": "press_release",
+    "summary": "L&T bagged new business orders and contracts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8f51c7d021e8a835": {
+    "type": "press_release",
+    "summary": "L&T bagged new business orders and contracts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a5d2ceb0c77954f3": {
+    "type": "press_release",
+    "summary": "L&T bagged new business orders and contracts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "93d6b6dc8f77bd0e": {
+    "type": "press_release",
+    "summary": "L&T bagged new business orders and contracts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0af692efbd2f7813": {
+    "type": "press_release",
+    "summary": "L&T bagged new business orders and contracts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e4b8d634952ed81b": {
+    "type": "press_release",
+    "summary": "L&T bagged new business orders and contracts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "055a68dc9e68697d": {
+    "type": "press_release",
+    "summary": "L&T bagged new business orders and contracts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3dd2928310c98b5d": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "607086e258913aac": {
+    "type": "earnings_call",
+    "summary": "Link to the recording of the analyst and investor conference call.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8fb73b64547016ec": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0ed6b0940b11be7b": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8387458f5ec0c72a": {
+    "type": "unclassified",
+    "summary": "Change in corporate office address of the registrar and transfer agent.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "41aadb4399ebb739": {
+    "type": "unclassified",
+    "summary": "Copy of newspaper publication regarding company disclosures.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "101fd0e7e3f91f3a": {
+    "type": "earnings_call",
+    "summary": "Analyst presentation for Q2 and H1 FY27 results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d05745fb66008f05": {
+    "type": "unclassified",
+    "summary": "Certificate under SEBI Depositories and Participants Regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e4c548e305dceaba": {
+    "type": "unclassified",
+    "summary": "General corporate update from the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a7aea7e419b6ac89": {
+    "type": "unclassified",
+    "summary": "Trading window closure notice pursuant to insider trading regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "17af9be2006a81f1": {
+    "type": "press_release",
+    "summary": "L&T Semiconductor Technologies unveils 40 products at SEMICON 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "39149251a340874d": {
+    "type": "unclassified",
+    "summary": "Maruti Suzuki shares reference to financial results issued by parent Suzuki Motor.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6bad3764a38275d5": {
+    "type": "results",
+    "summary": "Press release issued regarding financial results for Q2 and H1 FY 2026-27.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5b2ee3017bee28df": {
+    "type": "results",
+    "summary": "Board approved financial results for the quarter ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "89851caa033b86e0": {
+    "type": "M&A",
+    "summary": "Incorporation of a wholly owned subsidiary company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "18cbd986d5586cc1": {
+    "type": "management_change",
+    "summary": "Notification regarding a change in management.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9f82e477ad2273f5": {
+    "type": "litigation",
+    "summary": "Regulatory action or order passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b18ca421e020cf42": {
+    "type": "litigation",
+    "summary": "Regulatory action or order passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f0fe863fec96d966": {
+    "type": "capex",
+    "summary": "Commissioned first green hydrogen plant at the Manesar facility.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b2627fe15c343c7f": {
+    "type": "earnings_call",
+    "summary": "Transcript of investors call held on 27th October 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f07b7e31e5949b12": {
+    "type": "earnings_call",
+    "summary": "Audio recording of the investors' call released.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7c5928c82ccdc896": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4c2e4be0c17fc630": {
+    "type": "investor_meetings",
+    "summary": "Submission of investor presentation.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fa9d847944a705fb": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d7937b2dcc2a1906": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "559e5b0d4dd37b64": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e7891a8ff61f7b0c": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4081e65678483750": {
+    "type": "press_release",
+    "summary": "Production volume data reported for October 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3c89e8ced02c586d": {
+    "type": "press_release",
+    "summary": "Total sales numbers reported for October 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9d8bf97067e093b5": {
+    "type": "press_release",
+    "summary": "Maruti Suzuki crosses milestone of 50,000 electric vehicle exports.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a2eb1f4875881904": {
+    "type": "unclassified",
+    "summary": "Routine copy of newspaper publication submitted by Maruti Suzuki.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e82edea8464c9f62": {
+    "type": "press_release",
+    "summary": "Maruti Suzuki launches Victoris Aurum Edition to celebrate record sales.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8cc0f63373914e7d": {
+    "type": "unclassified",
+    "summary": "Routine copy of newspaper publication submitted by Maruti Suzuki.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c69eedd7e58d9266": {
+    "type": "unclassified",
+    "summary": "General regulatory update filed by Maruti Suzuki.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b0f3a2b77cf7f058": {
+    "type": "press_release",
+    "summary": "Maruti Suzuki discloses production volume numbers for September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8718bad36bd86dae": {
+    "type": "press_release",
+    "summary": "Maruti Suzuki reports total vehicle sales figures for September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "40e370ccab1cae16": {
+    "type": "unclassified",
+    "summary": "General regulatory update filed by Maruti Suzuki.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "af86569c79ecbb91": {
+    "type": "unclassified",
+    "summary": "Trading window closure notice announced by Maruti Suzuki.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f0c6997b873568c5": {
+    "type": "press_release",
+    "summary": "Maruti Suzuki holds a technology strategy briefing for 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5354c84f70e6d75c": {
+    "type": "press_release",
+    "summary": "Maruti Suzuki launches automatic S-CNG variants for Swift, Dzire, and Baleno.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f0ea1d4763880a91": {
+    "type": "results",
+    "summary": "Polycab India submits unaudited financial statements for Q2 FY27.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e878c081d5feb0a6": {
+    "type": "earnings_call",
+    "summary": "Polycab India provides earnings presentation for the quarter ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6e1b7b1e5638f60d": {
+    "type": "press_release",
+    "summary": "Polycab India issues press release on financial results for September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "370c14438f823003": {
+    "type": "results",
+    "summary": "Polycab India announces board meeting outcome approving financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7227033faaab75b9": {
+    "type": "litigation",
+    "summary": "NCLAT sets aside NCLT Ahmedabad bench order concerning Polycab India.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "52755a00581e12e9": {
+    "type": "litigation",
+    "summary": "Polycab India updates investors on the NCLAT order status.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f7664637cdb785b7": {
+    "type": "litigation",
+    "summary": "Polycab India provides updates regarding corporate insolvency resolution process.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1e69290ba2eb8b59": {
+    "type": "litigation",
+    "summary": "NCLAT schedules early hearing for insolvency appeal on October 15, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "49c936e04229a576": {
+    "type": "litigation",
+    "summary": "Update regarding Corporate Insolvency Resolution Process proceedings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c8b3b0f695892dd8": {
+    "type": "litigation",
+    "summary": "Further update regarding Corporate Insolvency Resolution Process.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9c16f248b381f636": {
+    "type": "litigation",
+    "summary": "Further update regarding Corporate Insolvency Resolution Process.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "08842a7fcb385e53": {
+    "type": "litigation",
+    "summary": "Intimation regarding NCLT order receipt.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7add18def589f18e": {
+    "type": "earnings_call",
+    "summary": "Transcript of analyst and institutional investor conference call released.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "98e7db7946ca94af": {
+    "type": "earnings_call",
+    "summary": "Recording link for analyst and investor meet provided.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b452aa4d1ba03f61": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming meetings with analysts and institutional investors.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f1d69cedc4d3dbd1": {
+    "type": "investor_meetings",
+    "summary": "Intimation of upcoming analyst and investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "58986e87f3a52651": {
+    "type": "unclassified",
+    "summary": "Allotment of 3,403 shares under ESOP scheme.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f71d2321767d3d98": {
+    "type": "investor_meetings",
+    "summary": "Intimation of analyst and investor meet schedule.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5579408cd825df02": {
+    "type": "investor_meetings",
+    "summary": "Intimation of analyst and investor meet schedule.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5ad5e6aa33c22a60": {
+    "type": "unclassified",
+    "summary": "Submission of certificate under SEBI depositories regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7bfa29852856eafb": {
+    "type": "investor_meetings",
+    "summary": "Intimation of analyst and investor meet schedule.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bca4e7ee406ae13d": {
+    "type": "investor_meetings",
+    "summary": "Intimation of analyst and investor meet schedule.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f2fedce143f394b2": {
+    "type": "press_release",
+    "summary": "Press release issued regarding recent NCLAT order.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ee4e9a35c2708bd1": {
+    "type": "unclassified",
+    "summary": "Allotment of 10,150 shares under ESOP scheme.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ec495a7862a258d3": {
+    "type": "unclassified",
+    "summary": "Intimation of trading window closure for insiders.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b9943bb3246f4a05": {
+    "type": "investor_meetings",
+    "summary": "Polycab India informs the exchange about upcoming analyst and investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c6de52ef460c9359": {
+    "type": "unclassified",
+    "summary": "Polycab India allotted 4,885 shares under ESOP.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b3927dd3e296ccfc": {
+    "type": "investor_meetings",
+    "summary": "Polycab India informs the exchange about upcoming analyst and investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a2f9ae590cce39e6": {
+    "type": "investor_meetings",
+    "summary": "Polycab India informs the exchange about upcoming analyst and investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "571534a13a95de37": {
+    "type": "press_release",
+    "summary": "Polycab India issues a press release accompanying its financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "01448cb7faefad56": {
+    "type": "results",
+    "summary": "Polycab India approved unaudited financial results for the quarter and half year.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "50b6880aa3f6bfa6": {
+    "type": "results",
+    "summary": "Jio Platforms trading start and board meeting scheduled for financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2209cabdc7bf7690": {
+    "type": "credit_rating",
+    "summary": "Reliance Industries informs exchange about credit rating updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e39e5d6da5fb09a1": {
+    "type": "litigation",
+    "summary": "Disclosure regarding regulatory action or order passed against the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e625c7bba6dd0424": {
+    "type": "credit_rating",
+    "summary": "Reliance Industries informs exchange about credit rating updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8c000203d43569d1": {
+    "type": "fund_raise",
+    "summary": "Company allotted 13,00,000 NCDs on private placement basis.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "96fc6c5453361c59": {
+    "type": "fund_raise",
+    "summary": "Company allotted 12,00,000 NCDs on private placement basis.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9d2a06eb1d28126d": {
+    "type": "credit_rating",
+    "summary": "Reliance Industries informs exchange about credit rating updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5b5da1760347b3cb": {
+    "type": "credit_rating",
+    "summary": "Reliance Industries informs exchange about credit rating updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "17b0611570a95a58": {
+    "type": "earnings_call",
+    "summary": "Transcript of quarterly financial results analyst meet is made available.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c0d337db79a37016": {
+    "type": "earnings_call",
+    "summary": "Audio recording of quarterly results analyst meet is now available.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6ceaf9539610711c": {
+    "type": "results",
+    "summary": "Board meeting scheduled to consider financial results and fund raising.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a6276e7442f1599b": {
+    "type": "investor_meetings",
+    "summary": "Company executives participating in the JM Financial India Conference.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "91078a35fdb894e7": {
+    "type": "investor_meetings",
+    "summary": "Company executives to attend the CLSA India Forum investor meeting.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a066cd86db7860b1": {
+    "type": "investor_meetings",
+    "summary": "Company submitted an investor presentation to the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b9a92579f4a8853d": {
+    "type": "investor_meetings",
+    "summary": "Company executives to participate in the BofA Asia Pacific Conference.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5768a66f99a46693": {
+    "type": "investor_meetings",
+    "summary": "Company executives to attend the CITIC CLSA Investors' Forum.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "233650ead23ea09f": {
+    "type": "investor_meetings",
+    "summary": "Company executives to participate in the J.P. Morgan India Conference.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "080d47404be0cb4b": {
+    "type": "M&A",
+    "summary": "Voluntary strike off of subsidiary Hamleys (Franchising) Limited.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b634b4b5eb0d7e5f": {
+    "type": "fund_raise",
+    "summary": "Initial Public Offer of subsidiary Jio Platforms Limited.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cf83a01559b5f2db": {
+    "type": "press_release",
+    "summary": "Company issued a media statement.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9d8ce779bb6e117a": {
+    "type": "unclassified",
+    "summary": "Newspaper clippings of advertisements published.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f454dea398e6586f": {
+    "type": "fund_raise",
+    "summary": "Newspaper publication regarding IPO shareholder reservation for Jio Platforms.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2d1a8e00f3542d35": {
+    "type": "unclassified",
+    "summary": "Newspaper notice for special window for physical shares dematerialisation.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "db782a2ca402f8dc": {
+    "type": "fund_raise",
+    "summary": "Update regarding proposed Initial Public Offer of Jio Platforms Limited.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0f282939a2d77ce7": {
+    "type": "fund_raise",
+    "summary": "Red Herring Prospectus filed for the proposed Jio Platforms IPO.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f4845be197d96947": {
+    "type": "unclassified",
+    "summary": "Trading window closure notice pursuant to PIT regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ed852f4a3888baf9": {
+    "type": "investor_meetings",
+    "summary": "Company participated in BofA Asia Pacific Conference with no UPSI shared.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6cd1509d4a9d9d83": {
+    "type": "investor_meetings",
+    "summary": "Company participated in CITIC CLSA Investors' Forum with no UPSI shared.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1f40eaa75323d1a9": {
+    "type": "investor_meetings",
+    "summary": "Company participated in J.P. Morgan India Conference with no UPSI shared.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "62d8e8ed3e811da4": {
+    "type": "investor_meetings",
+    "summary": "Company participated in Jefferies India Forum with no UPSI shared.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fe817da66b040214": {
+    "type": "results",
+    "summary": "Unaudited financial results for the quarter and half year ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7fe092a68126fda4": {
+    "type": "unclassified",
+    "summary": "Appointment of statutory auditors pursuant to mandatory auditor rotation.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bc0383f1d5df9eb6": {
+    "type": "management_change",
+    "summary": "Resignation of a director, KMP, or senior management personnel.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c5e4225f8cad0221": {
+    "type": "management_change",
+    "summary": "Resignation of a company director.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "99d52ae028a879cd": {
+    "type": "fund_raise",
+    "summary": "Allotment of 781,600 non-convertible securities.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2fcd2ec7cf3962bd": {
+    "type": "credit_rating",
+    "summary": "Update on credit rating assigned to the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d456e797731098ae": {
+    "type": "earnings_call",
+    "summary": "Transcript of analysts and institutional investor conference call.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "030a05df64fbf2b0": {
+    "type": "litigation",
+    "summary": "Company response to regulatory news regarding eye-care drug production halt.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8087f02078752348": {
+    "type": "press_release",
+    "summary": "Clarification regarding news report concerning the company's Assam facility.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b2aad8e70963af88": {
+    "type": "litigation",
+    "summary": "Awaiting response regarding regulatory news on eye-care drug production at plant.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d46ceb6410c4231a": {
+    "type": "postal_ballot",
+    "summary": "Completion and results of postal ballot dated October 1, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e8a07f62dc3c4f12": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming meetings with analysts and institutional investors.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "414f3eeab3f4f764": {
+    "type": "earnings_call",
+    "summary": "Link to the recording of the earnings conference call.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0832ed39d5a7ec5c": {
+    "type": "postal_ballot",
+    "summary": "Notice of postal ballot issued in October 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5af4f6a110d91603": {
+    "type": "postal_ballot",
+    "summary": "Newspaper publication regarding postal ballot and e-voting.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "8be0ee3548a177a6": {
+    "type": "postal_ballot",
+    "summary": "Completion and results of postal ballot dated August 25, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7a1ad6006fae1dc6": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming investor and analyst meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "82e6085d1df58f50": {
+    "type": "earnings_call",
+    "summary": "Investor presentation detailing operational and financial highlights.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c38f3e565291b53e": {
+    "type": "unclassified",
+    "summary": "Copy of newspaper publication regarding routine corporate announcements.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c279afced70d2088": {
+    "type": "press_release",
+    "summary": "Sun Pharma receives US FDA approval for ILUMYA in Psoriatic Arthritis.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4543f580cfed80a4": {
+    "type": "press_release",
+    "summary": "Company issued a press release for general corporate updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7d9961248f865ade": {
+    "type": "press_release",
+    "summary": "Company issued a press release for general corporate updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "557ec64a20a020fe": {
+    "type": "unclassified",
+    "summary": "Certificate under SEBI Depositories and Participants Regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "020b72a3cf1b7c1f": {
+    "type": "results",
+    "summary": "Outcome of board meeting regarding corporate developments.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5a3992c840cbfeae": {
+    "type": "press_release",
+    "summary": "Sun Pharma establishes endowed professorship at Mount Sinai.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "315f742e2ffcef66": {
+    "type": "press_release",
+    "summary": "Positive LEQSELVI trial data presented in severe alopecia areata.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5c111a60902c74b9": {
+    "type": "unclassified",
+    "summary": "Newspaper publication regarding transfer of physical shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "83beb4210fc2ad71": {
+    "type": "unclassified",
+    "summary": "ESG overview report for the financial year.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a6bfff2f120c78d9": {
+    "type": "press_release",
+    "summary": "Sun Pharma enters into a licensing agreement for Lerodalcibep.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3fa694a8cf9f3dd6": {
+    "type": "unclassified",
+    "summary": "Shareholders approve reclassification of shareholder category.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9282ec45d40ee970": {
+    "type": "unclassified",
+    "summary": "Trading window closure notice pursuant to insider trading regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6117d80fd25f2a14": {
+    "type": "investor_meetings",
+    "summary": "Schedule of analysts and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "81c9891734286104": {
+    "type": "press_release",
+    "summary": "Stellantis and Tata Motors broaden strategic partnership for tech collaboration.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f7460e0ee951eab4": {
+    "type": "press_release",
+    "summary": "Company clarifies news reports regarding Tata Sons listing hopes.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7b9ec2f4ede6d1c4": {
+    "type": "press_release",
+    "summary": "Response awaited for media clarification regarding Tata Sons listing.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c5fde24d817207f5": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9de7650baa34885a": {
+    "type": "unclassified",
+    "summary": "Tata Motors allotted 52,771 equity shares under its ESOP scheme.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b9224b18e5f908c1": {
+    "type": "press_release",
+    "summary": "Monthly vehicle sales figures released for October 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4527db876ebba19c": {
+    "type": "unclassified",
+    "summary": "Newspaper notice issued regarding special window for re-lodgement of physical shares.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "10432d4160b9c4fa": {
+    "type": "press_release",
+    "summary": "SIAM industry report published for July to September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "77ace3415a416788": {
+    "type": "unclassified",
+    "summary": "Submitted depository participant compliance certificate.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "68e6272f22dbec82": {
+    "type": "press_release",
+    "summary": "Jaguar Land Rover reported wholesale and retail sales for Q2 FY27.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "35f122aa966504b3": {
+    "type": "press_release",
+    "summary": "Reported total passenger vehicle sales for Q2 FY27.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "48b5a3c183d327ef": {
+    "type": "unclassified",
+    "summary": "Trading window closure announced for upcoming financial results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d5aea85067427a6e": {
+    "type": "unclassified",
+    "summary": "Updated ESG rating disclosure filed with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0561928be71c137a": {
+    "type": "unclassified",
+    "summary": "Tata Motors allotted 100,596 equity shares under ESOP.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1d428a0d3d9e16f7": {
+    "type": "M&A",
+    "summary": "Acquired equity shares in Creative Port Development via preference share conversion.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d5df3516d47f3404": {
+    "type": "results",
+    "summary": "Reported financial results for the quarter and half year ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c2e4e3d6e4022049": {
+    "type": "M&A",
+    "summary": "Scheme of amalgamation with Rujuvalika Investments became effective.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7e5706a41ed03c01": {
+    "type": "M&A",
+    "summary": "Amalgamation scheme with Rujuvalika Investments is now effective.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6d4ef19480c844f9": {
+    "type": "management_change",
+    "summary": "Mr. Noel Naval Tata retired as Non-Executive Director and Vice Chairman.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7bdcfc1d62eb3bdf": {
+    "type": "management_change",
+    "summary": "Retirement of Mr. Noel Naval Tata as Vice Chairman and Director.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7ea9bb72453204de": {
+    "type": "M&A",
+    "summary": "Received NCLT Mumbai bench order for Rujuvalika Investments amalgamation.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ecd3f1b8df95fd39": {
+    "type": "M&A",
+    "summary": "NCLT pronounced order approving amalgamation of Rujuvalika Investments with Tata Steel.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "832d331ff177718f": {
+    "type": "M&A",
+    "summary": "NCLT approved the scheme of amalgamation for Tata Steel and Rujuvalika Investments.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0821e358a229b4e6": {
+    "type": "M&A",
+    "summary": "Tata Steel acquired equity shares in T Steel Holdings Pte.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "106aceae3d54c172": {
+    "type": "litigation",
+    "summary": "Disclosed details regarding pending litigations or disputes impacting the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9181e32eb8e7927f": {
+    "type": "litigation",
+    "summary": "Disclosed information regarding pending litigation and disputes.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "989c73297a830f04": {
+    "type": "earnings_call",
+    "summary": "Transcript of the investor conference call has been submitted.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "12af17080789e574": {
+    "type": "investor_meetings",
+    "summary": "Scheduled upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "540aa1bf618eb169": {
+    "type": "earnings_call",
+    "summary": "Provided audio recording link for the earnings call.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1aceb5a27a3a4d7b": {
+    "type": "investor_meetings",
+    "summary": "Released investor presentation for stakeholder review.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "31af74b52bed45d1": {
+    "type": "earnings_call",
+    "summary": "Scheduled 2QFY27 earnings discussion meeting with analysts.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "22393d267ffc6c5e": {
+    "type": "investor_meetings",
+    "summary": "Scheduled upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "08d6062d599538fc": {
+    "type": "investor_meetings",
+    "summary": "Scheduled upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "81b4c5b351065392": {
+    "type": "investor_meetings",
+    "summary": "Scheduled upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "898ac168c45491eb": {
+    "type": "investor_meetings",
+    "summary": "Scheduled upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "33906c71e03b5d42": {
+    "type": "unclassified",
+    "summary": "Published statutory newspaper advertisement per listing regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d26d53bc7ddb83b6": {
+    "type": "results",
+    "summary": "Approved financial results for the quarter and half year ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "de1dcd142a43602f": {
+    "type": "press_release",
+    "summary": "Reported consolidated EBITDA of Rs 10,665 crores for the quarter.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "b74c9b1eac4be282": {
+    "type": "unclassified",
+    "summary": "Submitted copy of statutory newspaper publication.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f6871724b7f38d2d": {
+    "type": "unclassified",
+    "summary": "Submitted depository participant compliance certificate for the quarter.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9107a85f85cd1651": {
+    "type": "press_release",
+    "summary": "Tata Steel reports provisional production and delivery volumes for Q2 FY2027.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3ef7dde29961454b": {
+    "type": "unclassified",
+    "summary": "Trading window closure notice pursuant to insider trading regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5ddffba65323ebbf": {
+    "type": "unclassified",
+    "summary": "General disclosure under SEBI listing regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9b73e4924211f954": {
+    "type": "results",
+    "summary": "TCS submitted financial results for the period ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "61917b168edf886a": {
+    "type": "M&A",
+    "summary": "TCS completed the acquisition of BBY Services India LLP.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "14be0e032de4aaaf": {
+    "type": "M&A",
+    "summary": "TCS informed the exchange regarding an acquisition.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "dd1715fbfc90eebf": {
+    "type": "dividend",
+    "summary": "TCS board declared an interim dividend of Rs. 12 per share.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "31809582071062b3": {
+    "type": "dividend",
+    "summary": "TCS notified the date of payment for the interim dividend.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "24a609806412501f": {
+    "type": "dividend",
+    "summary": "TCS set October 14, 2026, as the record date for the dividend.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a3720c25080227cf": {
+    "type": "earnings_call",
+    "summary": "TCS submitted the earnings conference call transcript.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6684599b7805083c": {
+    "type": "press_release",
+    "summary": "TCS renews title partnership with Jaguar TCS Racing and expands AI role.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "33c87c8588068f42": {
+    "type": "investor_meetings",
+    "summary": "TCS announced schedule for upcoming institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9d0463d4f5dba40e": {
+    "type": "investor_meetings",
+    "summary": "TCS announced schedule for upcoming investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "1c60f215d88a2b61": {
+    "type": "earnings_call",
+    "summary": "TCS provided the link to the earnings call recording.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "eb9f1ecf9d0d993e": {
+    "type": "investor_meetings",
+    "summary": "TCS announced schedule for an institutional investor meet.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "42512420b84146fd": {
+    "type": "press_release",
+    "summary": "TCS released findings from its Enterprise AI Study.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6901619519599340": {
+    "type": "unclassified",
+    "summary": "TCS published newspaper advertisement regarding corporate updates.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "100ddccdba1d9eb0": {
+    "type": "press_release",
+    "summary": "TCS BaNCS for Treasury enters Sri Lanka with Indian Bank win.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "aa1c0f2c465ef42e": {
+    "type": "press_release",
+    "summary": "TCS launches Industrial Intelligence Foundry for AI-led autonomy and engineering.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ebe2919488374157": {
+    "type": "press_release",
+    "summary": "MyState Limited selects TCS BaNCS to transform core banking operations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a0892ff67f04216d": {
+    "type": "unclassified",
+    "summary": "Copy of routine newspaper publication filed with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c1090bfa0025cb42": {
+    "type": "unclassified",
+    "summary": "Copy of routine newspaper publication filed with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6f8f44ceb5926283": {
+    "type": "unclassified",
+    "summary": "Copy of routine newspaper publication filed with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "df9990b7d33bd666": {
+    "type": "press_release",
+    "summary": "Company statement regarding US Government announcement on Permanent Labor Certification Program.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c8040635eb07afd2": {
+    "type": "press_release",
+    "summary": "Press release on international growth and strategic wins underpinning Q2 results.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d86ed6e5a3b3adce": {
+    "type": "press_release",
+    "summary": "Best Buy's Global Capability Center in India to transition to TCS.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cdd56f2846c4057c": {
+    "type": "unclassified",
+    "summary": "Outcome of Investment Committee meeting held by TCS.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fd2df6052cb9ed83": {
+    "type": "unclassified",
+    "summary": "Copy of routine newspaper publication filed with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "3cc71ca5788942f8": {
+    "type": "unclassified",
+    "summary": "Copy of routine newspaper publication filed with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5f79daee8a52a641": {
+    "type": "unclassified",
+    "summary": "Copy of routine newspaper publication filed with the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "614047ad48c9effb": {
+    "type": "press_release",
+    "summary": "TCS to accelerate AI-led technology transformation for Germany's Aareal Bank.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d747aaa8439a837d": {
+    "type": "press_release",
+    "summary": "DGCX partners with TCS to upgrade derivatives market infrastructure.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ad7057586f587e06": {
+    "type": "results",
+    "summary": "Newspaper publication of unaudited financial results for Q2 and half-year ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "24da22d348c081a1": {
+    "type": "results",
+    "summary": "Press release on unaudited standalone and consolidated financial results for Q2 and half-year ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fac0a625de1723db": {
+    "type": "M&A",
+    "summary": "Subsidiary enters binding term sheet with TreBits Investment Trust for asset monetization/deal.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4a0bd7a02802cfd6": {
+    "type": "management_change",
+    "summary": "Retirement of Mr. Noel N Tata as the Chairman of Trent Limited.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "072c62b873e211b1": {
+    "type": "management_change",
+    "summary": "Mrs Kalpana Merchant appointed as Non-Executive Independent Director.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4f79e714afa044ce": {
+    "type": "management_change",
+    "summary": "Trent Limited reports a change in directors.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "778ee071689f2ffa": {
+    "type": "management_change",
+    "summary": "Resignation of a Director, KMP, or SMP reported.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "526464f5db95b9cd": {
+    "type": "management_change",
+    "summary": "Resignation of a Non-Executive Non-Independent Director.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "979225d5b0ed5524": {
+    "type": "investor_meetings",
+    "summary": "Scheduled analyst and institutional investor meetings announced.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "01f5a1db2e97df2b": {
+    "type": "investor_meetings",
+    "summary": "Intimation of upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cbce11183975ad8f": {
+    "type": "investor_meetings",
+    "summary": "Investor presentation made available by the company.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "37cb6092c66f1fe4": {
+    "type": "results",
+    "summary": "Outcome of board meeting held on October 29, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bc89d8084a95f593": {
+    "type": "unclassified",
+    "summary": "Reminder letter issued for transfer of equity shares to IEPF.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "63275482b54fd62f": {
+    "type": "unclassified",
+    "summary": "Newspaper publication notice for physical share transfer re-lodgement.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ca91b655b6f37630": {
+    "type": "press_release",
+    "summary": "Update provided for Q2 FY27 and H1 FY27 performance.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7d363f78e3ed5cca": {
+    "type": "unclassified",
+    "summary": "Certificate under Regulation 74(5) submitted for quarter ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "55f928d3d96bc5ae": {
+    "type": "unclassified",
+    "summary": "Trading window closure notice pursuant to insider trading regulations.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a36e39eed5f79de4": {
+    "type": "results",
+    "summary": "UltraTech Cement submitted financial results for period ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d779b60c60f505d3": {
+    "type": "management_change",
+    "summary": "Resignation of Director, KMP or SMP at UltraTech Cement.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6c7c6a48a346f839": {
+    "type": "management_change",
+    "summary": "Resignation of Director, KMP or SMP at UltraTech Cement.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2da4cd08a85bf015": {
+    "type": "management_change",
+    "summary": "Change in directors announced by UltraTech Cement.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "543a8a3d07c04944": {
+    "type": "management_change",
+    "summary": "Mr. K. K. Maheshwari to relinquish Non-Executive Vice Chairman position.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9a3f1c84434e722d": {
+    "type": "earnings_call",
+    "summary": "Transcript of analyst and institutional investor conference call released.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ee3fccd694d626cd": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "f4db0298f8590b2e": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9dc62aa039ec4ee5": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5e86a672ee3e7872": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "cd8ebe1815a66fa9": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5f4955e8e7610692": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "138b7a3214497059": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "469ec76c547b16fa": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7d2950afb65a96e1": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bf3b02f4ac6c48ec": {
+    "type": "press_release",
+    "summary": "Company submitted a response for market rumour verification.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ced4ee462040f39c": {
+    "type": "postal_ballot",
+    "summary": "Voting results and scrutinizer's report for postal ballot submitted.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "397361a4f50b36dc": {
+    "type": "earnings_call",
+    "summary": "Audio recording link for the investor conference call provided.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "74e4ed2f8ffb5328": {
+    "type": "investor_meetings",
+    "summary": "Investor presentation shared with the stock exchanges.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "510270cb2a18d466": {
+    "type": "investor_meetings",
+    "summary": "Schedule of upcoming analyst and institutional investor meetings.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "35e1c383ebfe4820": {
+    "type": "unclassified",
+    "summary": "Change in corporate office address of the Registrar and Share Transfer Agent.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a6d87afb2b6d251a": {
+    "type": "unclassified",
+    "summary": "Copy of corporate announcement published in newspapers.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "48275495d6288546": {
+    "type": "unclassified",
+    "summary": "Corporate dossier of the company submitted to the exchange.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d67cc3d695535286": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement published statutory notices in newspapers.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fabb9a7d0cbd1ca1": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement published statutory notices in newspapers.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "dbe1d96176ee1390": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement reported options granted to purchase securities.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6cba6bfd0f9d929f": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement reported providing third-party guarantees or indemnities.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a577e30315f6d891": {
+    "type": "press_release",
+    "summary": "UltraTech Cement issued a corporate press release.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c337ed1e51eff105": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement reported providing third-party guarantees or indemnities.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d8c0453b74c4f0e0": {
+    "type": "results",
+    "summary": "UltraTech Cement announced outcome of board meeting held on Oct 19, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6bb1df0c30f9b52b": {
+    "type": "results",
+    "summary": "UltraTech Cement announced outcome of board meeting held on Oct 19, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "381146b1ee4daf75": {
+    "type": "press_release",
+    "summary": "UltraTech Cement issued a press release.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "27fb9bbd77dc32b5": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement filed depository participant compliance certificate.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "175f548e38ebc56a": {
+    "type": "press_release",
+    "summary": "UltraTech surpassed 2 GW of green energy capacity for captive use.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "63cd0d02191aa224": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement published statutory notices in newspapers.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "992c2ea6016fd87d": {
+    "type": "press_release",
+    "summary": "UltraTech Cement announced commissioning of new cement capacity.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9d7dc8f32ec2e9ac": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement published statutory notices in newspapers.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bca6d49cf4d5b695": {
+    "type": "unclassified",
+    "summary": "UltraTech Cement published statutory notices in newspapers.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bc09c960e98fca65": {
+    "type": "M&A",
+    "summary": "Eternal Limited announced proposed restructuring, acquisition, and divestment.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "9c453f275a253dce": {
+    "type": "unclassified",
+    "summary": "Eternal Limited filed monitoring agency report for the quarter ended September 30, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "777e792fe27fe066": {
+    "type": "earnings_call",
+    "summary": "Eternal Limited filed earnings conference call transcript for Oct 21, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "e0946c3e3e69accc": {
+    "type": "earnings_call",
+    "summary": "Notice of earnings conference call scheduled for October 21, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "774c2139f1b0e6dc": {
+    "type": "press_release",
+    "summary": "Company submitted a copy of the shareholders letter dated October 21, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5ca4875c822304d5": {
+    "type": "results",
+    "summary": "Outcome of board meeting held on October 21, 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "737cbf8807dead74": {
+    "type": "unclassified",
+    "summary": "Submitted depository participant compliance certificate for the quarter ended September 2026.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "710061c8c96b81c5": {
+    "type": "unclassified",
+    "summary": "Company announced the grant of stock options under ESOP.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "93360eb9fef9a72d": {
+    "type": "unclassified",
+    "summary": "Notice of trading window closure for insiders.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d0454c2f00048dff": {
+    "type": "unclassified",
+    "summary": "Company disclosed ESG rating assigned by certification agency.",
+    "engine": "gemini",
+    "model": "gemini-3.5-flash-lite"
+  }
+}

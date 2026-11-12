@@ -1,0 +1,48 @@
+{
+  "ticker": "HAL",
+  "screener": "HAL",
+  "fetchedAt": "2026-11-13T00:42:52.534148+05:30",
+  "docs": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+      "pages": 413,
+      "chunks": 1358,
+      "file": "raw/annual_report_FY2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+      "pages": 19,
+      "chunks": 70,
+      "file": "raw/concall_transcript_May2026.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2025",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf",
+      "pages": 19,
+      "chunks": 65,
+      "file": "raw/concall_transcript_May2025.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2024",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+      "pages": 18,
+      "chunks": 68,
+      "file": "raw/concall_transcript_May2024.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2023",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+      "pages": 18,
+      "chunks": 72,
+      "file": "raw/concall_transcript_May2023.pdf"
+    }
+  ],
+  "totalChunks": 1633
+}

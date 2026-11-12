@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-11-13T00:46:56.191033+05:30",
+  "engine": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "tier": "free",
+  "classifiedNow": 511,
+  "cachedSkipped": 0,
+  "batches": 29,
+  "inputTokens": 31742,
+  "outputTokens": 25463,
+  "totalTokens": 57205,
+  "pricePer1M": {
+    "input": 0.0,
+    "output": 0.0
+  },
+  "costUSD": 0.0
+}

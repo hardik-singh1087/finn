@@ -10,7 +10,7 @@
     { "ticker": "HINDUNILVR",  "name": "Hindustan Unilever",           "sector": "FMCG" },
     { "ticker": "ITC",         "name": "ITC",                          "sector": "FMCG / Conglomerate" },
     { "ticker": "MARUTI",      "name": "Maruti Suzuki India",          "sector": "Automobiles" },
-    { "ticker": "TATAMOTORS",  "name": "Tata Motors",                  "sector": "Automobiles" },
+    { "ticker": "TATAMOTORS",  "name": "Tata Motors (PV)",             "sector": "Automobiles", "yahoo": "TMPV", "note": "2025 demerger: passenger-vehicle business lists as TMPV.NS; legacy TATAMOTORS.NS no longer returns data." },
     { "ticker": "SUNPHARMA",   "name": "Sun Pharmaceutical Inds.",     "sector": "Pharma" },
     { "ticker": "DRREDDY",     "name": "Dr. Reddy's Laboratories",     "sector": "Pharma" },
     { "ticker": "TATASTEEL",   "name": "Tata Steel",                   "sector": "Metals" },
@@ -24,7 +24,7 @@
     { "ticker": "ZOMATO",      "name": "Eternal (Zomato)",             "sector": "Internet / Food", "yahoo": "ETERNAL", "note": "NSE symbol changed ZOMATO->ETERNAL in 2025; pipeline resolves at fetch time." }
   ],
   "researchTickers": [
-    { "ticker": "DMART",     "name": "Avenue Supermarts (DMart)", "sector": "Retail",    "screener": "AVENUESUPERMARTS" },
+    { "ticker": "DMART",     "name": "Avenue Supermarts (DMart)", "sector": "Retail",    "screener": "DMART" },
     { "ticker": "NESTLEIND", "name": "Nestlé India",              "sector": "FMCG",      "screener": "NESTLEIND" },
     { "ticker": "PIDILITIND","name": "Pidilite Industries",       "sector": "Chemicals", "screener": "PIDILITIND" },
     { "ticker": "HAL",       "name": "Hindustan Aeronautics",     "sector": "Defence",   "screener": "HAL" },
@@ -39,18 +39,21 @@
     "materialTypes": ["results", "M&A", "management_change", "fund_raise", "credit_rating", "litigation", "pledging"]
   },
   "models": {
+    "bulkEngine": "gemini",
+    "bulkEngineOptions": ["gemini", "anthropic", "rules"],
+    "gemini": "gemini-3.5-flash-lite",
     "cheap": "claude-haiku-5-5",
     "mid": "claude-sonnet-5-5",
     "strong": "claude-opus-5-5",
     "cacheDir": "data/research",
     "routing": {
-      "classify_announcement": "cheap",
-      "one_line_summary": "cheap",
+      "classify_announcement": "bulk",
+      "one_line_summary": "bulk",
       "results_headline_extract": "mid",
       "business_snapshot": "mid",
       "promised_vs_delivered": "strong"
     },
-    "notes": "Route by difficulty. Cheap = bulk extraction + classification + short summaries. Mid = structured extraction + snapshots. Strong = the promised-vs-delivered reasoning only. Cache EVERY answer by content hash so a paid call never repeats."
+    "notes": "Bulk/cheap jobs (classification + short 'why it matters' summaries) default to Gemini FREE tier (gemini-3.5-flash-lite — fast/cheap; gemini-2.0-flash was retired), key GEMINI_API_KEY. 'anthropic' (claude-haiku-5-5) stays as a paid alternative via --engine anthropic; 'rules' is the zero-cost offline fallback. Mid/strong reasoning still route to Claude (promised-vs-delivered = claude-opus-5-5). Cache EVERY answer so a call never repeats."
   },
   "categories": [
     { "id": "results",            "label": "Results",            "tier": "high",   "weight": 95 },
