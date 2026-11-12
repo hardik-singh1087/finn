@@ -1,0 +1,74 @@
+{
+  "appName": "FINN",
+  "tagline": "Only the few things that matter.",
+  "portfolio": [
+    { "ticker": "RELIANCE",   "name": "Reliance Industries",          "sector": "Energy / Conglomerate" },
+    { "ticker": "HDFCBANK",    "name": "HDFC Bank",                    "sector": "Banking" },
+    { "ticker": "ICICIBANK",   "name": "ICICI Bank",                   "sector": "Banking" },
+    { "ticker": "TCS",         "name": "Tata Consultancy Services",    "sector": "IT Services" },
+    { "ticker": "INFY",        "name": "Infosys",                      "sector": "IT Services" },
+    { "ticker": "HINDUNILVR",  "name": "Hindustan Unilever",           "sector": "FMCG" },
+    { "ticker": "ITC",         "name": "ITC",                          "sector": "FMCG / Conglomerate" },
+    { "ticker": "MARUTI",      "name": "Maruti Suzuki India",          "sector": "Automobiles" },
+    { "ticker": "TATAMOTORS",  "name": "Tata Motors",                  "sector": "Automobiles" },
+    { "ticker": "SUNPHARMA",   "name": "Sun Pharmaceutical Inds.",     "sector": "Pharma" },
+    { "ticker": "DRREDDY",     "name": "Dr. Reddy's Laboratories",     "sector": "Pharma" },
+    { "ticker": "TATASTEEL",   "name": "Tata Steel",                   "sector": "Metals" },
+    { "ticker": "JSWSTEEL",    "name": "JSW Steel",                    "sector": "Metals" },
+    { "ticker": "ULTRACEMCO",  "name": "UltraTech Cement",             "sector": "Cement" },
+    { "ticker": "LT",          "name": "Larsen & Toubro",              "sector": "Capital Goods / Infra" },
+    { "ticker": "BHARTIARTL",  "name": "Bharti Airtel",                "sector": "Telecom" },
+    { "ticker": "TRENT",       "name": "Trent",                        "sector": "Retail" },
+    { "ticker": "POLYCAB",     "name": "Polycab India",                "sector": "Electricals / Cables" },
+    { "ticker": "DIXON",       "name": "Dixon Technologies",           "sector": "Electronics Mfg (EMS)" },
+    { "ticker": "ZOMATO",      "name": "Eternal (Zomato)",             "sector": "Internet / Food", "yahoo": "ETERNAL", "note": "NSE symbol changed ZOMATO->ETERNAL in 2025; pipeline resolves at fetch time." }
+  ],
+  "researchTickers": [
+    { "ticker": "DMART",     "name": "Avenue Supermarts (DMart)", "sector": "Retail",    "screener": "AVENUESUPERMARTS" },
+    { "ticker": "NESTLEIND", "name": "Nestlé India",              "sector": "FMCG",      "screener": "NESTLEIND" },
+    { "ticker": "PIDILITIND","name": "Pidilite Industries",       "sector": "Chemicals", "screener": "PIDILITIND" },
+    { "ticker": "HAL",       "name": "Hindustan Aeronautics",     "sector": "Defence",   "screener": "HAL" },
+    { "ticker": "IRCTC",     "name": "Indian Railway Catering & Tourism", "sector": "Travel / PSU", "screener": "IRCTC" }
+  ],
+  "alerts": {
+    "digestWindowHours": 24,
+    "digestWindowOptions": [24, 72, 168],
+    "priceMovePct": 5,
+    "volumeMultiple": 2,
+    "volumeLookbackDays": 20,
+    "materialTypes": ["results", "M&A", "management_change", "fund_raise", "credit_rating", "litigation", "pledging"]
+  },
+  "models": {
+    "cheap": "claude-haiku-5-5",
+    "mid": "claude-sonnet-5-5",
+    "strong": "claude-opus-5-5",
+    "cacheDir": "data/research",
+    "routing": {
+      "classify_announcement": "cheap",
+      "one_line_summary": "cheap",
+      "results_headline_extract": "mid",
+      "business_snapshot": "mid",
+      "promised_vs_delivered": "strong"
+    },
+    "notes": "Route by difficulty. Cheap = bulk extraction + classification + short summaries. Mid = structured extraction + snapshots. Strong = the promised-vs-delivered reasoning only. Cache EVERY answer by content hash so a paid call never repeats."
+  },
+  "categories": [
+    { "id": "results",            "label": "Results",            "tier": "high",   "weight": 95 },
+    { "id": "M&A",                "label": "M&A",                "tier": "high",   "weight": 92 },
+    { "id": "fund_raise",         "label": "Fund Raise",         "tier": "high",   "weight": 80 },
+    { "id": "management_change",  "label": "Management Change",  "tier": "high",   "weight": 85 },
+    { "id": "litigation",         "label": "Litigation",         "tier": "high",   "weight": 82 },
+    { "id": "credit_rating",      "label": "Credit Rating",      "tier": "high",   "weight": 78 },
+    { "id": "pledging",           "label": "Pledging",           "tier": "high",   "weight": 76 },
+    { "id": "insider_trading",    "label": "Insider Trading",    "tier": "medium", "weight": 60 },
+    { "id": "capex",              "label": "Capex",              "tier": "medium", "weight": 58 },
+    { "id": "dividend",           "label": "Dividend",           "tier": "medium", "weight": 52 },
+    { "id": "bonus_split",        "label": "Bonus / Split",      "tier": "medium", "weight": 55 },
+    { "id": "earnings_call",      "label": "Earnings Call",      "tier": "medium", "weight": 50 },
+    { "id": "agm_egm",            "label": "AGM / EGM",          "tier": "low",    "weight": 30 },
+    { "id": "postal_ballot",      "label": "Postal Ballot",      "tier": "low",    "weight": 28 },
+    { "id": "investor_meetings",  "label": "Investor Meetings",  "tier": "low",    "weight": 25 },
+    { "id": "press_release",      "label": "Press Release",      "tier": "low",    "weight": 35 },
+    { "id": "unclassified",       "label": "Routine",            "tier": "low",    "weight": 5 }
+  ]
+}
