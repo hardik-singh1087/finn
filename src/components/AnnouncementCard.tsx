@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Announcement, AnnouncementType, PriceSummary } from "@/types/finn";
 import { inr, relTime, signedPct } from "@/lib/format";
+import { BioCard, ResultsCard } from "./DetailCards";
 
 // Literal class strings (Tailwind needs them static) — colored tag per category.
 const TAG: Record<AnnouncementType, string> = {
@@ -72,6 +73,10 @@ export function AnnouncementCard({ item, price }: { item: Announcement; price?: 
       {item.summary && (
         <p className="mt-2 text-sm leading-snug text-zinc-600 dark:text-zinc-300">{item.summary}</p>
       )}
+
+      {/* Extra detail (push-side enrichment, cheap model, cached) */}
+      {item.enrichment?.results && <ResultsCard results={item.enrichment.results} />}
+      {item.enrichment?.bio && <BioCard bio={item.enrichment.bio} />}
     </Link>
   );
 }

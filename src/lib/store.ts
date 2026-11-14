@@ -13,7 +13,7 @@
 
 import { promises as fs } from "fs";
 import path from "path";
-import type { Announcement, PriceBar, PriceSummaryFile } from "@/types/finn";
+import type { Announcement, Enrichment, PriceBar, PriceSummaryFile } from "@/types/finn";
 import { config } from "@/lib/config";
 
 export const DATA_DIR = path.join(process.cwd(), "data");
@@ -46,4 +46,5 @@ export const store = {
   research: <T>(ticker: string) =>
     readJson<T>(`research/${ticker}.json`, null as unknown as T),
   feed: <T>() => readJson<T>(`feed/latest.json`, [] as unknown as T),
+  enrichment: () => readJson<Record<string, Enrichment>>(`enrichment.json`, {}),
 };

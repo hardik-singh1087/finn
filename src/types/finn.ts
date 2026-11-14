@@ -76,12 +76,32 @@ export interface Announcement {
   source?: string; // NSE/BSE url to the raw filing (usually a PDF)
   rawText?: string; // the filing's own text, as provided by the exchange
   exchange?: "NSE" | "BSE" | "seed";
+  enrichment?: Enrichment; // extra detail for mgmt-change / results (push-side, cached)
+}
+
+/** Push-side "extra detail" attached to a card (cheap model, cached). */
+export interface Enrichment {
+  kind: "management_change" | "results";
+  bio?: ManagementChangeBio;
+  results?: ResultsHeadline;
+}
+
+/** An unusual end-of-day price/volume move — computed by the alert engine per the user's thresholds. */
+export interface Alert {
+  ticker: string;
+  company: string;
+  date: string; // YYYY-MM-DD of the breach
+  kind: "volume" | "price";
+  value: number; // volume: the ×avg multiple; price: the day's % move
+  threshold: number; // the setting that was crossed (N or X)
+  close: number;
+  changePct: number; // that day's % move (context)
+  volumeVsAvg: number; // that day's volume multiple (context)
 }
 
 /** One card in the Push feed / digest. */
 export interface FeedItem extends Announcement {
   reason: string; // why this matters, in plain English
-  enrichment?: ResultsHeadline | ManagementChangeBio | Record<string, unknown>;
 }
 
 /** Quarterly results, first-cut headline numbers (QoQ + YoY). */
@@ -101,10 +121,10 @@ export interface MetricCompare {
 }
 
 export interface ManagementChangeBio {
-  person: string;
-  role: string;
-  direction: "joining" | "resigning" | "retiring";
-  background?: string; // short bio (push-side enrichment is allowed to use outside sources)
+  person: string | null;
+  role?: string | null;
+  direction?: string | null; // joining | resigning | retiring | reappointed
+  background?: string | null; // short bio (push-side enrichment may use outside sources)
 }
 
 /** One searchable chunk of a company's own primary document (AR or concall transcript). */

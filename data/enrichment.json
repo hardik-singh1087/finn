@@ -1,0 +1,643 @@
+{
+  "6ffe3e4005b9a3db": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Managing Director and Chief Executive Officer",
+      "direction": "joining",
+      "background": null
+    },
+    "id": "6ffe3e4005b9a3db",
+    "ticker": "HDFCBANK",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "77d9a936a8caf9e5": {
+    "kind": "management_change",
+    "bio": {
+      "person": "V. Srinivasa Rangan",
+      "role": "Whole-time Director (Executive Director)",
+      "direction": "reappointed",
+      "background": "Mr. V. Srinivasa Rangan is a veteran banker who previously served as the Executive Director at HDFC Ltd before its merger with HDFC Bank. He brings decades of extensive experience in retail and corporate finance, mortgage lending, and treasury operations within the HDFC group."
+    },
+    "id": "77d9a936a8caf9e5",
+    "ticker": "HDFCBANK",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a8e4c884117b6acf": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director",
+      "direction": "joining",
+      "background": null
+    },
+    "id": "a8e4c884117b6acf",
+    "ticker": "HDFCBANK",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "a0695cee8dd49199": {
+    "kind": "management_change",
+    "bio": {
+      "person": "Pradeep Kumar Sinha",
+      "role": "Non-executive Part-time Chairperson",
+      "direction": "reappointed",
+      "background": "Pradeep Kumar Sinha is a retired Indian civil servant of the 1977 batch (IAS cadre) who served as the Cabinet Secretary to the Government of India from 2015 to 2019. Following his tenure as Cabinet Secretary, he also served as the Principal Advisor to the Prime Minister of India. He brings extensive administrative and governance experience to his role at the bank."
+    },
+    "id": "a0695cee8dd49199",
+    "ticker": "ICICIBANK",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "bc0383f1d5df9eb6": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director/KMP/SMP",
+      "direction": "resigning",
+      "background": null
+    },
+    "id": "bc0383f1d5df9eb6",
+    "ticker": "SUNPHARMA",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "c5e4225f8cad0221": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director",
+      "direction": "resigning",
+      "background": null
+    },
+    "id": "c5e4225f8cad0221",
+    "ticker": "SUNPHARMA",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6d4ef19480c844f9": {
+    "kind": "management_change",
+    "bio": {
+      "person": "Noel Naval Tata",
+      "role": "Non-Executive, Non-Independent Director and Vice Chairman",
+      "direction": "retiring",
+      "background": "Noel Naval Tata is a prominent Indian businessman and a key member of the Tata family, having served in leadership roles across various Tata group companies including Trent and Tata International. He brings decades of retail and corporate leadership experience to his governance roles. Additionally, he currently chairs Tata Trusts, overseeing the philanthropic engine of the Tata group."
+    },
+    "id": "6d4ef19480c844f9",
+    "ticker": "TATASTEEL",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "7bdcfc1d62eb3bdf": {
+    "kind": "management_change",
+    "bio": {
+      "person": "Noel Naval Tata",
+      "role": "Non-Executive, Non-Independent Director and Vice Chairman",
+      "direction": "retiring",
+      "background": "Noel Naval Tata is a long-serving stalwart within the Tata Group, having previously headed Tata International and Trent Ltd., the group's retail arm. He brings extensive leadership experience across various sectors including retail, manufacturing, and financial services. He is also the Chairman of Tata Trusts, overseeing philanthropic activities of the conglomerate."
+    },
+    "id": "7bdcfc1d62eb3bdf",
+    "ticker": "TATASTEEL",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4a0bd7a02802cfd6": {
+    "kind": "management_change",
+    "bio": {
+      "person": "Noel N Tata",
+      "role": "Chairman",
+      "direction": "retiring",
+      "background": "Noel N Tata is a veteran Tata group executive who has previously led Trent Limited as Managing Director, transforming it into a leading retail player in India. He has also served as the Chairman of Tata International and has extensive experience across various retail and manufacturing businesses within the conglomerate."
+    },
+    "id": "4a0bd7a02802cfd6",
+    "ticker": "TRENT",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "072c62b873e211b1": {
+    "kind": "management_change",
+    "bio": {
+      "person": "Kalpana Merchant",
+      "role": "Non-Executive Independent Director",
+      "direction": "joining",
+      "background": null
+    },
+    "id": "072c62b873e211b1",
+    "ticker": "TRENT",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "4f79e714afa044ce": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director",
+      "direction": "joining",
+      "background": null
+    },
+    "id": "4f79e714afa044ce",
+    "ticker": "TRENT",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "778ee071689f2ffa": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director/KMP/SMP",
+      "direction": "resigning",
+      "background": null
+    },
+    "id": "778ee071689f2ffa",
+    "ticker": "TRENT",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "526464f5db95b9cd": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Non-Executive Non-Independent Director",
+      "direction": "resigning",
+      "background": null
+    },
+    "id": "526464f5db95b9cd",
+    "ticker": "TRENT",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "543a8a3d07c04944": {
+    "kind": "management_change",
+    "bio": {
+      "person": "K. K. Maheshwari",
+      "role": "Non-Executive Vice Chairman",
+      "direction": "resigning",
+      "background": "K.K. Maheshwari is a seasoned business leader within the Aditya Birla Group, having served in various leadership capacities across major group companies including UltraTech Cement and Grasim Industries. He has extensive experience in driving strategic growth, operational excellence, and sustainability initiatives in the manufacturing and cement sectors. Over his long tenure, he has played a pivotal role in shaping the corporate trajectory of several flagship entities of the conglomerate."
+    },
+    "id": "543a8a3d07c04944",
+    "ticker": "ULTRACEMCO",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "d779b60c60f505d3": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director/KMP/SMP",
+      "direction": "resigning",
+      "background": null
+    },
+    "id": "d779b60c60f505d3",
+    "ticker": "ULTRACEMCO",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6c7c6a48a346f839": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director/KMP/SMP",
+      "direction": "resigning",
+      "background": null
+    },
+    "id": "6c7c6a48a346f839",
+    "ticker": "ULTRACEMCO",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "2da4cd08a85bf015": {
+    "kind": "management_change",
+    "bio": {
+      "person": null,
+      "role": "Director",
+      "direction": "reappointed",
+      "background": null
+    },
+    "id": "2da4cd08a85bf015",
+    "ticker": "ULTRACEMCO",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6a68afe756c5e3e6": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 21862.37,
+        "qoq": null,
+        "yoy": 42.4,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 532.35,
+        "qoq": null,
+        "yoy": -42.4,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 410.87,
+        "qoq": null,
+        "yoy": -44.9,
+        "unit": "INR cr"
+      }
+    },
+    "id": "6a68afe756c5e3e6",
+    "ticker": "DIXON",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5dbb61c541ac2ee0": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 21863,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": 666,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 532,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 411,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      }
+    },
+    "id": "5dbb61c541ac2ee0",
+    "ticker": "DIXON",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "29a0975fb6446f6f": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 92184.38,
+        "qoq": 1.3,
+        "yoy": 2.2,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 25108.3,
+        "qoq": 2.8,
+        "yoy": -46.3,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 19069.72,
+        "qoq": 2.3,
+        "yoy": -48.2,
+        "unit": "INR cr"
+      }
+    },
+    "id": "29a0975fb6446f6f",
+    "ticker": "HDFCBANK",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0390029aadc969ec": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 18071,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": 4089,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 2796,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      }
+    },
+    "id": "0390029aadc969ec",
+    "ticker": "HINDUNILVR",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "0126de93f4149659": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 57157.49,
+        "qoq": 5.4,
+        "yoy": 15.9,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": 20575.23,
+        "qoq": 0.9,
+        "yoy": 18.9,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 19724.54,
+        "qoq": 3.1,
+        "yoy": 20.4,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 14843.03,
+        "qoq": 0.3,
+        "yoy": 20.1,
+        "unit": "INR cr"
+      }
+    },
+    "id": "0126de93f4149659",
+    "ticker": "ICICIBANK",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "db72f194950146d6": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 28317.67,
+        "qoq": 5.1,
+        "yoy": 45.7,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": 5940.0,
+        "qoq": 15.1,
+        "yoy": -16.9,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 5481.75,
+        "qoq": 15.2,
+        "yoy": -19.9,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 4137.12,
+        "qoq": 15.6,
+        "yoy": -20.1,
+        "unit": "INR cr"
+      }
+    },
+    "id": "db72f194950146d6",
+    "ticker": "ITC",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "702646e8043b9eb9": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 28317.67,
+        "qoq": 5.1,
+        "yoy": 45.7,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": 5940.02,
+        "qoq": 15.1,
+        "yoy": -16.9,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 5481.75,
+        "qoq": 15.2,
+        "yoy": -19.9,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 4137.12,
+        "qoq": 15.6,
+        "yoy": -20.1,
+        "unit": "INR cr"
+      }
+    },
+    "id": "702646e8043b9eb9",
+    "ticker": "ITC",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "84ee0c9c689c439a": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 78750,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 5202,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      }
+    },
+    "id": "84ee0c9c689c439a",
+    "ticker": "LT",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "6bad3764a38275d5": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 50615.5,
+        "qoq": 1.3,
+        "yoy": 26.1,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 2414.9,
+        "qoq": -28.0,
+        "yoy": -26.9,
+        "unit": "INR cr"
+      }
+    },
+    "id": "6bad3764a38275d5",
+    "ticker": "MARUTI",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "5b2ee3017bee28df": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 533402,
+        "qoq": 1.7,
+        "yoy": 26.0,
+        "unit": "INR cr"
+      },
+      "ebitda": null,
+      "pbt": {
+        "current": 31658,
+        "qoq": -27.1,
+        "yoy": -26.2,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 24149,
+        "qoq": -28.0,
+        "yoy": -26.9,
+        "unit": "INR cr"
+      }
+    },
+    "id": "5b2ee3017bee28df",
+    "ticker": "MARUTI",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "fe817da66b040214": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 6222.93,
+        "qoq": 5.8,
+        "yoy": 34.7,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": 17557.1,
+        "qoq": -2.7,
+        "yoy": 39.7,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 12029.9,
+        "qoq": -19.1,
+        "yoy": 79.1,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 8712.9,
+        "qoq": -21.9,
+        "yoy": 54.4,
+        "unit": "INR cr"
+      }
+    },
+    "id": "fe817da66b040214",
+    "ticker": "SUNPHARMA",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "ad7057586f587e06": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 5899.25,
+        "qoq": 2.0,
+        "yoy": 21.8,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": 619.06,
+        "qoq": -10.5,
+        "yoy": 29.8,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 468.09,
+        "qoq": -9.6,
+        "yoy": 25.4,
+        "unit": "INR cr"
+      }
+    },
+    "id": "ad7057586f587e06",
+    "ticker": "TRENT",
+    "model": "gemini-3.5-flash-lite"
+  },
+  "24da22d348c081a1": {
+    "kind": "results",
+    "results": {
+      "quarter": "Q2 FY27",
+      "unit": "INR cr",
+      "revenue": {
+        "current": 5788,
+        "qoq": null,
+        "yoy": 23.0,
+        "unit": "INR cr"
+      },
+      "ebitda": {
+        "current": 791,
+        "qoq": null,
+        "yoy": 37.0,
+        "unit": "INR cr"
+      },
+      "pbt": {
+        "current": null,
+        "qoq": null,
+        "yoy": null,
+        "unit": "INR cr"
+      },
+      "pat": {
+        "current": 490,
+        "qoq": null,
+        "yoy": 9.0,
+        "unit": "INR cr"
+      }
+    },
+    "id": "24da22d348c081a1",
+    "ticker": "TRENT",
+    "model": "gemini-3.5-flash-lite"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-11-14T11:26:23.740205+05:30",
+  "engine": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "tier": "free",
+  "enrichedNow": 30,
+  "inputTokens": 75776,
+  "outputTokens": 4921,
+  "totalTokens": 80697,
+  "costUSD": 0.0
+}

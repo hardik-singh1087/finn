@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { Announcement, PriceSummary } from "@/types/finn";
+import type { Alert, Announcement, PriceSummary } from "@/types/finn";
 import { AnnouncementCard } from "./AnnouncementCard";
+import { AlertCard } from "./AlertCard";
+import { useSettings } from "@/lib/settings";
 
 const PRESETS = [
   { label: "24h", h: 24 },
@@ -11,11 +13,13 @@ const PRESETS = [
 ];
 
 export function Feed() {
+  const [settings] = useSettings();
   const [hours, setHours] = useState(24);
   const [customOpen, setCustomOpen] = useState(false);
   const [customDays, setCustomDays] = useState(30);
   const [items, setItems] = useState<Announcement[]>([]);
   const [prices, setPrices] = useState<Record<string, PriceSummary>>({});
+  const [alerts, setAlerts] = useState<Alert[]>([]);
   const [loading, setLoading] = useState(true);
   const [showRoutine, setShowRoutine] = useState(false);
 
@@ -31,6 +35,19 @@ export function Feed() {
       .catch(() => {});
   }, []);
 
+  // Alerts whenever the thresholds change (alert engine API).
+  useEffect(() => {
+    const qs = new URLSearchParams({
+      volumeMultiple: String(settings.volumeMultiple),
+      priceMovePct: String(settings.priceMovePct),
+      lookbackDays: String(settings.lookbackDays),
+    });
+    fetch(`/api/alerts?${qs}`)
+      .then((r) => r.json())
+      .then((d) => setAlerts(d.alerts ?? []))
+      .catch(() => setAlerts([]));
+  }, [settings.volumeMultiple, settings.priceMovePct, settings.lookbackDays]);
+
   // Announcements whenever the window changes (prompt 2 API).
   useEffect(() => {
     setLoading(true);
@@ -41,18 +58,43 @@ export function Feed() {
       .finally(() => setLoading(false));
   }, [hours]);
 
-  const { important, routine } = useMemo(() => {
-    // API already sorts by importance desc, then date desc.
+  // One alert per ticker+kind (the most severe), so the section stays tight.
+  const topAlerts = useMemo(() => {
+    const best = new Map<string, Alert>();
+    for (const a of alerts) {
+      const k = `${a.ticker}:${a.kind}`;
+      if (!best.has(k)) best.set(k, a); // alerts arrive severity-sorted
+    }
+    return [...best.values()].slice(0, 8);
+  }, [alerts]);
+
+  const cared = useMemo(() => new Set(settings.caredTypes), [settings.caredTypes]);
+  const { important, muted } = useMemo(() => {
+    const isImportant = (a: Announcement) => a.type !== "unclassified" && cared.has(a.type);
     return {
-      important: items.filter((a) => a.type !== "unclassified"),
-      routine: items.filter((a) => a.type === "unclassified"),
+      important: items.filter(isImportant),
+      muted: items.filter((a) => !isImportant(a)),
     };
-  }, [items]);
+  }, [items, cared]);
 
   const pickPreset = (h: number) => { setCustomOpen(false); setHours(h); };
 
   return (
     <div className="w-full">
+      {/* Alerts */}
+      {topAlerts.length > 0 && (
+        <section className="mb-4">
+          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-amber-600 dark:text-amber-400">
+            ⚡ Alerts · {topAlerts.length}
+          </h2>
+          <div className="space-y-2">
+            {topAlerts.map((a) => (
+              <AlertCard key={`${a.ticker}-${a.kind}-${a.date}`} alert={a} />
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Window picker */}
       <div className="sticky top-0 z-10 -mx-4 mb-3 bg-zinc-50/90 px-4 py-3 backdrop-blur dark:bg-black/80">
         <div className="flex items-center gap-1.5">
@@ -105,7 +147,7 @@ export function Feed() {
         <p className="mb-3 px-1 text-sm text-zinc-500 dark:text-zinc-400">
           <span className="font-semibold text-zinc-900 dark:text-zinc-100">{important.length}</span> update
           {important.length === 1 ? "" : "s"} that matter
-          {routine.length > 0 && <> · {routine.length} routine hidden</>}
+          {muted.length > 0 && <> · {muted.length} hidden</>}
         </p>
       )}
 
@@ -127,23 +169,22 @@ export function Feed() {
 
           {important.length === 0 && (
             <div className="rounded-2xl border border-dashed border-black/10 p-8 text-center text-sm text-zinc-500 dark:border-white/15">
-              Nothing material in this window. Try a longer period.
+              Nothing in this window for the types you follow. Try a longer period or widen your filters in settings.
             </div>
           )}
 
-          {/* Routine (collapsed) */}
-          {routine.length > 0 && (
+          {muted.length > 0 && (
             <div className="pt-1">
               <button
                 onClick={() => setShowRoutine((v) => !v)}
                 className="flex w-full items-center justify-between rounded-xl bg-black/[0.03] px-4 py-3 text-sm font-medium text-zinc-500 transition hover:bg-black/[0.05] dark:bg-white/[0.04] dark:text-zinc-400 dark:hover:bg-white/[0.07]"
               >
-                <span>Routine ({routine.length})</span>
+                <span>Routine &amp; muted ({muted.length})</span>
                 <span className={`transition ${showRoutine ? "rotate-180" : ""}`}>▾</span>
               </button>
               {showRoutine && (
                 <div className="mt-3 space-y-3">
-                  {routine.map((a) => (
+                  {muted.map((a) => (
                     <AnnouncementCard key={a.id} item={a} price={prices[a.ticker]} />
                   ))}
                 </div>

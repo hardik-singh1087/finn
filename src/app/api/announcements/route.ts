@@ -27,7 +27,8 @@ export async function GET(req: NextRequest) {
   const windowMs = hours ? hours * 3_600_000 : days ? days * 86_400_000 : null;
   const cutoff = windowMs ? Date.now() - windowMs : null;
 
-  let items: Announcement[] = await store.allAnnouncements();
+  const [all, enrichment] = await Promise.all([store.allAnnouncements(), store.enrichment()]);
+  let items: Announcement[] = all;
 
   items = items.filter((a) => {
     if (tickers && !tickers.has(a.ticker.toUpperCase())) return false;
@@ -39,7 +40,9 @@ export async function GET(req: NextRequest) {
 
   items.sort((a, b) => b.importance - a.importance || b.date.localeCompare(a.date));
   const total = items.length;
-  items = items.slice(0, limit);
+  items = items.slice(0, limit).map((a) =>
+    enrichment[a.id] ? { ...a, enrichment: enrichment[a.id] } : a,
+  );
 
   return NextResponse.json({
     total,
