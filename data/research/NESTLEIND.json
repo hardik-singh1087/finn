@@ -1,0 +1,409 @@
+{
+  "ticker": "NESTLEIND",
+  "name": "NESTLEIND",
+  "generatedAt": "2026-11-14T11:47:28.544387+05:30",
+  "docsUsed": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e83f21-9f3c-47c2-ba36-2a29fe44a380.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2025",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cce29c06-5e1f-4c2a-9585-327e6d47710c.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Oct 2023",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f589ba-8cc4-4dc1-8483-5790d410f3c1.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2023",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57b18a55-2938-4a2d-be61-e5c4f0cbc195.pdf"
+    }
+  ],
+  "models": {
+    "cheap": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.5-flash"
+  },
+  "sections": {
+    "business_snapshot": {
+      "title": "Business snapshot",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "The company operates in the food processing industry, which represents 100% of its business turnover. Based on Ind AS 108 operating segment guidelines, its entire business activity falls within a single operating segment, namely Food. Its revenue mix is split across four primary product categories: Milk Products and Nutrition contributes 33.4%, Prepared dishes and cooking aids accounts for 31.5%, Confectionery represents 19.3%, and Powdered and Liquid Beverages comprises 15.8% of total turnover.",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 196,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "II. Products/services 16. Details of business activities (accounting for 90% of the turnover): S. No. Description of Main Activity Description of Business Activity % of Turnover of the Entity 1. Food Processing Industry Food Processing Indu"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 163,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEAR ENDED 31st MARCH, 2026 (All amounts in J million, unless otherwise stated) 42 SEGMENT REPORTING Based on the guiding principles given in Ind AS 108 on \u2018Operating Segme"
+        }
+      ]
+    },
+    "financial_snapshot": {
+      "title": "Financial snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        {
+          "metric": "EPS",
+          "value": "18.38",
+          "n": 9
+        },
+        {
+          "metric": "EBITDA",
+          "value": "53,060.6 million",
+          "n": 6
+        }
+      ],
+      "citations": [
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 10,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "age Equity (%) 75.2 88.9 108.5 108.5 111.0 105.8 70.4 45.3 36.6 32.8 Operating Cash Flow 50,476 29,345 41,748 27,374 22,360 24,545 22,953 20,525 18,178 14,659 As % of Sales 21.9 14.6 17. 2 16.3 15.2 18.5 18.7 18.3 17. 9 15.6 Capital Expendi"
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 119,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "(806.0) (b) (i) Items that will be reclassified to profit or loss: Net movement on effective portion of cash flow hedges (32.6) 12.4 (ii) Income taxes relating to Items that will be reclassified to profit or loss 8.2 (3.1) (24.4) 9.3 OTHER "
+        }
+      ]
+    },
+    "trajectory": {
+      "title": "Trajectory",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "Over multi-year periods, the company has delivered strong consistent growth, with turnover growing at an 11.2% CAGR from 2015 to 2023\u20132024, supported by a 15.1% CAGR in profit from operations and a 16% CAGR in premium portfolio growth [4, 7]. Growth is expanding across key segments, driven by broad-based volume growth\u2014which accelerated from a 5-year CAGR of ~4.2% to consistent double-digit volume growth in recent quarters\u2014alongside strong performance in metros, mega cities, and quick commerce [1, 6, 10]. Conversely, long-term volume growth experienced periods of compression, dropping to roughly 3% to 4% (and lower between 2018 and 2022) due to commodity cost inflation and pack-price adjustments [1, 2, 9].",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "concall_transcript",
+          "period": "Oct 2023",
+          "page": 30,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f589ba-8cc4-4dc1-8483-5790d410f3c1.pdf",
+          "snippet": "be strong. Value growth, therefore, CAGR 11.3% in the last five years. This is the 2018 to 2023 period that we are talking about. The fortunes of India have also evolved, I am giving you town class wise sales, so I can tell you 15% sales, b"
+        },
+        {
+          "n": 2,
+          "docType": "concall_transcript",
+          "period": "Oct 2023",
+          "page": 30,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f589ba-8cc4-4dc1-8483-5790d410f3c1.pdf",
+          "snippet": "Nestl\u00e9 India Limited October 25, 2023 Page 29 of 64 A quick look at performance, which is the last element, consistent, collaborative and committed. This is our track record 10 years of strong domestic sales growth. The numbers have been ve"
+        },
+        {
+          "n": 4,
+          "docType": "concall_transcript",
+          "period": "Feb 2025",
+          "page": 7,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cce29c06-5e1f-4c2a-9585-327e6d47710c.pdf",
+          "snippet": "ire team and therefore, this is not just me, but I have the proud privilege of giving out the roar when the team achieves something. Between 2015 and 2023- 2024, the turnover of the c ompany has gone up by about 134%. This adjusts for the 1"
+        },
+        {
+          "n": 6,
+          "docType": "concall_transcript",
+          "period": "Oct 2023",
+          "page": 33,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f589ba-8cc4-4dc1-8483-5790d410f3c1.pdf",
+          "snippet": "Nestl\u00e9 India Limited October 25, 2023 Page 32 of 64 brands, it's as high as 25%, 30%. In some brands, it's as low as about 10%, 15%. But again, something that's been in quick commerce in this has been the fastest growth. 50% of our e-commer"
+        },
+        {
+          "n": 7,
+          "docType": "concall_transcript",
+          "period": "Feb 2025",
+          "page": 13,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cce29c06-5e1f-4c2a-9585-327e6d47710c.pdf",
+          "snippet": "to the math on this, but this is the overall opportunity. The overall premiumi zation opportunity we see in our categories is roughly 7,500 Crores. Today the growth of this portfolio is about 16% on a CAGR basis since 2015. Premium products"
+        },
+        {
+          "n": 9,
+          "docType": "concall_transcript",
+          "period": "Feb 2023",
+          "page": 6,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57b18a55-2938-4a2d-be61-e5c4f0cbc195.pdf",
+          "snippet": "the volume growths have come to between 3 and 4% and the rest of it has been pricing-led growth. What this really indicates to you, is that despite the enormity of the commodity cost escalations that we have faced as a Company and of course"
+        },
+        {
+          "n": 10,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 4,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e83f21-9f3c-47c2-ba36-2a29fe44a380.pdf",
+          "snippet": "gage with our brands. We have seen the momentum build progressively. So if you look at the last five years, we were getting a CAGR of close to 4.2% volume growth. But what has been really heartening is if you look at the last few quarters, "
+        }
+      ]
+    },
+    "balance_sheet": {
+      "title": "Balance sheet",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "The company significantly reduced its leverage in FY2026, with the debt-equity ratio declining from 0.3 to 0.1 as short-term borrowings used for working capital were repaid. Current borrowings fell sharply from \u20b97,308.6 million in FY2025 to \u20b941.5 million in FY2026, while non-current borrowings stood at \u20b9202.9 million. On the working-capital front, the current ratio improved from 0.8 to 1.0, supported by \u20b945,904.7 million in total current assets against current liabilities. The company maintained negative average working capital, with inventory turnover improving to 8.5 times and trade receivables turnover reaching 66.6 times.",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 165,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "13% V Inventory Turnover Ratio (in times) Net Sales Average Inventory 8.5 8.1 5% VI Trade Receivables Turnover Ratio (in times) Net Sales Average Trade Receivables 66.6 60.5 10% VII Trade Payables Turnover Ratio (in times) Purchases (4) Ave"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 108,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31st MARCH, 2026 (All amounts in J million, unless otherwise stated) S. No. Ratio Numerator Denominator Financial Year ended 31st March 2026 Financial Year ended 3"
+        },
+        {
+          "n": 4,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 165,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEAR ENDED 31st MARCH, 2026 (All amounts in J million, unless otherwise stated) 46 ACCOUNTING RATIOS S. No. Ratio Numerator Denominator Financial Year ended 31st March 2026"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 60,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "otal Current Assets 45,904.7 37,341.6 Total Assets 133,571.7 123,238.9 EQUITY AND LIABILITIES EQUITY Equity share capital 16 1,928.3 964.2 Other equity 17 51,164.1 40,207.3 Total Equity 53,092.4 41,171.5 LIABILITIES Non-Current Liabilities "
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 118,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "Total Current Assets 45,904.7 37,341.6 Total Assets 131,824.9 121,933.2 EQUITY AND LIABILITIES EQUITY Equity share capital 16 1,928.3 964.2 Other equity 17 49,641.4 39,137.9 Total Equity 51,569.7 40,102.1 LIABILITIES Non-Current Liabilities"
+        }
+      ]
+    },
+    "cash_quality": {
+      "title": "Cash quality",
+      "model": "gemini-3.5-flash",
+      "notFound": true,
+      "content": "",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 62,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "/ (increase) in trade receivables 343.2 (700.0) Decrease / (increase) in inventories 2,809.1 (7,671.0) Decrease / (increase) in other financial assets & other assets (729.9) (1,992.3) Increase / (decrease) in trade payables 5,878.9 1,341.2 "
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 120,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "for: Decrease / (increase) in trade receivables 343.2 (700.0) Decrease / (increase) in inventories 2,809.1 (7,671.0) Decrease / (increase) in other financial assets & other assets (729.9) (1,992.3) Increase / (decrease) in trade payables 5,"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 153,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "ges in fair value of recognised assets and liabilities (fair value hedges) and against highly probable forecast transactions (cash flow hedges). The effectiveness of hedge instruments is assessed at the inception and on an ongoing basis. De"
+        },
+        {
+          "n": 4,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 63,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "STATEMENT OF CASH FLOWS FOR THE YEAR ENDED 31st MARCH, 2026 Changes in liabilities arising from financing activities is as under: As at 31st March 2025 Cash flow changes Non- cash changes As at 31st March 2026 Deferred VAT liabilities 276.4"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 121,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "Changes in Liabilities arising from Financing activities is as under : As at 31st March 2025 Cash flow changes Non- cash changes As at 31 March 2026 Deferred VAT liabilities 276.4 (32.0) - 244.4 Lease liabilities 4,135.1 (1,166.0) 1,228.1 4"
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 100,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "ed at the year end is as under: Particulars Currency As at 31st March 2026 As at 31st March 2025 Gain on appreciation Loss on depreciation Gain on appreciation Loss on depreciation 5% appreciation/depreciation in Indian Rupees USD 1.8 (1.8)"
+        },
+        {
+          "n": 7,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 158,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS FOR THE YEAR ENDED 31st MARCH, 2026 (All amounts in J million, unless otherwise stated) k) DERIVATIVE FINANCIAL INSTRUMENTS Derivative instruments used by the Company include forwa"
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 100,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "3.4 Derivative liabilities 97.8 28.0 (ii) Notional value of cash flow hedges 5,261.3 3,924.3 (iii) Movement in respect of designated cash flow hedges is summarised below: Balance as at the beginning of the year 18.0 8.7 Add: Gain / (loss) r"
+        },
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 79,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": ".5 Capital Reserve 99.8 99.8 Items of Other Comprehensive Income Effective portion of cash flow hedges (6.4) 18.0 51,164.1 40,207.3 17 OTHER EQUITY Nature and description of reserve: (i) Retained Earnings - Retained earnings are the accumul"
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 137,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+          "snippet": "20.1 Capital Reserve 99.8 99.8 Items of Other Comprehensive Income: Effective portion of cash flow hedges (6.4) 18.0 49,641.4 39,137.9 17 OTHER EQUITY Nature and description of reserve: (i) Retained Earnings - Retained earnings are the accu"
+        }
+      ]
+    },
+    "guidance": {
+      "title": "Guidance",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "Based on the provided transcripts, management's explicit statements and guidance regarding growth, margins, and capex include:\n\n* **Margin Outlook:** Management has explicitly emphasized a focus on maintaining stable margins rather than aggressive margin expansion, backed by efficiency and saving programs to offset pricing sensitivity and enable reinvestment behind brands [5], [6].\n* **Growth Target:** Management noted that growth in niche/innovative categories will take time to build up and indicated that moving from a 6%\u20136.5% run-rate to 10% in the immediate next year was not expected [5].\n* **Capex Commitments:** Management committed to an investment program of \u20b95,000 crore (around 600 million Swiss francs) over three years (excluding M&A), pointing to high plant capacity utilization and identifying 2023 and 2024 as the peak years for spending [7], [9].\n* **Capacity Focus:** The planned capex expansion is primarily directed toward expanding capacity in core categories such as foods and chocolates [9].",
+      "citations": [
+        {
+          "n": 5,
+          "docType": "concall_transcript",
+          "period": "Oct 2023",
+          "page": 62,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f589ba-8cc4-4dc1-8483-5790d410f3c1.pdf",
+          "snippet": "Nestl\u00e9 India Limited October 25, 2023 Page 61 of 64 sales. And that will come from a combination of some base innovations in the core categories and some high value innovations in some of the niche categories. That put together should get u"
+        },
+        {
+          "n": 6,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 17,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e83f21-9f3c-47c2-ba36-2a29fe44a380.pdf",
+          "snippet": "Nestl\u00e9 India Limited August 4, 2026 Page 16 of 24 is very, very price sensitive still and in our businesses across, we spoke about low penetration, which is why the price point back continues to be very, very important. So that is a thrust "
+        },
+        {
+          "n": 7,
+          "docType": "concall_transcript",
+          "period": "Feb 2023",
+          "page": 23,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57b18a55-2938-4a2d-be61-e5c4f0cbc195.pdf",
+          "snippet": "ant or how do we read into this statement? Suresh Narayanan: It is a very clear statement that was made. He talked about investing 5000 crores or 600 million Swiss francs in the coming three years. Between 1960 and 2021, we have spent 8000 "
+        },
+        {
+          "n": 9,
+          "docType": "concall_transcript",
+          "period": "Feb 2023",
+          "page": 21,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57b18a55-2938-4a2d-be61-e5c4f0cbc195.pdf",
+          "snippet": "eeded in the coming years. We see, that we know we spent 5 billion in 2022 and we see that the next two years will double and then grow further in 2024. So, the large amount of capex is coming in the next two years. It is very clear we need"
+        }
+      ]
+    },
+    "bull_vs_bear": {
+      "title": "Bull vs bear",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": {
+        "bull": [
+          "Secular growth momentum driven by strong consumer response and demand for key core brands like MAGGI, with plans to expand capacity to capture opportunities [3].",
+          "Global strategy focused on a virtuous circle of driving operational efficiencies and digital tech to fund investments in key brands, market share, and long-term profitable growth [4], [5].",
+          "Disciplined financial approach that prioritizes maintaining profitability margins in line with past track records rather than chasing growth at the expense of margins [10]."
+        ],
+        "bear": [
+          "Constraints on distribution bandwidth and gastric capacity to handle new launches, which can limit the ability to fully exploit niche regional opportunities [9].",
+          "Sales growth acceleration from core and niche innovations takes time to materialize rather than shifting rapidly year-over-year [1].",
+          "Potential short-term performance volatility, with quarters that could be a little off during execution [3]."
+        ]
+      },
+      "citations": [
+        {
+          "n": 1,
+          "docType": "concall_transcript",
+          "period": "Oct 2023",
+          "page": 62,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f589ba-8cc4-4dc1-8483-5790d410f3c1.pdf",
+          "snippet": "Nestl\u00e9 India Limited October 25, 2023 Page 61 of 64 sales. And that will come from a combination of some base innovations in the core categories and some high value innovations in some of the niche categories. That put together should get u"
+        },
+        {
+          "n": 3,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 16,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e83f21-9f3c-47c2-ba36-2a29fe44a380.pdf",
+          "snippet": "pacity , we are putting in more capacity , but the growth we are seeing is equally strong. Keeping the relative positioning in mind, we are delighted with some of the responses we are seeing on MAGGI, on the S picy range, on Double Masala, "
+        },
+        {
+          "n": 4,
+          "docType": "concall_transcript",
+          "period": "Feb 2025",
+          "page": 12,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cce29c06-5e1f-4c2a-9585-327e6d47710c.pdf",
+          "snippet": "d future output profiles of this country. What is our strategy? Our strategy globally and this is a globally articulated strategy by Laurent Freixe our new CEO is a very simple strategy. It seeks to achieve three things, achieve efficiencie"
+        },
+        {
+          "n": 5,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 23,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e83f21-9f3c-47c2-ba36-2a29fe44a380.pdf",
+          "snippet": "on innovating. But given the quality of brands and people, I believe that we can pull this through. And that is why we are confident. Ed, anything? Edouard Mac Nab: No, I just want again to re-emphasize, the accelerated saving program that "
+        },
+        {
+          "n": 9,
+          "docType": "concall_transcript",
+          "period": "Oct 2023",
+          "page": 63,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f589ba-8cc4-4dc1-8483-5790d410f3c1.pdf",
+          "snippet": "vation, you seem to suggest that I have a constraint on my distribution, which means I have, I cannot go in terms of number of packs, in terms of number of products. Now, isn't this a dichotomy of sorts? Because you are saying that there ar"
+        },
+        {
+          "n": 10,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 24,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e83f21-9f3c-47c2-ba36-2a29fe44a380.pdf",
+          "snippet": "Nestl\u00e9 India Limited August 4, 2026 Page 23 of 24 profitability margins across. And that is something which we have established in the last couple of years. Ed, anything more to add? Edouard Mac Nab: No, just maybe to add, we are not chasin"
+        }
+      ]
+    }
+  },
+  "tokens": {
+    "input": 16106,
+    "output": 1248
+  },
+  "costUSD": 0.0
+}

@@ -1,0 +1,208 @@
+{
+  "ticker": "RELIANCE",
+  "name": "RELIANCE",
+  "generatedAt": "2026-11-14T11:57:07.595561+05:30",
+  "docsUsed": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Nov 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e997741-4d35-4188-933a-cf020fb9c816.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jan 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf"
+    }
+  ],
+  "models": {
+    "cheap": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.5-flash"
+  },
+  "sections": {
+    "business_snapshot": {
+      "title": "Business snapshot",
+      "model": null,
+      "notFound": true,
+      "content": null,
+      "citations": []
+    },
+    "financial_snapshot": {
+      "title": "Financial snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        {
+          "metric": "Revenue",
+          "value": "H 5,46,852 crore",
+          "n": 7
+        },
+        {
+          "metric": "EBITDA",
+          "value": "H 78,085 crore",
+          "n": 7
+        },
+        {
+          "metric": "PAT / net profit",
+          "value": "H 43,851 crore",
+          "n": 7
+        }
+      ],
+      "citations": [
+        {
+          "n": 7,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 44,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "ness, along with continuing growth initiatives in Digital Services and Retail businesses. Standalone Performance Standalone revenue for RIL was H 5,46,852 crore (US$ 57.7 billion), down 1.9% compared to the previous financial year. EBITDA s"
+        }
+      ]
+    },
+    "trajectory": {
+      "title": "Trajectory",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "Digital services and connectivity businesses are experiencing steady multi-year growth driven by robust subscriber additions, increased customer utilization, ARPU growth, and scale-up of digital services [1, 3, 5]. In the retail sector, grocery digital orders and overall digital revenues are demonstrating strong growth with increasing order values and customer bases [4, 5]. Conversely, retail EBITDA margins have compressed due to the increased growth of digital revenues [4].",
+      "citations": []
+    },
+    "balance_sheet": {
+      "title": "Balance sheet",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "For the standalone entity, the debt-equity ratio increased to 0.41 in 2025-26 from 0.37 in 2024-25 [5]. Total standalone non-current borrowings were 22,789 crore and current borrowings were 31,392 crore as of 31st March, 2026 [3]. The company's net working capital is negative [1], with a standalone current ratio of 0.99 for 2025-26 [5].",
+      "citations": []
+    },
+    "cash_quality": {
+      "title": "Cash quality",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": true,
+      "content": "",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 142,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "nd Other Payables 86,609 38,427 Sub-Total 12,497 23,724 Cash Generated from Operations 2,01,721 1,90,628 Taxes Paid (Net) (9,608) (11,925) Net Cash Flow from Operating Activities * 1,92,113 1,78,703 B. Cash Flow from Investing Activities Ex"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 100,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "Reliance Industries Limited Integrated Annual Report 2025-26 118 119 Standalone Financial Statements (H in crore) 2025-26 2024-25 A. Cash Flow from Operating Activities Net Profit Before Tax as per Statement of Profit and Loss 54,076 46,128"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 100,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "1) Net Cash Flow from Operating Activities* 79,059 79,392 B. Cash Flow from Investing Activities Expenditure on Property, Plant and Equipment and Intangible Assets (34,143) (37,304) Proceeds from disposal of Property, Plant and Equipment an"
+        },
+        {
+          "n": 4,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 142,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "Consolidated Financial Statements Reliance Industries Limited Integrated Annual Report 2025-26 202 203 (I in crore) 2025-26 2024-25 A. Cash Flow from Operating Activities Net Profit Before Share of Profit / (Loss) of Associates / Joint Vent"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 130,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "Reliance Industries Limited Integrated Annual Report 2025-26 178 179 Standalone Financial Statements Notes To the Standalone Financial Statements for the year ended 31st March, 2026 iv) Liquidity Risk Liquidity risk arises from the Company\u2019"
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 142,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "revious Year I 22,00,000). Consolidated Statement of Cash Flows For the year ended 31st March, 2026 Change in Liability Arising from Financing Activities (I in crore) Particulars 1st April, 2025 Cash flow Foreign exchange movement/Others 31"
+        },
+        {
+          "n": 7,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 100,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "om Financing Activities (H in crore) 1st April, 2025 Cash flow Foreign exchange movement/Others 31st March, 2026 Borrowing - Non-Current (including current maturities) (Refer Note 15) 1,84,942 190 16,898 2,02,030 Borrowing \u2011 Current (Refer "
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 91,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "d were not limited to the following: \u2022 Tested the design, implementation and operating effectiveness of the controls established by the Company in the process of determination of fair value of the investments. \u2022 Reviewed the fair valuation "
+        },
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 134,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "the design, implementation and operating effectiveness of the controls established by management in the process of determination of recoverable value of the CGU. \u2022 Reviewed the valuation report of external expert provided by the management "
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 102,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+          "snippet": "undertaking the hedge. Any gains or losses arising from changes in the fair value of derivatives are taken directly to Statement of Profit and Loss, except for the effective portion of cash flow hedge which is recognised in Other Comprehens"
+        }
+      ]
+    },
+    "guidance": {
+      "title": "Guidance",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "1. Capex is starting to taper down as the bulk of the capex, including 5G and UBR core network deployment, is mostly complete across the country [1]. \n2. Management maintains its directional target of doubling absolute EBITDA practically in two years, moving from the year of consolidation to high-growth years [3, 8]. \n3. Management guided to continuing the expansion of the dark store network and going deeper into markets over the next 9 to 12 months [5]. \n4. Management has not set a specific margin target, focusing instead on growing absolute EBITDA and driving operating leverage through scale [8].",
+      "citations": []
+    },
+    "bull_vs_bear": {
+      "title": "Bull vs bear",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": {
+        "bull": [
+          "Operating revenues increased 11.4% year-on-year to Rs. 40,475 Crores, and EBITDA grew 16.6% year-on-year to Rs. 21,879 Crores [4].",
+          "JPL operating revenues grew 12% with EBITDA growing faster due to operating leverage, achieving an EBITDA margin of 53.3% [7].",
+          "The quick commerce business is positive at the contribution margin level [5]."
+        ],
+        "bear": [
+          "Margins have come down with the scaling up of the quick commerce business and online businesses, leading to a consistent lower margin trajectory [2].",
+          "Depreciation and finance costs increased due to a higher asset base and higher debt, reflecting in a higher profit after tax decline of 24% against an EBITDA decline of 10% to 11% [2]."
+        ]
+      },
+      "citations": []
+    }
+  },
+  "tokens": {
+    "input": 13755,
+    "output": 906
+  },
+  "costUSD": 0.0
+}

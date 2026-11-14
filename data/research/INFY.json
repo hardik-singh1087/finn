@@ -1,0 +1,135 @@
+{
+  "ticker": "INFY",
+  "name": "INFY",
+  "generatedAt": "2026-11-14T11:57:44.471562+05:30",
+  "docsUsed": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Oct 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf"
+    }
+  ],
+  "models": {
+    "cheap": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.5-flash"
+  },
+  "sections": {
+    "business_snapshot": {
+      "title": "Business snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "The company provides end-to-end business solutions and IT services, including software development and maintenance, consulting, package implementation, and business process management [1, 2, 8]. Its main business segments are organized by client industries such as Financial Services and Insurance, Manufacturing, Retail, Consumer Packaged Goods and Logistics, Energy, Utilities, Resources and Services, Communication, Telecom OEM and Media, Hi-Tech, and Life Sciences and Healthcare [3, 7]. The company derives its revenue primarily from software services alongside products and platforms [10].",
+      "citations": []
+    },
+    "financial_snapshot": {
+      "title": "Financial snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        {
+          "metric": "Revenue",
+          "value": "1,78,650 crore / $20,158 million",
+          "n": 8
+        },
+        {
+          "metric": "PAT / net profit",
+          "value": "29,440 crore",
+          "n": 8
+        },
+        {
+          "metric": "EPS",
+          "value": "\u20b9 71.58",
+          "n": 8
+        },
+        {
+          "metric": "ROE",
+          "value": "31.6%",
+          "n": 9
+        },
+        {
+          "metric": "Operating margin",
+          "value": "21.0%",
+          "n": 9
+        }
+      ],
+      "citations": [
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 17,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+          "snippet": "Business highlights Performance overview Revenue crosses $20 billion mark with resilient growth in fiscal 2026 In \u20b9 crore, except per equity share data* FY 2026 FY 2025 FY 2024 FY 2023 FY 2022 Revenues 1,78,650 1,62,990 1,53,670 1,46,767 1,"
+        },
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 17,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+          "snippet": "(2) Consolidated cash and investments(1) Return on equity Number of US$50 million + clients Adjusted operating margin (3) Dividend per share (in \u20b9) Buyback completed Basic earnings per share (par value of \u20b9 5 each) Large deal TCV (Total con"
+        }
+      ]
+    },
+    "trajectory": {
+      "title": "Trajectory",
+      "model": null,
+      "notFound": true,
+      "content": null,
+      "citations": []
+    },
+    "balance_sheet": {
+      "title": "Balance sheet",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "Infosys maintains a strong balance sheet with a debt-to-equity ratio of 0.0, as total debt represents only lease liabilities [1]. The company has no outstanding borrowings and believes its working capital is sufficient to meet current requirements [7]. As of March 31, 2026, the company recorded a current ratio of 2.0 and a net capital turnover ratio of 3.6 [1, 2].",
+      "citations": []
+    },
+    "cash_quality": {
+      "title": "Cash quality",
+      "model": null,
+      "notFound": true,
+      "content": null,
+      "citations": []
+    },
+    "guidance": {
+      "title": "Guidance",
+      "model": null,
+      "notFound": true,
+      "content": null,
+      "citations": []
+    },
+    "bull_vs_bear": {
+      "title": "Bull vs bear",
+      "model": null,
+      "notFound": true,
+      "content": null,
+      "citations": []
+    }
+  },
+  "tokens": {
+    "input": 6707,
+    "output": 528
+  },
+  "costUSD": 0.0
+}

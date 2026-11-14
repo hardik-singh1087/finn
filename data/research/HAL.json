@@ -1,0 +1,267 @@
+{
+  "ticker": "HAL",
+  "name": "HAL",
+  "generatedAt": "2026-11-14T11:56:05.901513+05:30",
+  "docsUsed": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2025",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2024",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2023",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf"
+    }
+  ],
+  "models": {
+    "cheap": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.5-flash"
+  },
+  "sections": {
+    "business_snapshot": {
+      "title": "Business snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "The company is engaged in the manufacture of aircraft and helicopters, as well as the repair and maintenance of aircraft, helicopters, and engines [3]. Its main business segments and revenue mix consist of the manufacture of aircraft and helicopters, which accounts for 30% of total turnover, and the repair and maintenance of aircraft, helicopters, and engines, which contributes 65% of total turnover [3].",
+      "citations": []
+    },
+    "financial_snapshot": {
+      "title": "Financial snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        {
+          "metric": "Revenue",
+          "value": "33,08,979 Lakh",
+          "n": 1
+        },
+        {
+          "metric": "PAT",
+          "value": "9,07,567 Lakh",
+          "n": 1
+        },
+        {
+          "metric": "EPS",
+          "value": "135.71",
+          "n": 5
+        },
+        {
+          "metric": "ROE",
+          "value": "23.98%",
+          "n": 2
+        }
+      ],
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 36,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "Dear Members, Your Board of Directors takes great pleasure in presenting the Report on the performance of the Company (\u201cthe Company\u201d or \u201cHAL\u201d), and its Audited Financial Statements for the Financial Year ended March 31, 2026, together with "
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 92,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "611.01 520.99 14 Earnings Per Equity Share (Face value of ` 5) (`) 135.71 124.36 15 Dividend Per Equity Share (Face value of ` 5) (`) 35 40* 16 Debtors Turnover Ratio (No. of times) 7.30 6.50 17 Inventory Turnover Ratio (No. of times) 1.21 "
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 291,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "% Change in Ratio Explanation for change in the ratio by more than 25% as compared to the preceding year (a) Current Ratio Current Assets Current Liabilities 2.61 2.04 27.94% Cash balance & GST balance increased (b) Debt-Equity Ratio Total "
+        }
+      ]
+    },
+    "trajectory": {
+      "title": "Trajectory",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "HAL anticipates a minimum revenue growth of 8% to 10% moving toward double-digit growth (around 10% to 12%) over the medium term [2, 3, 10]. Operating profitability is expected to remain healthy and hover around 18% to 19%, with only marginal year-on-year improvements rather than substantial increases [6]. Revenue drivers include manufacturing projects, engines, and spares [10].",
+      "citations": []
+    },
+    "balance_sheet": {
+      "title": "Balance sheet",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "The company carries no borrowed funds or debt for the periods presented, resulting in a debt-equity ratio of 0.00:1 and making leverage ratios not applicable [1, 10]. Regarding the working-capital picture, the current ratio strengthened to 2.61 from 2.04 in the preceding year, driven by increases in cash and GST balances [1]. Additionally, the net capital turnover ratio shifted to 0.54 from 0.83, influenced by higher cash balances resulting from advances received on new contracts [7].",
+      "citations": []
+    },
+    "cash_quality": {
+      "title": "Cash quality",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": true,
+      "content": "",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 187,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "500 635 Provision for Doubtful Advances 1297 240 Provision for Replacement and Other charges 2742 126373 Provision for Warranty 38728 37015 Provision for Raw Materials and Components, Stores and Spare parts, Loose Tools and Equipment, Const"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 325,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "5010 Provision for Doubtful Claims 500 409 Provision for Doubtful Advances 1297 240 Provision for Replacement and Other charges 2742 126373 Provision for Warranty 38728 37015 Provision for Raw Materials and Components, Stores and Spare part"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 392,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "the year ended 31st March 2025 For the year ended 31st March 2026 For the year ended 31st March 2025 Revenue 2097 1886 51 52 Profit for the year 309 138 -16 -16 Other Comprehensive Income -2 -17 Total Comprehensive Income 307 121 -16 -16 Pr"
+        },
+        {
+          "n": 4,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 188,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "Indian Accounting Standard 7 \u201cStatement of Cash Flow\u201d 2. Cash & Cash equivalent include Short Term Deposits with Bank 3. Cash and Cash Equivalents are available fully for use 4. The Cash flow statement as above inculdes CSR Expenditure. Ref"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 188,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "187 Standalone Statement of Cash Flows for the year ended 31st March 2026 (` in Lakhs) SI. No. Particulars For the year ended 31st March 2026 For the year ended 31st March 2025 C Cash flow from Financing Activities Payment of Lease Liabilit"
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 325,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "18161 Income Taxes Paid -298861 -353815 Net Cash (used in)/generated from Operating Activities (A) 1090638 1364346 B. Cash flow from Investing activities Purchase of Property, Plant & Equipment -148520 -93009 Purchase of Intangible Assets -"
+        },
+        {
+          "n": 7,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 187,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "3815 Net Cash (used in)/generated from Operating Activities (A) 1091953 1364512 B Cash flow from Investing activities Purchase of Property, Plant & Equipment -148475 -92974 Purchase of Intangible Assets -106395 -82683 Proceeds from sale of "
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 338,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "Cash and cash equivalents for the purpose of Cash Flow Statement comprises Cash on hand, cheques and drafts on hand, bank balances and short-term deposits with banks which are readily convertible into known amounts of cash, are subject to a"
+        },
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 405,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "ts and procure orders for execution, management is of the opinion that company is a going concern. (ii) In respect of HALBIT Avionics Private Ltd Material Uncertainity related to Going Concern The Company, as on March 31, 2026 has a net lia"
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 298,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "going concern. (ii) In respect of HALBIT Avionics Private Ltd Material Uncertainty Related to Going Concern The Company, as on March 31, 2026 has a net liability of ` 1279.95 lakhs (March 31 st 2025: ` 1,015.30 lakhs) and a net current liab"
+        }
+      ]
+    },
+    "guidance": {
+      "title": "Guidance",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        "The outlook for FY 2026-27 and beyond remains positive, supported by a strong order book providing 7-8 years of revenue visibility, with expected growth driven by supply chain stabilization and capacity expansion [2].",
+        "Targeting higher production rates for LCA Mk1A, aiming for 24+ aircraft annually in coming years [2].",
+        "Medium-term EBITDA margins (including other income) are expected to continue at a stable level, hovering around 38%-39% [7]."
+      ],
+      "citations": []
+    },
+    "bull_vs_bear": {
+      "title": "Bull vs bear",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": {
+        "bull": [
+          "Strong order book providing 7-8 years of revenue visibility, supported by major ongoing and anticipated new programs [10].",
+          "Expected margin improvement over time, with net margins guiding to stabilize around 15% and robust EBITDA performance [3, 6].",
+          "Tailwinds from government policy reforms like Atmanirbhar Bharat Abhiyan and the Positive Indigenisation List, alongside growth opportunities in R&D, exports, and MRO [5, 8]."
+        ],
+        "bear": [
+          "Dependency on foreign OEMs for critical materials and LRUs [5].",
+          "Challenges including evolving technological requirements, supply chain constraints, and increasing competition from both private sector and global players [1].",
+          "Inherent long gestation periods and complexities in project execution, coupled with a limited presence in high-value global export markets [5]."
+        ]
+      },
+      "citations": [
+        {
+          "n": 3,
+          "docType": "concall_transcript",
+          "period": "May 2023",
+          "page": 14,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+          "snippet": "s from the line of Viraj from Jupiter Financial. Viraj: Congratulations on good numbers. I have one question. Since FY '24, you're guiding around 13%, 14% growth, is it fair to assume even the margin -- net ma rgin would be in a range of do"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 90,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "the Company is developing IMRH and DBMRH in 10\u2013 15-ton class, proving D&D capabilities in wide range of helicopters. \uf076 Trusted partner of Indian Defence Forces for providing support to aging fleets, some of which are more than 60 years old."
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 91,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "- Digital transformation, AI integration, and R&D for future programs like IMRH, LCA Mk2, CATS, HLFT and UAVs. The Company is well-positioned to capitalize on these opportunities, across aircraft, helicopters, aero engines, avionics, and Ma"
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 90,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+          "snippet": "ion of Ind AS 108 on \u201cOperating Segment\u201d. Disclosure in this regard has been made at Clause No. 37 of Note No. 49 to the Accounts. 6. OUTLOOK The outlook for FY 2026-27 and beyond will remain positive, supported by a strong order book provi"
+        }
+      ]
+    }
+  },
+  "tokens": {
+    "input": 15220,
+    "output": 1012
+  },
+  "costUSD": 0.0
+}

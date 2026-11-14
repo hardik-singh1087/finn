@@ -1,0 +1,387 @@
+{
+  "ticker": "PIDILITIND",
+  "name": "PIDILITIND",
+  "generatedAt": "2026-11-14T11:51:41.707031+05:30",
+  "docsUsed": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Nov 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ba30191-cee1-420b-a1c5-8e1864b29711.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d811437-b5ad-4bff-8b33-92b5b7032db3.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecbc316a-5f8d-4143-8061-df7980b55a66.pdf"
+    }
+  ],
+  "models": {
+    "cheap": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.5-flash"
+  },
+  "sections": {
+    "business_snapshot": {
+      "title": "Business snapshot",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "The company operates across two main business segments: Branded Consumer & Bazaar and Business-to-Business (B2B). The Consumer & Bazaar segment includes adhesives, sealants, art and craft materials, and construction and paint chemicals used by carpenters, painters, plumbers, mechanics, households, students, and offices, representing 81.6% of entity turnover. The B2B segment covers industrial adhesives, industrial resins, project-based construction chemicals, organic pigments, and pigment preparations for industries such as packaging, textiles, paints, printing inks, paper, and leather, accounting for 18% of turnover. By product type, the manufacture of adhesives and sealants (including rubber-based glues, industrial, and consumer adhesives) contributes 58.3% of total turnover, while pigments, preparations, paint chemicals, and industrial resins account for 35.7%.",
+      "citations": [
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 124,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "PIDILITE ANNUAL REPORT 2025-26 111 II. Product/Services 16 Details of business activities (accounting for 90% of the turnover): S. No. Description of Main Activity Description of Business Activity % Turnover of the Entity 1 Consumer & Bazaa"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 124,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "as packaging, joineries, textiles, paints, printing inks, paper, leather and others. 18% 17 Products/ Services sold by the entity (accounting for 90% of the entity\u2019s Turnover): S. No. Product/Service NIC Code % of Total Turnover contributed"
+        },
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 124,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "exports as a percentage of the total turnover of the entity? 7.01% c. A brief on types of customers The Company operates across two key business segments: Branded Consumer & Bazaar and Business-to-Business, enabling it to serve a diverse an"
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 73,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "The Company operates under two major business segments i.e. Branded Consumer & Bazaar and Business to Business. Products, such as Adhesives, Sealants, Art & Craft Materials and Others, Construction and Paint Chemicals are covered under Bran"
+        }
+      ]
+    },
+    "financial_snapshot": {
+      "title": "Financial snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        {
+          "metric": "Revenue",
+          "value": "INR 14,553 crores",
+          "n": 3
+        },
+        {
+          "metric": "PAT / net profit",
+          "value": "17.9%",
+          "n": 3
+        },
+        {
+          "metric": "ROE",
+          "value": "23.44%",
+          "n": 5
+        },
+        {
+          "metric": "ROCE",
+          "value": "30.68%",
+          "n": 10
+        }
+      ],
+      "citations": [
+        {
+          "n": 3,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 4,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": "ve declined by 16%, but the rest of the businesses, which are largely Consumer and Bazaar recorded very strong growth and very strong profitability. Consequently, our total consolidated revenue grew by 14.1%. EBITDA margin expanded by 310 b"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 237,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "Notes forming part of the standalone financial statements 56 Key Financial Ratios Sr. No. Ratios Numerator Denominator As at 31st March 2026 As at 31st March 2025 % change 1 Current Ratio Current Assets Current Liabilities 2.35 2.29 2.6% 2 "
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 237,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "rrent Assets - Current Liabilities) 3.11 3.25 (4.3%) 9 Net profit ratio Profit Before Tax (PBT) Revenue from Operations 23.83% 23.17% 2.8% 10 Return on Capital employed Profit Before Interest and Tax (PBIT) Average Capital Employed ~ 30.68%"
+        }
+      ]
+    },
+    "trajectory": {
+      "title": "Trajectory",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "The company's Consumer & Bazaar (C&B) business exhibits expanding volume growth over a multi-year horizon, moving from a 3-year CAGR of around 9%-plus to a 2-year CAGR of over 10%, reaching 11.1% for the full year and 12.5% in Q1. However, multi-year budgeted sales growth assumptions have compressed slightly, moderating from 12.7% as of March 2025 to an 11.0% CAGR for C&B, and from 11.6% to a 10.0% CAGR for Business to Business. Additionally, material cost growth CAGR is forecast to be higher by 0.7% compared to sales growth due to raw material price inflation, up from 0.2% in the prior period.",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 194,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "nt of the cash-generating unit. The key assumptions used in the value in use calculations for Consumer & Bazaar and Business to Business cash-generating unit are as follows: Budgeted sales growth Sales growth is assumed at 11.0% (CAGR) (12."
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 286,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "025) for Business to Business which is in line with current year projections. The values assigned to the assumption reflect past experience and current market scenario and are consistent with the managements\u2019 plans for focusing operations i"
+        },
+        {
+          "n": 3,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 8,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d811437-b5ad-4bff-8b33-92b5b7032db3.pdf",
+          "snippet": "So I think if you look at our C&B business, and I am trying to give you now 3-year CAGR, 2-year CAGR last year and this quarter. So if you look at from my point of view, our 3-year CAGR is, let's say, 9-something. Our 2-year CAGR is about 1"
+        }
+      ]
+    },
+    "balance_sheet": {
+      "title": "Balance sheet",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": " Pidilite maintains a strong debt profile, with standalone Debt-Equity and Debt Service Coverage ratios listed as 'Not Applicable' and gross gearing reported at zero percent in recent years [1, 2]. Total borrowings on a consolidated basis stood at \u20b9105.91 million as of March 31, 2026, down from \u20b9147.18 million in the previous year [8]. On the working capital front, the company demonstrates a healthy liquidity position with a consolidated Current Ratio of 2.35 as of March 31, 2026, slightly improving from 2.29 in the prior year [1]. Operations showed consistent asset efficiency, reflected by an inventory turnover ratio of 4.01 and a trade receivables turnover ratio of 7.86 [1].",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 237,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "Notes forming part of the standalone financial statements 56 Key Financial Ratios Sr. No. Ratios Numerator Denominator As at 31st March 2026 As at 31st March 2025 % change 1 Current Ratio Current Assets Current Liabilities 2.35 2.29 2.6% 2 "
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 82,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "yback of Equity Shares - 500 - - - - - - - - Dividend 31 * 293 * 364 * 827 * - 432 508 559 814 1,526 Increase in Working Capital 62 280 252 (5) - 463 91 - 61 123 Total 967 1,349 1,091 1,361 2,432 1,566 1,478 2,464 2,451 2,771 Ratios@ Return"
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 263,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "763.86 2 Current Liabilities (a) Financial Liabilities (i) Borrowings 23 105.91 147.18 (ii) Lease Liabilities 53 91.85 86.73 (iii) Trade Payables 24 - Total Outstanding Dues of Micro Enterprises and Small Enterprises and 90.56 60.49 - Total"
+        }
+      ]
+    },
+    "cash_quality": {
+      "title": "Cash quality",
+      "model": "gemini-3.5-flash",
+      "notFound": true,
+      "content": "",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 278,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "r fair value and changes are recognised in Consolidated Statement of Profit and Loss. 2.17 Cash Flow Statement Cash flows are reported using the indirect method, whereby profit / loss before tax for the period is adjusted for the effects of"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 187,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "Notes forming part of the standalone financial statements 2.14.6 Derivative Financial Instruments The Company holds derivative financial instruments such as foreign exchange forward contracts to manage its exposure to foreign currency excha"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 179,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "ar (refer Note 14) 139.58 212.06 Bank unrealised loss 0.02 0.02 Cash and Cash Equivalents at the end of the year 139.60 212.08 Net Decrease in Cash and Cash Equivalents (72.48) (167.81) Notes : a) The above Statement of Cash Flow has been p"
+        },
+        {
+          "n": 4,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 187,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "ng activities of the Company are segregated. Cash and Cash Equivalents for the purpose of Cash Flow Statement comprise of cash at bank, cash in hand and short- term deposits with an original maturity of three months or less, as reduced by b"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 188,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "sted for impairment on an annual basis. Recoverable amount of cash-generating units is determined based on higher of value-in-use and fair value less cost to sell, as certified by independent valuer. The impairment test is performed at the "
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 194,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "ecoverable amount of this cash-generating unit is determined based on a value in use calculation which uses cash flow projections based on financial budgets approved by the management for next year, estimates prepared for the next 4 years t"
+        },
+        {
+          "n": 7,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 286,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "nd Business to Business. Recoverable amount of goodwill, copyrights and trademark exceeds the carrying amount of goodwill, copyrights and trademark in the books as on 31st March 2026 and as on 31st March 2025. Further there are no external "
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 268,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "Cash Equivalents at the beginning of the year (refer Note 15) 286.62 458.91 Unrealised (gain) / loss on foreign currency cash and cash equivalents (0.01) 0.02 Acquisition under Business Combination - 0.58 Cash and Cash Equivalents at the be"
+        },
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 179,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "lows used in Investing Activities [B] (1,115.60) (1,515.01) C Cash Flows from Financing Activities Proceeds From Exercise Of Share Options 0.71 1.59 Expenses on Bonus issue of equity shares (0.62) - Principal payment of Lease Liabilities (4"
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 178,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "mployee Benefits (21.56) 14.44 Other Provisions 38.12 57.37 Gain on Buyback of Shares by subsidiary (1.21) (2.14) Equity-Settled Share-Based Payments 130.44 88.78 Operating Cash Flows before Working Capital changes 3,506.51 3,024.83 Movemen"
+        }
+      ]
+    },
+    "guidance": {
+      "title": "Guidance",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "- **Growth Targets**: Management plans to systematically raise Underlying Volume Growth (UVG) over time, targeting an approximate 100 bps expansion in UVG as they go forward compared to FY '26.\n- **Margin Guidance**: The company has a stated historical target band of maintaining EBITDA margins between 20% and 24%.\n- **Capex Commitment**: Annual capital expenditure is typically planned and budgeted at 3% to 5% of revenue turnover, with investments split across growth categories, automation, and manufacturing efficiency.",
+      "citations": [
+        {
+          "n": 2,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 15,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": "ould like to know the level of automation you have done in manufacturing? Sudhanshu Vats: So first question, I think we have talked about it in the past also. Our capex tends to be actually 3% to 5% of our revenue turnover. I think Sandeep "
+        },
+        {
+          "n": 5,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 7,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": "Pidilite Industries Limited May 08, 2026 Page 6 of 19 time. And I think as a company, we would like to continue to raise the growth as we go forward. And what I am happy about here is to talk about the FY '26 UVG growth numbers, which is ab"
+        },
+        {
+          "n": 6,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 12,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": ", and that's the way you're going to decide here. Here, you cannot talk of 2 years full of this year because it's very, very dynamic my friend. Percy Panthaki: Last question on margins. Assuming that we settle, let's say at 85% to 90% kind "
+        },
+        {
+          "n": 7,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 16,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": "stabilizes and raw material prices normalize in the next 2, 3 months, should we expect FY '27 UVG to be higher than FY '26, say, somewhere between 11% to 15%. Sudhanshu Vats: So Jay, to answer your question, this is our stated position. If "
+        }
+      ]
+    },
+    "bull_vs_bear": {
+      "title": "Bull vs bear",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": {
+        "bull": [
+          "FY '26 underlying volume growth (UVG) accelerated to 11.1%, driven by strong Consumer and Bazaar (15.4%) and B2B (14.8%) business performance [1], [6].",
+          "EBITDA margins expanded by 300 basis points, supported by 100 bps of material/gross margin benefits and strong cost control [1], [6].",
+          "Management is strategically investing in growth and efficiency, raising capex to ~INR 570 crores to expand capacity, automate manufacturing, and capture opportunities in the Indian market [2], [4]."
+        ],
+        "bear": [
+          "Input cost inflation poses a significant risk, with key raw material (VAM) consumption rates nearly doubling year-on-year to $1,630/ton in Q2, causing a 720 bps sequential/YoY decline in standalone gross margins [10].",
+          "Geopolitical tensions and West Asia/Gulf conflicts disrupted supply chains and severely impacted export revenue growth in March [6].",
+          "Overseas subsidiary operations face a subdued business environment plagued by persistent currency challenges and macroeconomic inflation in countries like Kenya [2]."
+        ]
+      },
+      "citations": [
+        {
+          "n": 1,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 7,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": "Pidilite Industries Limited May 08, 2026 Page 6 of 19 time. And I think as a company, we would like to continue to raise the growth as we go forward. And what I am happy about here is to talk about the FY '26 UVG growth numbers, which is ab"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 77,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+          "snippet": "Kenya. The business environment in some of these countries remains subdued due to geo-political tensions, currency challenges and inflation. However, the management is taking various steps to increase sales and market share in their respect"
+        },
+        {
+          "n": 4,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 16,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": "Pidilite Industries Limited May 08, 2026 Page 15 of 19 Sandeep Batra: No, no, I think you've covered it. So capex is something that, as our capacity planning is something that we do very, very rigorously because the last thing we want is no"
+        },
+        {
+          "n": 6,
+          "docType": "concall_transcript",
+          "period": "May 2026",
+          "page": 3,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+          "snippet": "2B businesses recorded strong UVG. Consumer and Bazaar was 15.4% and B2B was 14.8%. I think the only area line of business that saw some disruption was in exports. Both for Consumer & Bazaar and B2B, where in the month of March because of t"
+        },
+        {
+          "n": 10,
+          "docType": "concall_transcript",
+          "period": "Nov 2026",
+          "page": 3,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ba30191-cee1-420b-a1c5-8e1864b29711.pdf",
+          "snippet": "er, in the quarter, we saw the maximum hit and impact on account of elevated input costs, and gross margins stand-alone declined sequentially as well as year-on- year as an indicator of the kind of extent of the input cost inflation. We alw"
+        }
+      ]
+    }
+  },
+  "tokens": {
+    "input": 15984,
+    "output": 1306
+  },
+  "costUSD": 0.0
+}

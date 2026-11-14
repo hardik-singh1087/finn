@@ -1,0 +1,358 @@
+{
+  "ticker": "DMART",
+  "name": "DMART",
+  "generatedAt": "2026-11-14T11:43:23.402049+05:30",
+  "docsUsed": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2025",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2024",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2024",
+      "source": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf"
+    }
+  ],
+  "models": {
+    "cheap": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.5-flash"
+  },
+  "sections": {
+    "business_snapshot": {
+      "title": "Business snapshot",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "The company operates in the retail sales sector, with its principal business focused on procuring everyday-use products from reputed brands and manufacturers to provide directly to end consumers [3]. It operates through retail store locations and distribution centers across India, serving 15 states, one Union Territory, and the National Capital Region [8]. Under its retail sales activity, the revenue mix by category consists of Foods contributing 57.90% of turnover, General Merchandise and Apparel contributing 22.28%, and Non-Foods (Fast Moving Consumer Goods) contributing 19.82% [1].",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 87,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "s/services 16. Details of business activities (accounting for 90% of the turnover): S. No. Description of Main Activity Description of Business Activity % of Turnover of the entity 1 Retail Sales Foods 57.90% Non-Foods (Fast Moving Consumer"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 98,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "LEADERSHIP INDICATORS 1. Has the entity conducted Life Cycle Perspective / Assessments (LCA) for any of its products (for manufacturing industry) or for its services (for service industry)? If yes, provide details in the following format? N"
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 88,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "III. Operations 18. Number of locations where plants and/or operations/offices of the entity are situated: Location Number of Plants* Number of Stores Number of Offices** Total National Not applicable 500 90 590 International Not applicable"
+        }
+      ]
+    },
+    "trajectory": {
+      "title": "Trajectory",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "Over a multi-year period, revenue and top-line sales continue to grow, alongside solid expansion in subsidiary sales, bill cuts, and store space [3, 4, 8]. Younger stores and accelerated store additions also drive higher revenue growth rates [6, 7]. Conversely, profit margins and overall growth rates are experiencing compression or headwinds, highlighted by lower ROCE, lower PBT/PAT margins, flat EBITDA, and compressed gross margins [3, 4]. Additionally, maintaining a 15% to 20% revenue CAGR is becoming increasingly challenging under slower annual store additions [1].",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "concall_transcript",
+          "period": "Aug 2024",
+          "page": 30,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+          "snippet": "evenue growth should accelerate as well over FY '24, given the network rollout and given the other problems are getting fixed? Because we saw something like 18 -odd kind of percent of numbers in the first four quarters on an average. But do"
+        },
+        {
+          "n": 3,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 5,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+          "snippet": "and ROCE at about 17.1%, which are slightly lower than what we reported the prior year. Slide number 13 shows us the split of standalone and consolidated financials for March 2 026 year gone by. Sales grew by close to 16%. Gross margin expa"
+        },
+        {
+          "n": 4,
+          "docType": "concall_transcript",
+          "period": "Aug 2024",
+          "page": 6,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+          "snippet": "Avenue Supermarts Limited July 30, 2024 Page 5 of 58 PBT reduction of 43 bps led by the gross margin slide and a bit of cost increases in other expenses that came up, and the PAT delivery of INR2,556 crores -- sorry, INR2,695 crores, which "
+        },
+        {
+          "n": 7,
+          "docType": "concall_transcript",
+          "period": "Aug 2025",
+          "page": 30,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+          "snippet": "e same. As they age, the revenues just rapidly go up. So younger the store, the CAGR growth rat es are significantly higher compared to the older stores. Parth Shah: Yes, got it. That's helpful. And the second question I wanted to ask was o"
+        },
+        {
+          "n": 8,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 5,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+          "snippet": "Avenue Supermarts Limited July 28, 2026 Page 4 of 37 So with that context, I will now hand over to our CFO Niladri to walk you through the numbers. I'll join you again for the Q&A in a bit. So over to you, Niladri. Niladri Deb: Hello, every"
+        }
+      ]
+    },
+    "balance_sheet": {
+      "title": "Balance sheet",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "The company's Debt-Equity ratio increased from 0.03 to 0.09 as at March 31, 2026, driven by an increase in borrowings and lease liabilities. Additionally, the Interest Coverage Ratio declined from 68.24 to 34.24 due to higher finance costs associated with these borrowings and lease commitments. For working capital, the Current Ratio decreased from 3.02 to 2.01, primarily impacted by the rise in borrowings and short-term obligations. Operationally, the inventory turnover ratio stood at 11.00 times, while the net capital turnover ratio improved by 32% from 14.00 to 18.49 times.",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 185,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "rease due to borrowings repayments d) Return on Equity ratio (%) Net Profits after taxes Average Shareholder\u2019s Equity 13.50% 14.10% (4%) e) Inventory turnover ratio(times) Cost of goods sold Average Inventory 11.00 11.63 (5%) f) Trade recei"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 44,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": ".81% 5.07% (iii) Interest Coverage Ratio* 34.24 68.24 (iv) Debtors Turnover 148.67 121.84 (v) Inventory Turnover (Based on sales) 11.00 13.60 (vi) Current Ratio 2.01 3.02 (vii) Debt Equity Ratio 0.09 0.03 (viii) Return on Net Worth 13.50% 1"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 185,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "Notes to Standalone Financial Statements for the year ended 31st March, 2026 48. RATIOS Ratios Numerator Denominator As at 31st March, 2026 As at 31st March, 2025 % Variance Reason for variance (above 25%) a) Current Ratio (times) Current A"
+        }
+      ]
+    },
+    "cash_quality": {
+      "title": "Cash quality",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "Profit does convert into cash flow for the company. In FY '24, the standalone business generated a Profit After Tax (PAT) of about INR 2,695 crores alongside EBITDA of almost INR 4,100 crores, which translated into a net operating cash flow of INR 3,343 crores. Based on the annual report disclosures, net cash flow from operating activities reached INR 3,612.30 crores (standalone) and INR 3,466.74 crores (consolidated) for the reported period. The provided excerpts do not mention or define free cash flow.",
+      "citations": [
+        {
+          "n": 3,
+          "docType": "concall_transcript",
+          "period": "Aug 2024",
+          "page": 5,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+          "snippet": "l Business Area sq ft came at about INR33,000 per square feet in FY '24, very close to the FY '20 number of INR32,879. Moving on , the revenue from operations as disclosed earlier is INR49,533 crores, delivered in the stand -alone business."
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 137,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "in other non-current financial liabilities 0.05 0.12 (Increase)/Decrease in trade receivables (8.44) 44.81 Increase in inventories (824.99) (1,082.02) (Increase)/Decrease in other non-current assets 0.30 (17.46) Increase in other non-curren"
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 199,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "2.88 Increase in non-current provisions 2.03 3.49 Increase in other non-current financial liabilities 0.05 0.12 Decrease in trade receivables 4.45 12.58 Increase in inventories (856.27) (1,117.06) Increase in other non-current assets (9.44)"
+        }
+      ]
+    },
+    "guidance": {
+      "title": "Guidance",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "\u2022 No explicit projections/guidance: Management explicitly stated they cannot provide specific projections regarding future growth rates, top-line growth, or the exact number of stores to be added [7], [8], nor a concise clear numerical answer for stepping up store expansion [9], [10].\n\u2022 Store opportunity horizon: Management views an overall conservative opportunity to reach approximately 2,200 stores in total, representing ~1,800 additional store opportunities beyond the ~400 stores existing at the time [6].\n\u2022 Margin vs. Growth focus: Management indicated they do not focus on specific threshold targets for gross margins or expenses (noting minor basis point fluctuations are acceptable), but rather focus internally on driving growth speed and CAGR [5].\n\u2022 Borrowing and Capex management: Management noted they might reach up to INR 2,000 crores in total borrowings by the end of the year (via NCDs and CPs) dedicated to managing capex, emphasizing that availability of funds will not hinder expansion [1].",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 21,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+          "snippet": "nding, plus we have INR1,000 crores of NCDs which you've approved. Is this -- the INR1,000 crores expected to be in addition to the existing INR800 crores of CP, or a replacement? And how do we think about debt as a way of funding our expan"
+        },
+        {
+          "n": 5,
+          "docType": "concall_transcript",
+          "period": "Aug 2025",
+          "page": 25,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+          "snippet": "hence you may see some more, but would that sort of now hit a sort of a bottom there at about 8% margin? I mean, internally, would you say these are the kind of threshold margins you target or if it deteriorates and you want to accelerate b"
+        },
+        {
+          "n": 6,
+          "docType": "concall_transcript",
+          "period": "Aug 2025",
+          "page": 41,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+          "snippet": "Avenue Supermarts Limited July 30, 2025 Page 40 of 43 Neville Noronha: Broadly, yes. It's a very conservative outlook. But, yes, as on today, yes. So, 2,200 is approximately the number of stores, out of which 400 something is what we alread"
+        },
+        {
+          "n": 7,
+          "docType": "concall_transcript",
+          "period": "Aug 2024",
+          "page": 21,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+          "snippet": "nges we play in from a gross margin standpoint. You have to look at a blended gross margin. Sheela Rathi: Actually, my question was not to do with the margins actually. My question was, GMA is coming back. The shares are maintained at 23% l"
+        },
+        {
+          "n": 8,
+          "docType": "concall_transcript",
+          "period": "Jul 2024",
+          "page": 21,
+          "source": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf",
+          "snippet": "nges we play in from a gross margin standpoint. You have to look at a blended gross margin. Sheela Rathi: Actually, my question was not to do with the margins actually. My question was, GMA is coming back. The shares are maintained at 23% l"
+        },
+        {
+          "n": 9,
+          "docType": "concall_transcript",
+          "period": "Aug 2024",
+          "page": 9,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+          "snippet": "Avenue Supermarts Limited July 30, 2024 Page 8 of 58 Arnab Mitra: Yeah, hi. Thanks for the opportunity. So, Neville, my first question was on store expansion. I think in the last call you had mentioned you have invested in people in the exp"
+        },
+        {
+          "n": 10,
+          "docType": "concall_transcript",
+          "period": "Jul 2024",
+          "page": 9,
+          "source": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf",
+          "snippet": "Avenue Supermarts Limited July 30, 2024 Page 8 of 58 Arnab Mitra: Yeah, hi. Thanks for the opportunity. So, Neville, my first question was on store expansion. I think in the last call you had mentioned you have invested in people in the exp"
+        }
+      ]
+    },
+    "bull_vs_bear": {
+      "title": "Bull vs bear",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": {
+        "bull": [
+          "Strong top-line and subsidiary growth, with consolidated sales improving 18.6% to INR 50,789 crores and key subsidiary Avenue E-commerce delivering a 31.7% sales increase [3, 4].",
+          "Continued physical expansion and operational delivery, adding 85 new stores to expand presence [8] while actively looking at store opening opportunities across major cities like Mumbai, Bangalore, and Hyderabad [1].",
+          "Favorable macro tailwinds supporting consumption, including lowering inflation, income tax restructuring, GST rationalization, and stable agricultural output [8]."
+        ],
+        "bear": [
+          "Margin compression driven by intense competition impacting gross margins, alongside rising operational expenses primarily driven by employee costs [9].",
+          "Deteriorating debt and liquidity ratios, including a 33% decline in the current ratio from 3.02 to 2.01, a jump in the debt-equity ratio from 0.03 to 0.09, and a drop in the interest coverage ratio from 68.24 to 34.24 due to increased borrowings and lease liabilities [6].",
+          "Operational headwinds including declining inventory turnover (dropping from 13.60 to 11.00) [6] and store-level cost increases such as minimum wage hikes and inflation-linked expenses [1]."
+        ]
+      },
+      "citations": [
+        {
+          "n": 1,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 12,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+          "snippet": "commerce is not present and hence only opening there. That is not the strategy at all. It is looking at every place, whether it's Mumbai or Bangalore or even Hyderabad , we are looking at opportunities even in these places to open new store"
+        },
+        {
+          "n": 3,
+          "docType": "concall_transcript",
+          "period": "Aug 2024",
+          "page": 6,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+          "snippet": "Avenue Supermarts Limited July 30, 2024 Page 5 of 58 PBT reduction of 43 bps led by the gross margin slide and a bit of cost increases in other expenses that came up, and the PAT delivery of INR2,556 crores -- sorry, INR2,695 crores, which "
+        },
+        {
+          "n": 4,
+          "docType": "concall_transcript",
+          "period": "Jul 2024",
+          "page": 6,
+          "source": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf",
+          "snippet": "Avenue Supermarts Limited July 30, 2024 Page 5 of 58 PBT reduction of 43 bps led by the gross margin slide and a bit of cost increases in other expenses that came up, and the PAT delivery of INR2,556 crores -- sorry, INR2,695 crores, which "
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 44,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": ".81% 5.07% (iii) Interest Coverage Ratio* 34.24 68.24 (iv) Debtors Turnover 148.67 121.84 (v) Inventory Turnover (Based on sales) 11.00 13.60 (vi) Current Ratio 2.01 3.02 (vii) Debt Equity Ratio 0.09 0.03 (viii) Return on Net Worth 13.50% 1"
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 15,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "in disruptions. Despite the external headwinds, the Indian economy remained robust during the year, driven by effective monetary and fiscal measures that helped contain inflation while supporting steady economic growth. Consumption growth h"
+        },
+        {
+          "n": 9,
+          "docType": "concall_transcript",
+          "period": "Aug 2025",
+          "page": 37,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+          "snippet": "Avenue Supermarts Limited July 30, 2025 Page 36 of 43 Gaurav Jogani: So, I would put it the other way around. So, if you look at your cost per square feet, those are increasing at a higher pace versus your sales per square feet and which in"
+        }
+      ]
+    },
+    "financial_snapshot": {
+      "title": "Financial snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        {
+          "metric": "EBITDA margin",
+          "value": "7.85%",
+          "n": 1
+        },
+        {
+          "metric": "ROCE",
+          "value": "17.1%",
+          "n": 1
+        },
+        {
+          "metric": "ROE",
+          "value": "13.50%",
+          "n": 3
+        }
+      ],
+      "citations": [
+        {
+          "n": 1,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 5,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+          "snippet": "and ROCE at about 17.1%, which are slightly lower than what we reported the prior year. Slide number 13 shows us the split of standalone and consolidated financials for March 2 026 year gone by. Sales grew by close to 16%. Gross margin expa"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 185,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+          "snippet": "rease due to borrowings repayments d) Return on Equity ratio (%) Net Profits after taxes Average Shareholder\u2019s Equity 13.50% 14.10% (4%) e) Inventory turnover ratio(times) Cost of goods sold Average Inventory 11.00 11.63 (5%) f) Trade recei"
+        }
+      ]
+    }
+  },
+  "tokens": {
+    "input": 2353,
+    "output": 139
+  },
+  "costUSD": 0.0
+}

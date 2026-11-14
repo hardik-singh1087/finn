@@ -42,6 +42,7 @@
     "bulkEngine": "gemini",
     "bulkEngineOptions": ["gemini", "anthropic", "rules"],
     "gemini": "gemini-3.5-flash-lite",
+    "geminiStrong": "gemini-3.5-flash",
     "cheap": "claude-haiku-5-5",
     "mid": "claude-sonnet-5-5",
     "strong": "claude-opus-5-5",

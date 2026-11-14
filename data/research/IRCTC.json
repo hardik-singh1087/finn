@@ -1,0 +1,283 @@
+{
+  "ticker": "IRCTC",
+  "name": "IRCTC",
+  "generatedAt": "2026-11-14T11:56:47.406833+05:30",
+  "docsUsed": [
+    {
+      "docType": "annual_report",
+      "period": "FY2026",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Aug 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a3947a-975c-43aa-b153-218d6518615c.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "May 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b914f14-22d6-44be-b3bb-8d31b83e4499.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cfad47d-e4a8-47fe-a883-38462f3036c3.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Nov 2025",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ce0acc5-6b05-46de-9e10-a8c90fd96325.pdf"
+    }
+  ],
+  "models": {
+    "cheap": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.5-flash"
+  },
+  "sections": {
+    "business_snapshot": {
+      "title": "Business snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "IRCTC primarily focuses on serving passengers and travellers within India, with core operations centered on domestic train services, catering, tourism, and related services [3]. The company operates through four main business segments: Catering, Rail Neer, Tourism & Train Operation, and Internet Ticketing [9]. Its revenue mix is led by Catering contributing 46.00% of total turnover, followed by Internet Ticketing Services at 29.44%, Tourism at 17.07%, and Rail Neer at 7.49% [4].",
+      "citations": []
+    },
+    "financial_snapshot": {
+      "title": "Financial snapshot",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        {
+          "metric": "Revenue",
+          "value": "5,214.86 H in Crores",
+          "n": 1
+        },
+        {
+          "metric": "EBITDA",
+          "value": "1,926.12 H in Crores",
+          "n": 1
+        },
+        {
+          "metric": "PAT",
+          "value": "1,393.37 H in Crores",
+          "n": 1
+        },
+        {
+          "metric": "Revenue",
+          "value": "INR1,370 crores",
+          "n": 4
+        },
+        {
+          "metric": "PAT",
+          "value": "INR330 crores",
+          "n": 4
+        },
+        {
+          "metric": "EBITDA",
+          "value": "INR386 crores",
+          "n": 4
+        }
+      ],
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 95,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "The performance of major financial parameters during FY 2026 and FY 2025 is given below: (H in Crores) Segmental operative revenue FY 2026 FY 2025 Y oY growth (%) Revenue from operations 5,214.86 4,674.77 11.55 EBITDA 1,926.12 1,778.54 8.30"
+        },
+        {
+          "n": 4,
+          "docType": "concall_transcript",
+          "period": "Aug 2026",
+          "page": 4,
+          "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a3947a-975c-43aa-b153-218d6518615c.pdf",
+          "snippet": "s earnings call to discuss our financial and operational performance for the Q1 2027. I am pleased to share that the company has deli vered increased revenue during the quarter, reflecting our diversified business model and disciplined exec"
+        }
+      ]
+    },
+    "trajectory": {
+      "title": "Trajectory",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": "The travel, tourism, online travel booking, and catering markets are projected to experience robust multi-year growth, driven by rising internet penetration, smartphone adoption, urbanisation, and government initiatives [1, 3, 6, 7]. IRCTC's own business segments, including marketing and ad revenue, loyalty programs, and overall tourism offerings, have shown strong ongoing increases [1, 10]. Conversely, margins in the IT business compressed due to the allocation of additional CSR expenses and direct costs [5].",
+      "citations": []
+    },
+    "balance_sheet": {
+      "title": "Balance sheet",
+      "model": "gemini-3.5-flash",
+      "notFound": false,
+      "content": "IRCTC maintains a low-leverage balance sheet with no bank borrowings, relying primarily on cash, cash equivalents, and operational cash flow for its liquidity needs. Its total debt to shareholder's equity ratio stood at 0.02 as of March 31, 2026, consistent with March 31, 2025, while its debt service coverage ratio improved to 57.92. Regarding working capital, the net capital turnover ratio was 1.53 on a standalone basis (1.52 consolidated) for FY2026 compared to 1.64 standalone (1.62 consolidated) in FY2025. The company considers its working capital sufficient for operational requirements, retaining surplus cash in short-term bank deposits.",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 288,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "Notes to Standalone Financial Statements Particulars Numerator Denominator As at March 31, 2026 As at March 31, 2025 Variance (in %) Return on Equity (ROE) Net profits after taxes Average Shareholder's Equity 0.35 0.38 (7.89) Inventory Turn"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 372,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "Notes to Consolidated Financial Statements Particulars Numerator Denominator As at March 31, 2026 As at March 31, 2025 Variance (in %) Return on Equity (ROE) Net profits after taxes Average Shareholder's Equity 0.35 0.38 (7.89) Inventory Tu"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 364,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "e company's principal sources of liquidity are cash and cash equivalents and the cash flow that is generated from operations. The company has no bank borrowings. The company believes that the working capital is sufficient to meet its curren"
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 371,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "o Total Debt(1) Shareholder's equity 0.02 0.02 0.00 Debt Service Coverage ratio Earning available for debt service (2) Debt Service(3) 57.92 48.37 19.74 393 Financial Statements"
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 280,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "o the company's reputation. The company's principal sources of liquidity are cash and cash equivalents and the cash flow that is generated from operations. The company has no bank borrowings. The company believes that the working capital is"
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 287,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "uity ratio Total Debt(1) Shareholder's equity 0.02 0.02 0.00 Debt Service Coverage ratio Earning available for debt service (2) Debt Service(3) 57.92 48.36 19.77 309 Financial Statements"
+        }
+      ]
+    },
+    "cash_quality": {
+      "title": "Cash quality",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": true,
+      "content": "",
+      "citations": [
+        {
+          "n": 1,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 364,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "e company's principal sources of liquidity are cash and cash equivalents and the cash flow that is generated from operations. The company has no bank borrowings. The company believes that the working capital is sufficient to meet its curren"
+        },
+        {
+          "n": 2,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 280,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "o the company's reputation. The company's principal sources of liquidity are cash and cash equivalents and the cash flow that is generated from operations. The company has no bank borrowings. The company believes that the working capital is"
+        },
+        {
+          "n": 3,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 310,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "the financial statements. a) Statement of Cash Flow Statement of Cash Flow is made by using the Indirect Method, whereby profit before tax is adjusted for the effects of transactions of a non-cash nature and any deferrals or accruals of pas"
+        },
+        {
+          "n": 4,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 225,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "pany\u2019s financial statements. Note-2A Summary of material accounting policies The standalone financial statements have been prepared using the material accounting policies and measurement basis summarized below. These were used throughout al"
+        },
+        {
+          "n": 5,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 291,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "Notes to Standalone Financial Statements A Items of Balance Sheet before and after re-classification as on 31st March, 2025: (a) Balance Sheet Reason for Change : Restricted Bank Balances have been reclassified as on 31 st March 2025 in acc"
+        },
+        {
+          "n": 6,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 364,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "ial assets. The Group assesses the credit quality of the counterparties, taking into account their financial position, past experience and other factors. c) Financial Instruments and cash deposits Credit risk from balances with banks and fi"
+        },
+        {
+          "n": 7,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 221,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "count - 71.00 \u2013 In Fixed Deposits with original maturity of less than three months - - Cash and Cash Equivalents as per Balance Sheet 40,994.27 37,062.04 Notes:- 1. The Cash Flow Statement has been prepared under the Indirect method as pres"
+        },
+        {
+          "n": 8,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 305,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "enerated from Financing Activities (78,746.40) (90,980.14) Net Increase/(Decrease) in Cash and Cash Equivalents (A+B+C) 3,970.55 (33,400.04) Opening Cash & Cash Equivalents 37,233.83 70,633.87 Closing Cash & Cash Equivalents 41,204.38 37,23"
+        },
+        {
+          "n": 9,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 305,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "Consolidated Statement of Cash Flow for the year ended 31st March, 2026 Amount (J in Lakhs) Particulars As at 31st March, 2026 As at 31st March, 2025 Opening Balance 8,979.63 6,035.05 Cash flows:- - Repayment 2,743.57 2,980.14 - Proceeds - "
+        },
+        {
+          "n": 10,
+          "docType": "annual_report",
+          "period": "FY2026",
+          "page": 280,
+          "source": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf",
+          "snippet": "Notes to Standalone Financial Statements Note :- 57 Financial Risk Management The Company\u2019s principal financial liabilities comprise trade and other payables. The main purpose of these financial liabilities is to finance the company\u2019s opera"
+        }
+      ]
+    },
+    "guidance": {
+      "title": "Guidance",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": [
+        "Management plans to add around 25% to 30% capacity in about 1.5 years through plant expansions and new installations [3].",
+        "Capacity expansion plans for existing Rail Neer plants include augmenting Ambernath from 2 lakh to 3 lakh bottles per day and Danapur from 1 lakh to 2 lakh bottles per day [5].",
+        "The board has sanctioned the installation of 4 new plants at Mysore, Prayagraj, Bhagalpur, and Ranchi [3]."
+      ],
+      "citations": []
+    },
+    "bull_vs_bear": {
+      "title": "Bull vs bear",
+      "model": "gemini-3.5-flash-lite",
+      "notFound": false,
+      "content": {
+        "bull": [
+          "The internet ticketing segment maintains market leadership with an 89% share of reserved railway tickets, delivering robust profitability with high EBITDA margins (76% to 85%) driven by strong operating leverage and cost efficiencies [2, 3].",
+          "The catering segment achieved impressive year-on-year revenue growth of 26.84% (reaching Rs. 671 crores), while tourism revenue also grew strongly by 10.95% to Rs. 304 crores [2, 4]."
+        ],
+        "bear": [
+          "Overall company EBITDA margins have compressed down to roughly 27% to 28% from historical levels of 36% due to changes in the revenue mix, specifically a higher sales contribution from lower-margin train catering and tourism segments [1, 4, 8].",
+          "Profitability has been impacted by legacy items and increased costs, including the implications of advertising and pilot initiatives such as branded catering projects [2, 4, 8]."
+        ]
+      },
+      "citations": []
+    }
+  },
+  "tokens": {
+    "input": 14736,
+    "output": 1240
+  },
+  "costUSD": 0.0
+}

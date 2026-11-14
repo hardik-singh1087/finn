@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { companyByTicker } from "@/lib/config";
+import { ResearchView } from "@/components/ResearchView";
 
 // Dynamic per-ticker route — render on demand (reads params).
 export const instant = false;
@@ -28,19 +29,12 @@ export default async function ResearchPage({
         <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
           {company?.name ?? ticker.toUpperCase()}
         </h1>
-        <div className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
+        <div className="mb-4 mt-1 text-sm text-zinc-500 dark:text-zinc-400">
           {ticker.toUpperCase()}
-          {company?.sector ? ` · ${company.sector}` : ""}
+          {company?.sector ? ` · ${company.sector}` : ""} · <span className="text-zinc-400">answered only from its own filings</span>
         </div>
 
-        <div className="mt-8 rounded-2xl border border-dashed border-black/10 p-8 text-center dark:border-white/15">
-          <div className="text-3xl">🔬</div>
-          <p className="mt-3 font-medium text-zinc-700 dark:text-zinc-200">Research view coming soon</p>
-          <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
-            Snapshot, trajectory, cash quality, and the “promised vs delivered” read — grounded only in{" "}
-            {company?.name ?? "this company"}’s own filings.
-          </p>
-        </div>
+        <ResearchView ticker={ticker.toUpperCase()} />
       </div>
     </div>
   );

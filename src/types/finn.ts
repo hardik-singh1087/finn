@@ -127,6 +127,47 @@ export interface ManagementChangeBio {
   background?: string | null; // short bio (push-side enrichment may use outside sources)
 }
 
+// ---- Research / Pull side (grounded in primary docs only) ----
+
+export type ResearchSectionId =
+  | "business_snapshot" | "financial_snapshot" | "trajectory" | "balance_sheet"
+  | "cash_quality" | "guidance" | "bull_vs_bear";
+
+export interface ResearchCitation {
+  n?: number;
+  docType: "annual_report" | "concall_transcript";
+  period: string;
+  page: number;
+  source: string;
+  snippet: string;
+}
+
+export interface FinMetric { metric: string; value: string; n?: number }
+export interface BullBear { bull: string[]; bear: string[] }
+
+export interface ResearchSectionData {
+  title: string;
+  model: string | null;
+  notFound: boolean;
+  content: string | FinMetric[] | BullBear | null;
+  citations: ResearchCitation[];
+}
+
+export interface ResearchDocFull {
+  ticker: string;
+  name?: string;
+  generatedAt: string;
+  docsUsed: { docType: string; period: string; source: string }[];
+  sections: Partial<Record<ResearchSectionId, ResearchSectionData>>;
+}
+
+/** A grounded answer to a follow-up question. */
+export interface AskResult {
+  answer: string;
+  notFound: boolean;
+  citations: Omit<ResearchCitation, "n">[];
+}
+
 /** One searchable chunk of a company's own primary document (AR or concall transcript). */
 export interface ResearchChunk {
   id: string;
