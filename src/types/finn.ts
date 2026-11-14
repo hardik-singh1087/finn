@@ -161,6 +161,68 @@ export interface ResearchDocFull {
   sections: Partial<Record<ResearchSectionId, ResearchSectionData>>;
 }
 
+// ---- Promised vs delivered (the star feature) ----
+// Quarter-by-quarter: what management PROMISED on the call (guidance / forward-looking) vs. what
+// they DELIVERED (reported numbers). Judges management, grounded only in its own concalls + AR.
+
+export type PvdVerdict = "match" | "miss" | "mixed" | "na";
+
+export interface PvdCitation {
+  n?: number;
+  docType: "annual_report" | "concall_transcript";
+  period: string;
+  page: number;
+  source: string;
+  snippet: string;
+}
+
+/** One promise/commitment management made on a call (forward-looking). */
+export interface PvdPromise {
+  text: string;
+  n?: number; // excerpt number it came from
+}
+
+/** One headline number management actually delivered that quarter. */
+export interface PvdDelivered {
+  metric: string; // "Revenue", "Operating margin", "PAT", ...
+  value: string; // as reported, with unit
+  change?: string; // e.g. "+6.1% YoY" / "+3.3% QoQ"
+  n?: number;
+}
+
+export interface PvdQuarter {
+  label: string; // "Q2 FY26"
+  call: string; // "Oct 2026" — the concall it came from
+  promised: PvdPromise[];
+  delivered: PvdDelivered[];
+  verdict: PvdVerdict; // did delivery honour what was promised (then or in prior calls)?
+  note: string; // one-line judgment
+}
+
+/** A single commitment tracked across calls so the gap is obvious at a glance. */
+export interface PvdTrackedPromise {
+  topic: string; // "FY26 revenue growth guidance (constant currency)"
+  trail: { call: string; value: string; n?: number }[]; // how the number moved call-over-call
+  verdict: PvdVerdict;
+  note: string;
+}
+
+export interface PromisedVsDelivered {
+  ticker: string;
+  name?: string;
+  generatedAt: string;
+  model: string | null;
+  notFound: boolean;
+  verdict: string; // overall judgment of management's credibility
+  scorecard: { kept: number; missed: number; mixed: number };
+  trackedPromises: PvdTrackedPromise[];
+  quarters: PvdQuarter[]; // most recent first
+  citations: PvdCitation[];
+  docsUsed: { docType: string; period: string; source: string }[];
+  tokens?: { input: number; output: number };
+  costUSD?: number;
+}
+
 /** A grounded answer to a follow-up question. */
 export interface AskResult {
   answer: string;

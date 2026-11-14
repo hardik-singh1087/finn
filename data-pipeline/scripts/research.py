@@ -94,11 +94,11 @@ def _gemini():
     return genai.Client(http_options=types.HttpOptions(timeout=45_000)), types
 
 
-def gemini_json(client, types, user, model, strong):
+def gemini_json(client, types, user, model, strong, system=SYSTEM, max_tokens=1200):
     from google.genai import errors as genai_errors
     cfg = types.GenerateContentConfig(
-        system_instruction=SYSTEM, response_mime_type="application/json", temperature=0,
-        max_output_tokens=1200,
+        system_instruction=system, response_mime_type="application/json", temperature=0,
+        max_output_tokens=max_tokens,
         # strong model is a thinking model — turn thinking off to keep it fast + free.
         thinking_config=types.ThinkingConfig(thinking_budget=0) if strong else None,
     )

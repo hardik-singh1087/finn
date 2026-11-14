@@ -14,7 +14,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 import type {
-  Announcement, Enrichment, PriceBar, PriceSummaryFile, ResearchChunk, ResearchDocFull,
+  Announcement, Enrichment, PriceBar, PriceSummaryFile, PromisedVsDelivered,
+  ResearchChunk, ResearchDocFull,
 } from "@/types/finn";
 import { config } from "@/lib/config";
 
@@ -49,6 +50,8 @@ export const store = {
     readJson<T>(`research/${ticker}.json`, null as unknown as T),
   researchDoc: (ticker: string) =>
     readJson<ResearchDocFull | null>(`research/${ticker.toUpperCase()}.json`, null),
+  promisedVsDelivered: (ticker: string) =>
+    readJson<PromisedVsDelivered | null>(`research/${ticker.toUpperCase()}.pvd.json`, null),
   chunks: (ticker: string) =>
     readJson<ResearchChunk[]>(`fundamentals/${ticker.toUpperCase()}/chunks.json`, []),
   feed: <T>() => readJson<T>(`feed/latest.json`, [] as unknown as T),

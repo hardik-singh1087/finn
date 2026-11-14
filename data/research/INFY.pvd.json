@@ -1,0 +1,298 @@
+{
+  "ticker": "INFY",
+  "name": "INFY",
+  "generatedAt": "2026-11-14T13:50:54.035466+05:30",
+  "model": "gemini-3.5-flash",
+  "notFound": false,
+  "verdict": "Management exhibits reasonable operational control over operating margins and free cash flow generation, maintaining stability within guided bands despite headwinds. However, their credibility on top-line guidance is strained by sequential downward revisions caused by softer volumes, misjudged pricing realization, and unbudgeted client program cancellations.",
+  "scorecard": {
+    "kept": 3,
+    "missed": 1,
+    "mixed": 0
+  },
+  "trackedPromises": [
+    {
+      "topic": "FY27 CC Revenue Growth Guidance",
+      "trail": [
+        {
+          "call": "Jul 2026",
+          "value": "1.5% to 3% YoY in constant currency",
+          "n": 10
+        },
+        {
+          "call": "Oct 2026",
+          "value": "1% to 2% YoY in constant currency (lowered)",
+          "n": 2
+        }
+      ],
+      "verdict": "miss",
+      "note": "Management reduced full-year revenue growth guidance in Oct 2026 due to softer volumes and unmaterialized pricing expansion."
+    },
+    {
+      "topic": "FY27 Operating Margin Guidance",
+      "trail": [
+        {
+          "call": "Jul 2026",
+          "value": "20% to 22%",
+          "n": 10
+        },
+        {
+          "call": "Oct 2026",
+          "value": "20% to 22%",
+          "n": 2
+        }
+      ],
+      "verdict": "match",
+      "note": "Operating margin targets were successfully maintained at 20%-22% despite wage, acquisition, and AI investment headwinds."
+    },
+    {
+      "topic": "Effective Tax Rate Guidance (FY27)",
+      "trail": [
+        {
+          "call": "Apr 2026",
+          "value": "29% to 30%",
+          "n": 25
+        },
+        {
+          "call": "Jul 2026",
+          "value": "29% to 30%",
+          "n": 13
+        },
+        {
+          "call": "Oct 2026",
+          "value": "29% to 30%",
+          "n": 6
+        }
+      ],
+      "verdict": "match",
+      "note": "Management consistently reiterated full-year tax rate guidance of 29% to 30% across all quarterly updates."
+    },
+    {
+      "topic": "FY26 Constant Currency Revenue Growth Guidance",
+      "trail": [
+        {
+          "call": "Apr 2026",
+          "value": "Delivered 3.1% in constant currency, within upgraded guidance band",
+          "n": 20
+        }
+      ],
+      "verdict": "match",
+      "note": "Full year FY26 revenue reached $20,158 million (3.1% CC growth), delivering within the upgraded guidance set in Jan."
+    }
+  ],
+  "quarters": [
+    {
+      "label": "Q2 FY27",
+      "call": "Oct 2026",
+      "promised": [
+        {
+          "text": "Full-year revenue growth guidance revised to 1% to 2% YoY in constant currency",
+          "n": 2
+        },
+        {
+          "text": "Operating margin guidance maintained at 20% to 22%",
+          "n": 2
+        }
+      ],
+      "delivered": [
+        {
+          "metric": "Revenue",
+          "value": "$5,145 mn",
+          "change": "+1.5% YoY / +1.2% QoQ in CC",
+          "n": 1
+        },
+        {
+          "metric": "Operating Margin",
+          "value": "21.0%",
+          "change": "-10 bps QoQ",
+          "n": 1
+        },
+        {
+          "metric": "Free Cash Flow",
+          "value": "$928 mn",
+          "change": "-2.8% QoQ",
+          "n": 1
+        }
+      ],
+      "verdict": "miss",
+      "note": "Q2 revenue growth was below internal expectations due to softer volumes and failure of anticipated price increases."
+    },
+    {
+      "label": "Q1 FY27",
+      "call": "Jul 2026",
+      "promised": [
+        {
+          "text": "Full-year CC revenue growth guidance set to 1.5% to 3%",
+          "n": 10
+        },
+        {
+          "text": "Full-year operating margin guidance set to 20% to 22%",
+          "n": 10
+        }
+      ],
+      "delivered": [
+        {
+          "metric": "Revenue",
+          "value": "Not explicitly stated in USD (2.4% YoY / 1.0% QoQ in CC)",
+          "change": "+2.4% YoY / +1.0% QoQ in CC",
+          "n": 15
+        },
+        {
+          "metric": "Operating Margin",
+          "value": "21.1%",
+          "change": "+20 bps QoQ",
+          "n": 15
+        },
+        {
+          "metric": "Free Cash Flow",
+          "value": "$955 mn",
+          "change": "+8.3% QoQ",
+          "n": 15
+        }
+      ],
+      "verdict": "miss",
+      "note": "Top-line fell short of expectations due to an unbudgeted 50 bps client program termination and softer volumes."
+    },
+    {
+      "label": "Q4 FY26",
+      "call": "Apr 2026",
+      "promised": [
+        {
+          "text": "FY27 effective tax rate guidance set to 29% to 30%",
+          "n": 25
+        }
+      ],
+      "delivered": [
+        {
+          "metric": "Revenue",
+          "value": "$20,158 mn (Full Year)",
+          "change": "+4.1% YoY / -1.3% QoQ in CC",
+          "n": 19
+        },
+        {
+          "metric": "Operating Margin",
+          "value": "20.9%",
+          "change": "-30 bps QoQ (adjusted)",
+          "n": 19
+        },
+        {
+          "metric": "Free Cash Flow",
+          "value": "$882 mn (Adjusted)",
+          "change": "N/A",
+          "n": 24
+        }
+      ],
+      "verdict": "match",
+      "note": "Delivered FY26 constant currency revenue growth of 3.1%, meeting the upgraded guidance range provided in January."
+    }
+  ],
+  "citations": [
+    {
+      "n": 1,
+      "docType": "concall_transcript",
+      "period": "Oct 2026",
+      "page": 27,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+      "snippet": "External Document \u00a9 2026 Infosys Limited 4 Revenue growth was below our expectations, while AI first revenue now accounts for 10.5% of our revenues. Operating margin was at 21%. Free cash flow was at $928 mn, representing 113% of net profit"
+    },
+    {
+      "n": 2,
+      "docType": "concall_transcript",
+      "period": "Oct 2026",
+      "page": 4,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+      "snippet": "inues to gain market share, especially where economics of the program is aligned to the stakeholder interest. We remain the preferred AI strategy and deployment partner for our top clients. As AI remains central to enterprise transformation"
+    },
+    {
+      "n": 6,
+      "docType": "concall_transcript",
+      "period": "Oct 2026",
+      "page": 28,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+      "snippet": "last quarter, we are rolling out compensation hikes to most of our employees effective October '26, with the next phase effective Januar y '27. Attrition reduced to 12.7% versus 13% sequentially. We expect effective tax rate for the year to"
+    },
+    {
+      "n": 10,
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "page": 29,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+      "snippet": "ght, on cloud, on their server. Topaz Fabric provides a harness to a client to enable them to more full y deploy the benefits of the foundation models into their organization. Our clients are also able to optim ize their token cost by ensur"
+    },
+    {
+      "n": 13,
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "page": 31,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+      "snippet": "ightly to 13% versus 12.6% sequentially, in-line with Q1 seasonality. We plan to give salary hikes to most of our employees effective October while the rest of the employees will be covered in January '27. We expect effective tax rate for t"
+    },
+    {
+      "n": 15,
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "page": 29,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+      "snippet": "External Document \u00a9 2026 Infosys Limited 5 Our revenue growth for Q1 was 2.4% Y-on-Y and 1% Q-on-Q in constant currency terms. We had a onetime revenue impact of a client decision during this quarter. Our AI services revenue was 8.2% of ove"
+    },
+    {
+      "n": 19,
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "page": 28,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+      "snippet": "were flattish, growth was led by increase in realization thanks to Project Maximus. 4. Adjusted operating margin was stable at 21%. Gains from currency and Maximus were reinvested in talent, AI and sales and marketing. 5. Q4 revenues grew b"
+    },
+    {
+      "n": 20,
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "page": 28,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+      "snippet": "External Document \u00a9 2026 Infosys Limited 4 programs. We are seeing increasing momentum in AI -driven initiatives, particularly around productivity, automation and platform-led modernization initiatives. Let me start with the key highlights "
+    },
+    {
+      "n": 24,
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "page": 28,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+      "snippet": "was at 81.1% for FY26 reflecting the investment made towards creating future capacity. 10. Strong focus on collections aided by technology interventions helped us reduce DSO , including unbilled net of unearned to 78, which is the lowest in"
+    },
+    {
+      "n": 25,
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "page": 29,
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+      "snippet": "1 in EURS. Region-wise, we signed 11 deals in Europe, 5 in America and 3 in the Rest of the World. In FY26, we signed 96 large deals with TCV of $15 bn, 55% net new. This includes 3 mega deals for the year. Tax rate for the quarter is lower"
+    }
+  ],
+  "docsUsed": [
+    {
+      "docType": "concall_transcript",
+      "period": "Oct 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Jul 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Apr 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+    },
+    {
+      "docType": "concall_transcript",
+      "period": "Feb 2026",
+      "source": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf"
+    }
+  ],
+  "tokens": {
+    "input": 8992,
+    "output": 1668
+  },
+  "costUSD": 0.0
+}

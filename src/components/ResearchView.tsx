@@ -5,6 +5,7 @@ import type {
   AskResult, BullBear, FinMetric, ResearchCitation, ResearchDocFull,
   ResearchSectionData, ResearchSectionId,
 } from "@/types/finn";
+import { PromisedVsDeliveredView } from "@/components/PromisedVsDelivered";
 
 const ORDER: ResearchSectionId[] = [
   "business_snapshot", "financial_snapshot", "trajectory",
@@ -198,6 +199,8 @@ export function ResearchView({ ticker }: { ticker: string }) {
           Grounded in {doc.docsUsed.length} primary documents · {doc.docsUsed.map((d) => d.period).join(", ")}
         </p>
       )}
+      {/* ⭐ star feature — renders itself only when a comparison has been built for this ticker */}
+      <PromisedVsDeliveredView ticker={ticker} />
       {ORDER.filter((id) => doc.sections[id]).map((id) => (
         <Section key={id} data={doc.sections[id]!} />
       ))}
