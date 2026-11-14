@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { Alert, Announcement, PriceSummary } from "@/types/finn";
 import { AnnouncementCard } from "./AnnouncementCard";
@@ -22,6 +23,7 @@ export function Feed() {
   const [alerts, setAlerts] = useState<Alert[]>([]);
   const [loading, setLoading] = useState(true);
   const [showRoutine, setShowRoutine] = useState(false);
+  const [asOf, setAsOf] = useState<string | null>(null);
 
   // Prices once (prompt 1 API).
   useEffect(() => {
@@ -53,7 +55,7 @@ export function Feed() {
     setLoading(true);
     fetch(`/api/announcements?windowHours=${hours}&limit=300`)
       .then((r) => r.json())
-      .then((d) => setItems(d.items ?? []))
+      .then((d) => { setItems(d.items ?? []); setAsOf(d.asOf ?? null); })
       .catch(() => setItems([]))
       .finally(() => setLoading(false));
   }, [hours]);
@@ -84,11 +86,14 @@ export function Feed() {
       {/* Alerts */}
       {topAlerts.length > 0 && (
         <section className="mb-4">
-          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-amber-600 dark:text-amber-400">
-            ⚡ Alerts · {topAlerts.length}
-          </h2>
+          <Link href="/alerts" className="mb-2 flex items-center justify-between px-1">
+            <h2 className="text-xs font-semibold uppercase tracking-wide text-amber-600 dark:text-amber-400">
+              ⚡ Alerts · {topAlerts.length}
+            </h2>
+            <span className="text-xs font-medium text-zinc-400">See all →</span>
+          </Link>
           <div className="space-y-2">
-            {topAlerts.map((a) => (
+            {topAlerts.slice(0, 3).map((a) => (
               <AlertCard key={`${a.ticker}-${a.kind}-${a.date}`} alert={a} />
             ))}
           </div>
@@ -96,16 +101,16 @@ export function Feed() {
       )}
 
       {/* Window picker */}
-      <div className="sticky top-0 z-10 -mx-4 mb-3 bg-zinc-50/90 px-4 py-3 backdrop-blur dark:bg-black/80">
+      <div className="sticky top-0 z-10 -mx-4 mb-3 bg-[var(--background)]/85 px-4 py-3 backdrop-blur-xl">
         <div className="flex items-center gap-1.5">
           {PRESETS.map((p) => (
             <button
               key={p.h}
               onClick={() => pickPreset(p.h)}
-              className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition ${
+              className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition active:scale-95 ${
                 !customOpen && hours === p.h
-                  ? "bg-zinc-900 text-white dark:bg-white dark:text-black"
-                  : "bg-white text-zinc-600 ring-1 ring-black/[0.08] dark:bg-zinc-900 dark:text-zinc-300 dark:ring-white/10"
+                  ? "bg-brand text-white shadow-sm"
+                  : "bg-[var(--surface)] text-zinc-600 ring-1 ring-black/[0.06] dark:bg-zinc-900 dark:text-zinc-300 dark:ring-white/10"
               }`}
             >
               {p.label}
@@ -113,10 +118,10 @@ export function Feed() {
           ))}
           <button
             onClick={() => { setCustomOpen(true); setHours(customDays * 24); }}
-            className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition ${
+            className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition active:scale-95 ${
               customOpen
-                ? "bg-zinc-900 text-white dark:bg-white dark:text-black"
-                : "bg-white text-zinc-600 ring-1 ring-black/[0.08] dark:bg-zinc-900 dark:text-zinc-300 dark:ring-white/10"
+                ? "bg-brand text-white shadow-sm"
+                : "bg-[var(--surface)] text-zinc-600 ring-1 ring-black/[0.06] dark:bg-zinc-900 dark:text-zinc-300 dark:ring-white/10"
             }`}
           >
             Custom
@@ -144,18 +149,25 @@ export function Feed() {
 
       {/* Summary line */}
       {!loading && (
-        <p className="mb-3 px-1 text-sm text-zinc-500 dark:text-zinc-400">
-          <span className="font-semibold text-zinc-900 dark:text-zinc-100">{important.length}</span> update
-          {important.length === 1 ? "" : "s"} that matter
-          {muted.length > 0 && <> · {muted.length} hidden</>}
-        </p>
+        <div className="mb-3 flex items-baseline justify-between px-1">
+          <p className="text-sm text-zinc-500 dark:text-zinc-400">
+            <span className="font-semibold text-zinc-900 dark:text-zinc-100">{important.length}</span> update
+            {important.length === 1 ? "" : "s"} that matter
+            {muted.length > 0 && <> · {muted.length} hidden</>}
+          </p>
+          {asOf && (
+            <span className="shrink-0 text-xs text-zinc-400">
+              as of {new Date(asOf).toLocaleDateString("en-IN", { day: "numeric", month: "short" })}
+            </span>
+          )}
+        </div>
       )}
 
       {/* Loading */}
       {loading && (
         <div className="space-y-3">
           {[0, 1, 2].map((i) => (
-            <div key={i} className="h-28 animate-pulse rounded-2xl bg-black/[0.04] dark:bg-white/[0.04]" />
+            <div key={i} className="skeleton h-28 rounded-2xl" />
           ))}
         </div>
       )}
@@ -168,8 +180,13 @@ export function Feed() {
           ))}
 
           {important.length === 0 && (
-            <div className="rounded-2xl border border-dashed border-black/10 p-8 text-center text-sm text-zinc-500 dark:border-white/15">
-              Nothing in this window for the types you follow. Try a longer period or widen your filters in settings.
+            <div className="rounded-2xl border border-dashed border-black/10 p-10 text-center dark:border-white/15">
+              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-brand/10 text-xl">🗞️</div>
+              <p className="mt-3 font-semibold text-zinc-700 dark:text-zinc-200">Nothing that matters here</p>
+              <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
+                No filings for the types you follow in this window. Try a longer period, or widen your filters in{" "}
+                <Link href="/settings" className="font-medium text-brand">settings</Link>.
+              </p>
             </div>
           )}
 

@@ -42,8 +42,8 @@ export function AnnouncementCard({ item, price }: { item: Announcement; price?: 
   return (
     <Link
       href={`/research/${item.ticker}`}
-      className="block rounded-2xl border border-black/[0.07] bg-white p-4 shadow-sm transition
-                 active:scale-[0.99] hover:border-black/15 dark:border-white/10 dark:bg-zinc-900/70 dark:hover:border-white/20"
+      className="group block rounded-2xl border border-black/[0.06] bg-[var(--surface)] p-4 shadow-sm transition
+                 active:scale-[0.99] hover:border-brand/40 hover:shadow-md dark:border-white/10 dark:bg-zinc-900/70 dark:hover:border-brand/40"
     >
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
@@ -51,10 +51,12 @@ export function AnnouncementCard({ item, price }: { item: Announcement; price?: 
           <div className="text-xs text-zinc-400 dark:text-zinc-500">{item.ticker}</div>
         </div>
         {price && (
-          <div className="shrink-0 text-right">
-            <div className="text-sm font-semibold tabular-nums text-zinc-900 dark:text-zinc-100">{inr(price.latestClose)}</div>
-            <div className={`text-xs font-medium tabular-nums ${up ? "text-emerald-600 dark:text-emerald-400" : "text-red-600 dark:text-red-400"}`}>
-              {signedPct(price.changePct1d)}
+          <div className="flex shrink-0 items-center gap-1.5 text-right">
+            <div>
+              <div className="text-sm font-semibold tabular-nums text-zinc-900 dark:text-zinc-100">{inr(price.latestClose)}</div>
+              <div className={`text-xs font-medium tabular-nums ${up ? "text-emerald-600 dark:text-emerald-400" : "text-red-600 dark:text-red-400"}`}>
+                {signedPct(price.changePct1d)}
+              </div>
             </div>
           </div>
         )}
@@ -68,6 +70,7 @@ export function AnnouncementCard({ item, price }: { item: Announcement; price?: 
           </span>
         )}
         <span className="text-xs text-zinc-400 dark:text-zinc-500">{relTime(item.date)}</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="ml-auto h-4 w-4 text-zinc-300 transition group-hover:text-brand dark:text-zinc-600"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" /></svg>
       </div>
 
       {item.summary && (

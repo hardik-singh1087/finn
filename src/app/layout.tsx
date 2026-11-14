@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { BottomNav } from "@/components/BottomNav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,11 +14,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FINN — your portfolio, filtered",
-  description: "A phone-first feed of what changed in your Indian-equities portfolio, most important first.",
+  title: "FINN — only the few things that matter",
+  description:
+    "A phone-first feed of what changed in your Indian-equities portfolio — most important first — plus research grounded only in a company's own filings.",
+  applicationName: "FINN",
+  appleWebApp: { capable: true, title: "FINN", statusBarStyle: "default" },
 };
 
-export const viewport = { width: "device-width", initialScale: 1, maximumScale: 1 };
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f7f7f8" },
+    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
+  ],
+};
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -25,7 +37,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full">
+        {children}
+        <BottomNav />
+      </body>
     </html>
   );
 }

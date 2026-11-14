@@ -1,26 +1,111 @@
 @import "tailwindcss";
 
+/* FINN design tokens — one brand colour (indigo), warm-neutral surfaces, calm dark mode. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --background: #f7f7f8;
+  --surface: #ffffff;
+  --foreground: #18181b;
+  --muted: #71717a;
+  --brand: #4f46e5; /* indigo-600 — the single accent */
+  --brand-ink: #4338ca;
+  --hairline: rgba(9, 9, 11, 0.07);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #09090b;
+    --surface: #18181b;
+    --foreground: #fafafa;
+    --muted: #a1a1aa;
+    --brand: #818cf8; /* indigo-400 reads better on dark */
+    --brand-ink: #a5b4fc;
+    --hairline: rgba(255, 255, 255, 0.08);
   }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+  /* never show a horizontal scrollbar on a phone */
+  overflow-x: hidden;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--brand) 22%, transparent);
+}
+
+/* Tap targets shouldn't flash a grey box on mobile Safari / Chrome. */
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Thin, unobtrusive scrollbar for any internal scrollers. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 40%, transparent) transparent;
+}
+
+/* --- Motion --- */
+@keyframes finn-rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rise {
+  animation: finn-rise 0.38s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes finn-shimmer {
+  100% { transform: translateX(100%); }
+}
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--muted) 12%, transparent);
+}
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--muted) 14%, transparent),
+    transparent
+  );
+  animation: finn-shimmer 1.4s infinite;
+}
+
+/* Honour the user's reduce-motion preference. */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rise { animation: none; }
+  .skeleton::after { animation: none; }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Respect the phone's bottom safe area (home indicator) for the tab bar. */
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 0.5rem);
 }

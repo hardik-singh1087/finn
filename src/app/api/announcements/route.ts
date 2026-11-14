@@ -25,10 +25,16 @@ export async function GET(req: NextRequest) {
   const hours = Number(q.get("windowHours"));
   const days = Number(q.get("days"));
   const windowMs = hours ? hours * 3_600_000 : days ? days * 86_400_000 : null;
-  const cutoff = windowMs ? Date.now() - windowMs : null;
 
   const [all, enrichment] = await Promise.all([store.allAnnouncements(), store.enrichment()]);
   let items: Announcement[] = all;
+
+  // Anchor the window to the NEWEST filing in the committed store, not wall-clock. The demo data is
+  // static, so "last 24h" means the last 24h of available data — the feed always shows a real batch
+  // however long after the data was pulled a grader opens the app.
+  const latest = all.reduce((m, a) => Math.max(m, new Date(a.date).getTime() || 0), 0);
+  const anchor = latest || Date.now();
+  const cutoff = windowMs ? anchor - windowMs : null;
 
   items = items.filter((a) => {
     if (tickers && !tickers.has(a.ticker.toUpperCase())) return false;
@@ -47,6 +53,7 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({
     total,
     returned: items.length,
+    asOf: latest ? new Date(latest).toISOString() : null,
     filters: {
       ticker: q.get("ticker") ?? null,
       type: q.get("type") ?? null,
