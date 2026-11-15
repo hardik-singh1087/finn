@@ -4,7 +4,7 @@ A **phone-first app for an Indian-equities investor.** There's too much market n
 shows only the few things that actually move your portfolio — and lets you research one company
 using **only its own filings.** Built for the ENAM "AI Engineer Build Challenge."
 
-**▶ Live demo:** _<!-- LIVE_URL -->(deploying — see "Deploy" below)_
+**▶ Live demo: https://finn-tau-one.vercel.app**
 Best viewed on a phone. The whole demo runs on **committed data** — nothing is downloaded live.
 
 ---
