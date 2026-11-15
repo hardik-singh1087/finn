@@ -52,3 +52,4 @@ data-pipeline/.venv/
 data/.cache/
 # raw source PDFs (annual reports/transcripts) — big; we commit the extracted chunks, not these
 data/fundamentals/*/raw/
+.env*

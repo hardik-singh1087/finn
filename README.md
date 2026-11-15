@@ -36,8 +36,9 @@ Two modes, one app:
 3. **See an alert.** The amber/green cards at the top (and the **Alerts** tab) fire when a stock's
    day moved beyond *your* thresholds — e.g. *Dixon, volume 5.95× its 20-day average.* Thresholds
    are yours to set in **Settings**.
-4. **Open a results card.** Find a **Results** filing in the feed (e.g. an IT or FMCG name) — the
-   card expands inline with Revenue / EBITDA / PBT / PAT and QoQ + YoY, pulled from the filing.
+4. **Open a results card.** Tap the **30d** window — **Results** filings carry the highest priority,
+   so they jump to the top. Open one (e.g. **ITC**, **Trent**, **Maruti**) to see Revenue / EBITDA /
+   PBT / PAT with QoQ + YoY, pulled straight from the filing.
 5. **Tap a company → research.** Go to the **Research** tab and open **Infosys (INFY)** — the
    demo set is pre-built and instant.
 6. **Read Promised vs Delivered.** The ⭐ section at the top: INFY *held* its 20–22% margin and

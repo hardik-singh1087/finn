@@ -11,6 +11,7 @@ const PRESETS = [
   { label: "24h", h: 24 },
   { label: "3d", h: 72 },
   { label: "7d", h: 168 },
+  { label: "30d", h: 720 }, // reaches the Q2 results season so the top-importance results cards show
 ];
 
 export function Feed() {
@@ -102,12 +103,12 @@ export function Feed() {
 
       {/* Window picker */}
       <div className="sticky top-0 z-10 -mx-4 mb-3 bg-[var(--background)]/85 px-4 py-3 backdrop-blur-xl">
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {PRESETS.map((p) => (
             <button
               key={p.h}
               onClick={() => pickPreset(p.h)}
-              className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition active:scale-95 ${
+              className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-medium transition active:scale-95 ${
                 !customOpen && hours === p.h
                   ? "bg-brand text-white shadow-sm"
                   : "bg-[var(--surface)] text-zinc-600 ring-1 ring-black/[0.06] dark:bg-zinc-900 dark:text-zinc-300 dark:ring-white/10"
@@ -118,7 +119,7 @@ export function Feed() {
           ))}
           <button
             onClick={() => { setCustomOpen(true); setHours(customDays * 24); }}
-            className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition active:scale-95 ${
+            className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-medium transition active:scale-95 ${
               customOpen
                 ? "bg-brand text-white shadow-sm"
                 : "bg-[var(--surface)] text-zinc-600 ring-1 ring-black/[0.06] dark:bg-zinc-900 dark:text-zinc-300 dark:ring-white/10"
