@@ -82,7 +82,11 @@ export async function askDocuments(ticker: string, question: string): Promise<As
 
   const key = process.env.GEMINI_API_KEY;
   if (!key) {
-    return { answer: "Follow-up Q&A needs GEMINI_API_KEY configured on the server.", notFound: true, citations: [] };
+    // The whole research page above works offline from cached files; only this live box needs a key.
+    return {
+      answer: "Live Q&A is off in this environment. The research and promised-vs-delivered above are fully available — they're built from the same filings.",
+      notFound: true, citations: [],
+    };
   }
 
   const context = top
@@ -100,17 +104,26 @@ export async function askDocuments(ticker: string, question: string): Promise<As
 
   let parsed: { notFound?: boolean; used?: number[]; answer?: string } = {};
   try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
+    // Fail fast so a slow/over-quota upstream can't hang the serverless function — fall back nicely.
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 12_000);
+    let res: Response;
+    try {
+      res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+        signal: ctrl.signal,
+      });
+    } finally {
+      clearTimeout(timer);
+    }
     const data = await res.json();
     const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
     const m = text.match(/\{[\s\S]*\}/);
     if (m) parsed = JSON.parse(m[0]);
   } catch {
-    return { answer: "Sorry — the answer service is unavailable right now.", notFound: true, citations: [] };
+    return { answer: "The live answer service is busy right now — please try again in a moment. The research above is unaffected.", notFound: true, citations: [] };
   }
 
   const used = (parsed.used ?? []).filter((n) => Number.isInteger(n) && n >= 1 && n <= top.length);
